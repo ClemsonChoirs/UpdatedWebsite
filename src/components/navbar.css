@@ -1,0 +1,32 @@
+:root {
+    --diploma: #2E1A47;
+    --campus-brick: #B94700;
+    --reflection: #C8C9C7;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: var(--diploma);
+    height: 8vh;
+    width: 100%;
+}
+
+nav {
+    
+    color: white;
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
