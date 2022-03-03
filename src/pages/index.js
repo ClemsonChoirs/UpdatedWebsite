@@ -1,5 +1,6 @@
 import * as React from "react"
 import Navbar from "../components/navbar"
+import './home.css'
 
 
 
