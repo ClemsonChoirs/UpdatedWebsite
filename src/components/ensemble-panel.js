@@ -8,7 +8,7 @@ const EnsemblePanel = (props) => {
             <img src={props.image}/>
             <div class="text">
                 <h2>{props.title}</h2>
-                <p>Body Text</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis augue quis sapien dignissim rutrum quis fringilla nisl. Etiam volutpat iaculis tellus. </p>
                 <CustomButton label="Learn More"/>
             </div>
         </div>

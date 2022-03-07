@@ -1,15 +1,15 @@
 :root {
     --diploma: #2E1A47;
     --campus-brick: #B94700;
-    --reflection: #C8C9C7;
+    --almost-white: #e6e6e6;
 }
 
 body {
-    background-color: var(--reflection);
+    background-color: var(--almost-white);
     font-family: trade-gothic-next, sans-serif;
 }
 
-h1 {
+h2 {
     color: var(--campus-brick);
 }
 
@@ -19,7 +19,36 @@ h1 {
 }
 
 .left {
-    width: 30%;
+    width: 25%;
+    padding: 0 20px;
+}
+
+.side-content {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-content h3 {
+    color: var(--campus-brick);
+    margin: 10px;
+}
+
+.side-content hr {
+    /* color: var(--diploma); */
+    margin: 0;
+    border-top: 1.5px solid var(--diploma);
+    
+}
+
+.side-content p {
+    color: var(--diploma);
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.side-content #custom-button {
+    align-self: center;
 }
 
 .right {

@@ -10,9 +10,14 @@ button {
     border-color: var(--campus-brick);
     border-style: solid;
     color: var(--campus-brick);
-    width: 6vw;
+    padding: 0 10px;
     height: 3vh;
     border-radius: 8px;
     font-family: trade-gothic-next, sans-serif;
     font-weight: bold;
+}
+
+button:hover {
+    background-color: var(--campus-brick);
+    color: white;
 }
