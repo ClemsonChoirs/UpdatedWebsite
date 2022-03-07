@@ -1,0 +1,18 @@
+:root {
+    --diploma: #2E1A47;
+    --campus-brick: #B94700;
+    --reflection: #C8C9C7;
+    
+}
+
+button {
+    background-color: transparent;
+    border-color: var(--campus-brick);
+    border-style: solid;
+    color: var(--campus-brick);
+    width: 6vw;
+    height: 3vh;
+    border-radius: 8px;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: bold;
+}

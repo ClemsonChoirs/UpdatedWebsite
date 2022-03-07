@@ -1,0 +1,29 @@
+:root {
+    --diploma: #2E1A47;
+    --campus-brick: #B94700;
+    --reflection: #C8C9C7;
+}
+
+.container {
+    display: flex;
+    background: var(--diploma);
+    border-radius: 17px;
+    height: 16vh;
+    width: 32vw;
+    box-shadow: 5px 5px 5px #424242;
+    margin: 20px 30px;
+}
+
+.container img {
+    max-height: 16vh;
+    border-radius: 17px;
+}
+
+.container .text {
+    margin-left: 10px;
+    color: var(--campus-brick);
+}
+
+.text p {
+    color: white;
+}

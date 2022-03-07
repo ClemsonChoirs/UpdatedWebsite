@@ -1,0 +1,27 @@
+:root {
+    --diploma: #2E1A47;
+    --campus-brick: #B94700;
+    --reflection: #C8C9C7;
+}
+
+body {
+    background-color: var(--reflection);
+    font-family: trade-gothic-next, sans-serif;
+}
+
+h1 {
+    color: var(--campus-brick);
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+}
