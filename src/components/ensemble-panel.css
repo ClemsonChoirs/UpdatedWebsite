@@ -17,16 +17,18 @@
 
 .container img {
     height: 100%;
+    width: 60%;
     max-height: 25vh;
     border-radius: 17px;
+    object-fit: fill;
 }
 
 .container .text {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-left: 10px;
-    padding: 10px 0;
+    padding: 10px;
     color: var(--campus-brick);
 }
 
@@ -37,4 +39,8 @@
 .text p {
     color: white;
     margin: 0;
+}
+
+.custom-button {
+    align-self: center;
 }

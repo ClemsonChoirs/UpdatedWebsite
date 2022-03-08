@@ -1,0 +1,45 @@
+:root {
+    --diploma: #2E1A47;
+    --campus-brick: #B94700;
+    --reflection: #C8C9C7;
+    
+}
+
+.footer-wrapper {
+    background-color: var(--diploma);
+    color: white;
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-wrapper p {
+    padding: 0;
+    margin: 0;
+    width: 33vw;
+}
+
+.footer-wrapper .dr-b {
+    padding: 0 20px;
+}
+
+.footer-wrapper .socials {
+    width: 25vw;    
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-wrapper .socials img {
+    height: 35px;
+    width: auto;
+}
+
+.footer-wrapper .brooks {
+    text-align: right;
+    padding: 0 20px;
+}
+
+
+

@@ -15,6 +15,7 @@ header {
     background-color: var(--diploma);
     height: 9vh;
     width: 100%;
+    z-index: 1;
 }
 
 .logo {
