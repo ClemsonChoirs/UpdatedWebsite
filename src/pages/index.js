@@ -11,7 +11,10 @@ import CustomButton from '../components/custom-button'
 const IndexPage = () => {
   return (
     <>
+    <div class="navbar">
       <Navbar/>
+    </div>
+      
       <div class="wrapper">
         <div class="left">
           <div class="side-content">

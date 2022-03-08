@@ -10,8 +10,8 @@ button {
     border-color: var(--campus-brick);
     border-style: solid;
     color: var(--campus-brick);
-    padding: 0 10px;
-    height: 3vh;
+    padding: 10px 10px;
+    width: 125px;
     border-radius: 8px;
     font-family: trade-gothic-next, sans-serif;
     font-weight: bold;
