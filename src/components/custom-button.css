@@ -5,7 +5,7 @@
     
 }
 
-button {
+.custom {
     background-color: transparent;
     border-color: var(--campus-brick);
     border-style: solid;
@@ -17,7 +17,7 @@ button {
     font-weight: bold;
 }
 
-button:hover {
+.custom:hover {
     background-color: var(--campus-brick);
     color: white;
 }

@@ -4,7 +4,7 @@ import './custom-button.css'
 const CustomButton = (props) => {
     return (
         <>
-            <button>{props.label}</button>
+            <button className="custom">{props.label}</button>
         </>
     )
 }

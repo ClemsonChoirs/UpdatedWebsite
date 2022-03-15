@@ -38,8 +38,24 @@ const Navbar = () => {
         <header>
             <div className="reduced-nav">
                 <img src={logo} className="logo"/>
-                <FontAwesomeIcon icon={faCaretDown} onClick={setShowDropdown}/>
+                <button class={dropdown ? "dropdown-button-active" : "dropdown-button"}>
+                   <FontAwesomeIcon icon={faCaretDown} onClick={setShowDropdown}/> 
+                </button>
+                
             </div>
+            <ul className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
+                    <li><a href="#">Home</a></li>
+                    <hr class="solid"></hr>
+                    <li><a href="#">Ensembles</a></li>
+                    <hr class="solid"></hr>
+                    <li><a href="#">Join a Choir</a></li>
+                    <hr class="solid"></hr>
+                    <li><a href="#">Major</a></li>
+                    <hr class="solid"></hr>
+                    <li><a href="#">Staff</a></li>
+                    <hr class="solid"></hr>
+                    <li><a href="#">Outreach Programs</a></li>
+                </ul>
 
             <nav>
                 <img src={logo} className="logo"/>

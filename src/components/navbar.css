@@ -26,6 +26,14 @@ header {
     display: none;
 }
 
+.dropdown-hidden {
+    display: none;
+}
+
+.dropdown-active {
+    display: none;
+}
+
 nav {
     padding: 0 25px;
     width: 100%;
@@ -107,5 +115,61 @@ nav .pages li a:hover {
         color: white;
         font-size: 35px;
         padding: 0 20px;
+        
+    }
+
+    .dropdown-button {
+        border-style: none;
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+        transition-duration: 0.5s;
+    }
+
+    .dropdown-button-active {
+        transform: rotate(-180deg);
+        border-style: none;
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+        transition-duration: 0.5s;
+    }
+
+    .dropdown-hidden {
+        display: none;
+    }
+
+    .dropdown-active {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        background-color: var(--diploma);
+        /* background-color: var(--campus-brick); */
+        margin: 0;
+        padding: 0;
+    }
+
+    .dropdown-active li a {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px 25px;
+        width: 100%;
+        text-decoration: none;
+        color: white;
+    }
+
+    .dropdown-active hr {
+        /* display: none; */
+        border-top: 0.25px solid white;
+        width: 90%;
+        align-self: center;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .dropdown-active li a:hover {
+        /* background-color: var(--diploma); */
+        background-color: var(--campus-brick);
     }
 }
