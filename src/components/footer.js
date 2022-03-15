@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="dr-b">
                     <p>Dr. Anthony Bernarducci</p>
                     <p>Director of Choral Activities</p>
-                    <p>bernar5@clemson.edu</p>
+                    <p><a href="mailto:bernar5@clemson.edu">bernar5@clemson.edu</a></p>
                 </div>
                 <div className="socials">
                     <img src={instagram}/>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="dr-b-second">
                     <p>Dr. Anthony Bernarducci</p>
                     <p>Director of Choral Activities</p>
-                    <p>bernar5@clemson.edu</p>
+                    <p><a href="mailto:bernar5@clemson.edu">bernar5@clemson.edu</a></p>
                 </div>
                 <div className="brooks">
                     <p>Brooks Center for the Performing Arts</p>

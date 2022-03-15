@@ -21,6 +21,10 @@
     width: 33vw;
 }
 
+.footer-wrapper p a {
+    color: white;
+}
+
 .footer-wrapper .dr-b {
     padding: 0 20px;
 }

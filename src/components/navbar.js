@@ -1,6 +1,9 @@
 import React, {useState, useEffect} from "react"
+import { Link, graphql } from "gatsby"
+
 import './navbar.css'
 import logo from '../images/whitelogo.png'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
@@ -44,15 +47,20 @@ const Navbar = () => {
                 
             </div>
             <ul className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                    <li><a href="#">Home</a></li>
+                    <li><Link to={'../'}>Home</Link></li>
+
                     <hr class="solid"></hr>
                     <li><a href="#">Ensembles</a></li>
+
                     <hr class="solid"></hr>
-                    <li><a href="#">Join a Choir</a></li>
+                    <li><Link to={'../auditions'}>Join a Choir</Link></li>
+
                     <hr class="solid"></hr>
                     <li><a href="#">Major</a></li>
+
                     <hr class="solid"></hr>
                     <li><a href="#">Staff</a></li>
+
                     <hr class="solid"></hr>
                     <li><a href="#">Outreach Programs</a></li>
                 </ul>
@@ -61,9 +69,9 @@ const Navbar = () => {
                 <img src={logo} className="logo"/>
                 
                 <ul className="pages">
-                    <li><a href="#">Home</a></li>
+                    <li><Link to={'../'}>Home</Link></li>
                     <li><a href="#" onMouseEnter={ensemblesHover} onMouseLeave={ensemblesHover} class={ensembles ? "active" : ""}>Ensembles</a></li>
-                    <li><a href="#">Join a Choir</a></li>
+                    <li><Link to={'../auditions'}>Join a Choir</Link></li>
                     <li><a href="#">Major</a></li>
                     <li><a href="#">Staff</a></li>
                     <li><a href="#">Outreach Programs</a></li>

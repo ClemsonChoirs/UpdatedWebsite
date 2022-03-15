@@ -149,7 +149,7 @@ nav .pages li a:hover {
         padding: 0;
     }
 
-    .dropdown-active li a {
+    .dropdown-active li a, Link {
         display: flex;
         justify-content: flex-start;
         align-items: center;
