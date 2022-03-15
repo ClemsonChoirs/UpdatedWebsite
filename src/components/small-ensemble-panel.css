@@ -4,44 +4,46 @@
     --reflection: #C8C9C7;
 }
 
-.wide-ensemble {
+.small-ensemble {
     display: flex;
+    flex-direction: column;
     background: var(--diploma);
     border-radius: 17px;
     height: auto;
-    max-height: 25vh;
+    /* max-height: 50vh; */
     width: auto;
-    min-width: 710px;
+    max-width: 400px;
     box-shadow: 5px 5px 5px #424242;
     margin: 20px 30px;
 }
 
-.wide-ensemble img {
-    height: 100%;
-    width: 60%;
-    max-height: 25vh;
+.small-ensemble img {
+    height: 50%;
+    width: 100%;
     border-radius: 17px;
     object-fit: fill;
 }
 
-.wide-ensemble .text {
+.small-ensemble .text {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    height: 50%;
     margin-left: 10px;
     padding: 10px;
     color: var(--campus-brick);
 }
 
-.wide-ensemble .text h2 {
+.small-ensemble .text h2 {
     margin: 0;
 }
 
-.wide-ensemble .text p {
+.small-ensemble .text p {
     color: white;
     margin: 0;
 }
 
-.wide-ensemble .custom-button {
+.small-ensemble .custom-button {
     align-self: center;
+    padding: 10px 0;
 }

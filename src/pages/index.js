@@ -3,6 +3,7 @@ import './index.css'
 
 import Navbar from "../components/navbar"
 import EnsemblePanel from '../components/ensemble-panel'
+import SmallEnsemblePanel from '../components/small-ensemble-panel'
 import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 
@@ -51,8 +52,8 @@ const IndexPage = () => {
               
             </div>
           </div>
-          <div class="right">
-            <h2>Choral Ensembles</h2>
+          <div class="right-wide">
+            <h2>Large Ensembles</h2>
               <EnsemblePanel title="Cantorei" image={cantorei}
                 bodytext="Cantorei provides an enriching chamber music experience to students at Clemson University. Singers can look forward to performing early music, contemporary choral works, and new modern music commissioned for the ensemble."/>
               <EnsemblePanel title="CU Singers" image={singers}
@@ -61,6 +62,17 @@ const IndexPage = () => {
                 bodytext="Begun in 1896, Men's Choir is the oldest musical organization at Clemson University. This choir performs a wide variety of traditional choral literature representing multiple genres, style periods, and nationalities. No audition is required and students from all majors are encouraged to join."/>
               <EnsemblePanel title="Women's Choir" image={womens}
                 bodytext="The Clemson University Women’s Choir consists of about 45 undergraduate students. The ladies represent almost every major Clemson University offers, but are united by a passion for vocal music. Women’s Choir meets twice a week, learning a multitude of pieces from varying genres of choral literature."/>
+          </div>
+          <div className="right-tall">
+            <h2>Large Ensembles</h2>
+                <SmallEnsemblePanel title="Cantorei" image={cantorei}
+                  bodytext="Cantorei provides an enriching chamber music experience to students at Clemson University. Singers can look forward to performing early music, contemporary choral works, and new modern music commissioned for the ensemble."/>
+                <SmallEnsemblePanel title="CU Singers" image={singers}
+                  bodytext="Each year, Clemson University Singers performs several concerts in the Brooks Center for the Performing Arts and off-campus. In addition to performing a range of unaccompanied repertoire, each spring CU Singers performs a Choral-Orchestral Masterwork."/>
+                <SmallEnsemblePanel title="Men's Choir" image={mens}
+                  bodytext="Begun in 1896, Men's Choir is the oldest musical organization at Clemson University. This choir performs a wide variety of traditional choral literature representing multiple genres, style periods, and nationalities. No audition is required and students from all majors are encouraged to join."/>
+                <SmallEnsemblePanel title="Women's Choir" image={womens}
+                  bodytext="The Clemson University Women’s Choir consists of about 45 undergraduate students. The ladies represent almost every major Clemson University offers, but are united by a passion for vocal music. Women’s Choir meets twice a week, learning a multitude of pieces from varying genres of choral literature."/>
           </div>
         </div>
         

@@ -19,10 +19,15 @@ header {
 }
 
 .logo {
-    margin-left: 25px;
+    max-height: 8vh;
+}
+
+.reduced-nav {
+    display: none;
 }
 
 nav {
+    padding: 0 25px;
     width: 100%;
     height: 100%;
     color: white;
@@ -44,7 +49,7 @@ nav .pages {
 nav .pages li a {
     color: white;
     text-decoration: none;
-    width: 150px;
+    padding: 0 20px;
     line-height: 9vh;
     display: flex;
     align-items: center;
@@ -88,4 +93,19 @@ nav .pages li a:hover {
 
 .ensembles-hidden {
     display: none;
+}
+
+@media only screen and (max-width: 850px) {
+    nav {
+        display: none;
+    }
+    
+    .reduced-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 35px;
+        padding: 0 20px;
+    }
 }

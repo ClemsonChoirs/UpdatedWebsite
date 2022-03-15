@@ -1,10 +1,10 @@
 import React from 'react'
-import './ensemble-panel.css'
+import './small-ensemble-panel.css'
 import CustomButton from './custom-button'
 
-const EnsemblePanel = (props) => {
+const SmallEnsemblePanel = (props) => {
     return (
-        <div class="wide-ensemble">
+        <div class="small-ensemble">
             <img src={props.image}/>
             <div class="text">
                 <h2>{props.title}</h2>
@@ -17,4 +17,4 @@ const EnsemblePanel = (props) => {
     )
 }
 
-export default EnsemblePanel;
+export default SmallEnsemblePanel;

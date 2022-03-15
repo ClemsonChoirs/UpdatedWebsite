@@ -18,6 +18,11 @@ const Footer = () => {
                     <img src={youtube}/>
                     <img src={facebook}/>
                 </div>
+                <div className="dr-b-second">
+                    <p>Dr. Anthony Bernarducci</p>
+                    <p>Director of Choral Activities</p>
+                    <p>bernar5@clemson.edu</p>
+                </div>
                 <div className="brooks">
                     <p>Brooks Center for the Performing Arts</p>
                     <p>Clemson University</p>

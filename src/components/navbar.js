@@ -1,30 +1,22 @@
 import React, {useState, useEffect} from "react"
 import './navbar.css'
 import logo from '../images/whitelogo.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
     const [ensembles, showEnsembles] = useState(false);
     const [hoverOnEns, setHoverOnEns] = useState(false);
     const [hoverOnOptions, setHoverOnOptions] = useState(false);
+    const [dropdown, showDropdown] = useState(false);
 
 
     const ensemblesHover = () => {
         setHoverOnEns(!hoverOnEns);
-        // setShowEnsembles();
     }
 
     const optionsHover = () => {
         setHoverOnOptions(!hoverOnOptions);
-        // setShowEnsembles();
-    }
-
-    const setShowEnsembles = () => {
-        if (hoverOnEns || hoverOnOptions) {
-            showEnsembles(true);
-        } else {
-            showEnsembles(false);
-        }
-    
     }
 
     useEffect (() => {
@@ -35,13 +27,23 @@ const Navbar = () => {
         }
     }, [hoverOnEns, hoverOnOptions])
 
+    const setShowDropdown = () => {
+        showDropdown(!dropdown);
+    }
+
 
     
     return (
         <>
         <header>
+            <div className="reduced-nav">
+                <img src={logo} className="logo"/>
+                <FontAwesomeIcon icon={faCaretDown} onClick={setShowDropdown}/>
+            </div>
+
             <nav>
                 <img src={logo} className="logo"/>
+                
                 <ul className="pages">
                     <li><a href="#">Home</a></li>
                     <li><a href="#" onMouseEnter={ensemblesHover} onMouseLeave={ensemblesHover} class={ensembles ? "active" : ""}>Ensembles</a></li>
@@ -50,7 +52,6 @@ const Navbar = () => {
                     <li><a href="#">Staff</a></li>
                     <li><a href="#">Outreach Programs</a></li>
                 </ul>
-                
             </nav>
         </header>
 

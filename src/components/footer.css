@@ -26,19 +26,49 @@
 }
 
 .footer-wrapper .socials {
-    width: 25vw;    
+    width: 20vw;    
     display: flex;
     justify-content: space-between;
 }
 
 .footer-wrapper .socials img {
-    height: 35px;
+    height: 30px;
     width: auto;
+}
+
+.footer-wrapper .dr-b-second {
+    display: none;
 }
 
 .footer-wrapper .brooks {
     text-align: right;
     padding: 0 20px;
+}
+
+@media only screen and (max-width: 850px) {
+    
+    .footer-wrapper {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .footer-wrapper .dr-b {
+        display: none;
+    }
+
+    .footer-wrapper .dr-b-second {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .footer-wrapper p {
+        width: auto;
+        text-align: center;
+    }
+
 }
 
 
