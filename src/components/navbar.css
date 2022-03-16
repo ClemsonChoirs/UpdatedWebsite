@@ -14,12 +14,16 @@ body {
 header {
     background-color: var(--diploma);
     height: 9vh;
+    min-height: 81px;
+    max-height: 96px;
     width: 100%;
     z-index: 1;
 }
 
 .logo {
-    max-height: 8vh;
+    height: 9vh;
+    min-height: 81px;
+    max-height: 96px;
 }
 
 .reduced-nav {
@@ -103,7 +107,7 @@ nav .pages li a:hover {
     display: none;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 906px) {
     nav {
         display: none;
     }
@@ -153,7 +157,7 @@ nav .pages li a:hover {
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding: 15px 25px;
+        padding: 15px 6%;
         width: 100%;
         text-decoration: none;
         color: white;

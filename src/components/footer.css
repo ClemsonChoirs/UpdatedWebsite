@@ -9,6 +9,7 @@
     background-color: var(--diploma);
     color: white;
     height: 9vh;
+    min-height: 81px;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -49,7 +50,7 @@
     padding: 0 20px;
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 906px) {
     
     .footer-wrapper {
         flex-direction: column;
