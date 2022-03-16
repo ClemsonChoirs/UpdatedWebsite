@@ -19,10 +19,11 @@
 }
 
 .audition-feature {
-    width: 100%;
-    height: 40vh;
+    width: 100vw;
+    height: 28.125vw;
     margin-top: 9vh;
-    background-image: url('../images/background.jpg');
+    background-image: url('../images/auditions-background.png');
+    background-size: contain;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -67,5 +68,5 @@
 
 .audition-right {
     width: 35%;
-
+    padding-right: 30px;
 }
