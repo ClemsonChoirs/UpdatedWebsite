@@ -15,11 +15,19 @@ const Navbar = () => {
 
 
     const ensemblesHover = () => {
-        setHoverOnEns(!hoverOnEns);
+        setHoverOnEns(true);
     }
 
     const optionsHover = () => {
-        setHoverOnOptions(!hoverOnOptions);
+        setHoverOnOptions(true);
+    }
+
+    const ensemblesUnhover = () => {
+        setHoverOnEns(false);
+    }
+
+    const optionsUnhover = () => {
+        setHoverOnOptions(false);
     }
 
     useEffect (() => {
@@ -50,7 +58,7 @@ const Navbar = () => {
                     <li><Link to={'../'}>Home</Link></li>
 
                     <hr class="solid"></hr>
-                    <li><a href="#">Ensembles</a></li>
+                    <li><Link to={'../ensembles'}>Ensembles</Link></li>
 
                     <hr class="solid"></hr>
                     <li><Link to={'../auditions'}>Join a Choir</Link></li>
@@ -70,7 +78,7 @@ const Navbar = () => {
                 
                 <ul className="pages">
                     <li><Link to={'../'}>Home</Link></li>
-                    <li><a href="#" onMouseEnter={ensemblesHover} onMouseLeave={ensemblesHover} class={ensembles ? "active" : ""}>Ensembles</a></li>
+                    <li><Link to={'../ensembles'} onMouseEnter={ensemblesHover} onMouseLeave={ensemblesUnhover} class={ensembles ? "active" : ""}>Ensembles</Link></li>
                     <li><Link to={'../auditions'}>Join a Choir</Link></li>
                     <li><a href="#">Major</a></li>
                     <li><a href="#">Staff</a></li>
@@ -79,7 +87,7 @@ const Navbar = () => {
             </nav>
         </header>
 
-        <ul className={ensembles ? "ensembles-active" : "ensembles-hidden"} onMouseEnter={optionsHover} onMouseLeave={optionsHover}>
+        <ul className={ensembles ? "ensembles-active" : "ensembles-hidden"} onMouseEnter={optionsHover} onMouseLeave={optionsUnhover}>
             <li><a href="#">CU Singers</a></li>
             <li><a href="#">Cantorei</a></li>
             <li><a href="#">Men's Choir</a></li>

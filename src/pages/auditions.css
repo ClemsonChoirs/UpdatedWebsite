@@ -6,13 +6,13 @@
 
 .audition-navbar {
     width: 100%;
-    position: fixed;
+    position: sticky;
     top: 0;
     box-shadow: 3px 3px 8px;
 }
 
 .audition-wrapper {
-    height: 91vh;
+    height: 85.5vh;
     overflow: scroll;
     display: flex;
     flex-direction: column;
@@ -21,7 +21,6 @@
 .audition-feature {
     width: 100vw;
     height: 28.125vw;
-    margin-top: 9vh;
     background-image: url('../images/auditions-background.png');
     background-size: contain;
     display: flex;
