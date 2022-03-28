@@ -39,7 +39,7 @@ const IndexPage = () => {
               <hr class="solid"></hr>
               <p>The Clemson Vocal Arts Series is a showcase of our choral ensembles, voice majors, and talent from within our choirs. The goal with this online music series is to connect with our community and create another avenue for everyone to have access to music.</p>
               <div id="custom-button">
-                <CustomButton label="View on YouTube"/>
+                <a href="https://youtube.com/playlist?list=PLJI3Pv0gkD2CPArkG0ui87QUeIPaojqy7" target="_blank"><CustomButton label="View on YouTube"/></a>
               </div>
             </div>
             <div class="side-content">
@@ -47,7 +47,7 @@ const IndexPage = () => {
               <hr class="solid"></hr>
               <p>If you would like more information about Clemson Choirs, please fill out this short form to receive a personal email from our director.</p>
               <div id="custom-button">
-                <CustomButton label="Go to Form"/>
+                <a href="https://forms.gle/kH1CGbdybgLd5J1a8" target="_blank"><CustomButton label="Go to Form"/></a>
               </div>
               
             </div>

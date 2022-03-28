@@ -20,4 +20,5 @@
 .custom:hover {
     background-color: var(--campus-brick);
     color: white;
+    cursor: pointer;
 }

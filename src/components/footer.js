@@ -14,9 +14,9 @@ const Footer = () => {
                     <p><a href="mailto:bernar5@clemson.edu">bernar5@clemson.edu</a></p>
                 </div>
                 <div className="socials">
-                    <img src={instagram}/>
-                    <img src={youtube}/>
-                    <img src={facebook}/>
+                    <a href="https://www.instagram.com/clemsonchoirs/" target="_blank"><img src={instagram}/></a>
+                    <a href="https://www.youtube.com/c/ClemsonChoirsandVocalArts" target="_blank"><img src={youtube}/></a>
+                    <a href="https://www.facebook.com/clemsonchoirs" target="_blank"><img src={facebook}/></a>
                 </div>
                 <div className="dr-b-second">
                     <p>Dr. Anthony Bernarducci</p>
