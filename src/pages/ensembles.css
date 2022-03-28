@@ -19,3 +19,9 @@
     font-size: 50px;
     color: var(--campus-brick);
 }
+
+.ensembles-content {
+    display: flex;
+    flex-direction: row;
+    overflow-wrap: normal;
+}

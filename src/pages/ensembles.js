@@ -4,7 +4,7 @@ import './ensembles.css'
 import Navbar from "../components/navbar"
 import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
-import EnsembleInfo from '../ensemble-info'
+import { EnsembleInfo } from '../ensemble-info'
 import SmallEnsemblePanel from '../components/small-ensemble-panel'
 
 
@@ -22,7 +22,10 @@ const Ensembles = () => {
 
             <div className="ensembles-content">
                 {EnsembleInfo.map((item, index) => {
-                    <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body}/>
+                    return(
+                       <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body}/> 
+                    )
+                    
                 })}
             </div>
 

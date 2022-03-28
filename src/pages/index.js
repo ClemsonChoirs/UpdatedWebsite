@@ -10,10 +10,7 @@ import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 
 import picLogo from '../images/logo-with-pics.jpg'
-// import cantorei from '../images/cantorei.jpg'
-// import singers from '../images/singers.jpg'
-// import mens from '../images/mens.jpg'
-// import womens from '../images/womens.jpg'
+
 
 // markup
 const IndexPage = () => {
@@ -58,14 +55,18 @@ const IndexPage = () => {
           <div className="right-wide">
             <h2>Large Ensembles</h2>
             {EnsembleInfo.map((item, index) => {
-              <EnsemblePanel title={item.name} image={item.image} bodytext={item.body}/>
+              return(
+                <EnsemblePanel title={item.name} image={item.image} bodytext={item.body}/>
+              )
             })}
           </div>
           <div className="right-tall">
             <h2>Large Ensembles</h2>
-            {/* {EnsembleInfo.map((item, index) => {
-              <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body}/>
-            })} */}
+            {EnsembleInfo.map((item, index) => {
+              return(
+                <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body}/>
+              )
+            })}
           </div>
         </div>
         
