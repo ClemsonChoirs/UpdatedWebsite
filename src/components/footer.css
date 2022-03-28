@@ -74,6 +74,10 @@
         text-align: center;
     }
 
+    .footer-wrapper .socials {
+        min-width: 140px;
+    }
+
 }
 
 
