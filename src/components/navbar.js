@@ -49,7 +49,7 @@ const Navbar = () => {
         <header>
             <div className="reduced-nav">
                 <img src={logo} className="logo"/>
-                <button class={dropdown ? "dropdown-button-active" : "dropdown-button"}>
+                <button className={dropdown ? "dropdown-button-active" : "dropdown-button"}>
                    <FontAwesomeIcon icon={faCaretDown} onClick={setShowDropdown}/> 
                 </button>
                 
@@ -57,19 +57,19 @@ const Navbar = () => {
             <ul className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
                     <li><Link to={'../'}>Home</Link></li>
 
-                    <hr class="solid"></hr>
+                    <hr className="solid"></hr>
                     <li><Link to={'../ensembles'}>Ensembles</Link></li>
 
-                    <hr class="solid"></hr>
+                    <hr className="solid"></hr>
                     <li><Link to={'../auditions'}>Join a Choir</Link></li>
 
-                    <hr class="solid"></hr>
+                    <hr className="solid"></hr>
                     <li><a href="#">Major</a></li>
 
-                    <hr class="solid"></hr>
+                    <hr className="solid"></hr>
                     <li><a href="#">Staff</a></li>
 
-                    <hr class="solid"></hr>
+                    <hr className="solid"></hr>
                     <li><a href="#">Outreach Programs</a></li>
                 </ul>
 
@@ -78,7 +78,7 @@ const Navbar = () => {
                 
                 <ul className="pages">
                     <li><Link to={'../'}>Home</Link></li>
-                    <li><Link to={'../ensembles'} onMouseEnter={ensemblesHover} onMouseLeave={ensemblesUnhover} class={ensembles ? "active" : ""}>Ensembles</Link></li>
+                    <li><Link to={'../ensembles'} onMouseEnter={ensemblesHover} onMouseLeave={ensemblesUnhover} className={ensembles ? "active" : ""}>Ensembles</Link></li>
                     <li><Link to={'../auditions'}>Join a Choir</Link></li>
                     <li><a href="#">Major</a></li>
                     <li><a href="#">Staff</a></li>

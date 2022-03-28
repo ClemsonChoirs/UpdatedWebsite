@@ -16,6 +16,8 @@ body {
     position: sticky;
     top: 0;
     box-shadow: 3px 3px 8px;
+    height: 8vh;
+    min-height: 81px;
 }
 
 h2 {
