@@ -13,6 +13,10 @@ const Ensembles = () => {
             <Navbar/>
         </div>
 
+        <div className="ensembles-wrapper">
+            <h1>Choral Ensembles</h1>
+        </div>
+
         <div className="foot">
           <Footer/>
         </div>
