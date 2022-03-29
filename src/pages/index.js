@@ -67,7 +67,7 @@ const IndexPage = () => {
             <h2>Large Ensembles</h2>
             {EnsembleInfo.map((item, index) => {
               return(
-                <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body}/>
+                <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body} link={item.link} target={item.target}/>
               )
             })}
           </div>

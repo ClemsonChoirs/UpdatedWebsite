@@ -9,7 +9,7 @@ import Footer from '../components/footer'
 const Auditions = () => {
     return (
         <>
-        <div class="audition-navbar">
+        <div class="navbar">
             <Navbar/>
         </div>
         

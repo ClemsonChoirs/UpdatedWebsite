@@ -88,12 +88,12 @@ const Navbar = () => {
         </header>
 
         <ul className={ensembles ? "ensembles-active" : "ensembles-hidden"} onMouseEnter={optionsHover} onMouseLeave={optionsUnhover}>
-            <li><a href="#">CU Singers</a></li>
-            <li><a href="#">Cantorei</a></li>
-            <li><a href="#">Men's Choir</a></li>
-            <li><a href="#">Women's Choir</a></li>
-            <li><a href="#">TakeNote</a></li>
-            <li><a href="#">Tigeroar</a></li>
+            <li><Link to={'../cu-singers'}>CU Singers</Link></li>
+            <li><Link to={'../cantorei'}>Cantorei</Link></li>
+            <li><Link to={'../mens-choir'}>Men's Choir</Link></li>
+            <li><Link to={'../womens-choir'}>Women's Choir</Link></li>
+            <li><Link to={'https://www.clemsontakenote.com/'} target="_blank">TakeNote</Link></li>
+            <li><Link to={'https://www.clemsontigeroar.com/'} target="_blank">Tigeroar</Link></li>
         </ul>
         </>
     )

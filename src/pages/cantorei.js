@@ -13,7 +13,7 @@ import nightSong from '../audio/night-song.mp3'
 const Cantorei = () => {
     return (
         <>
-         <div class="ensemble-navbar">
+         <div class="navbar">
             <Navbar/>
         </div>
 
@@ -39,11 +39,14 @@ const Cantorei = () => {
                     <VideoPanel title={"“Gloria” from the Missa Brevis San Francesco d’Assisi"} subtitle={""} video={"https://www.youtube.com/embed/fGec1KIPtCI"} bodytext="Gloria is the second movement of Anthony Bernarducci’s Missa Brevis San Francesco d’Assisi, performed by Clemson Cantorei in October of 2021."/>
                 </div>
             </div>
+
+            <div className="ensemble-foot">
+                <Footer/>
+            </div>
+
         </div>
 
-        <div className="ensemble-foot">
-          <Footer/>
-        </div>
+        
         </>
     )
 }

@@ -12,7 +12,7 @@ import SmallEnsemblePanel from '../components/small-ensemble-panel'
 const Ensembles = () => {
     return (
         <>
-        <div className="audition-navbar">
+        <div className="navbar">
             <Navbar/>
         </div>
 
@@ -22,7 +22,7 @@ const Ensembles = () => {
             <div className="ensembles-content">
                 {EnsembleInfo.map((item, index) => {
                     return(
-                        <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body}/> 
+                        <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body} link={item.link} target={item.target}/> 
                     )
                 })}
             </div>
