@@ -12,7 +12,7 @@
 
 .ensembles-wrapper h1 {
     margin: 0;
-    padding: 20px 0;
+    padding-top: 20px;
     font-family: turbinado-pro, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -23,5 +23,13 @@
 .ensembles-content {
     display: flex;
     flex-direction: row;
+    width: 100vw;
+    justify-content: space-evenly;
     overflow-wrap: normal;
+}
+
+.ensembles-wrapper hr {
+    margin: 0;
+    border-top: 1.5px solid var(--campus-brick);
+    width: 95%;
 }

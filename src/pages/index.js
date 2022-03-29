@@ -1,4 +1,3 @@
-import {useEffect, useState} from "react"
 import * as React from 'react'
 import './index.css'
 
@@ -12,12 +11,7 @@ import Footer from '../components/footer'
 import picLogo from '../images/logo-with-pics.jpg'
 
 
-// markup
 const IndexPage = () => {
-
-  const [data, setData] = useState([]);
-
-
   return (
     <>
     <div className="navbar">
@@ -49,7 +43,16 @@ const IndexPage = () => {
               <div id="custom-button">
                 <a href="https://forms.gle/kH1CGbdybgLd5J1a8" target="_blank"><CustomButton label="Go to Form"/></a>
               </div>
-              
+            </div>
+            <div className="side-content">
+              <h3>Support Clemson Choirs</h3>
+              <hr className="solid"></hr>
+              <p>The choral program is growing each year, now with six credit-earning ensembles and more than 200 students singing each week! In the past five years, we have established the Clemson Cantorei chamber ensemble, presented an annual Sounds of the Season holiday concert, developed outreach programs in our public schools, and created a YouTube spotlight series, which brings quality music right to your home.</p>
+              <p>Through a donation to our CABA Account (Choir Activities Booster Association), you can make a difference in our students’ experience. Future projects you may consider supporting are commissioning a new work, funding domestic and international travel, establishing student scholarships, sponsoring a large masterwork with orchestra, helping students purchase concert attire, and more!</p>
+              <p>Follow the link below to make a gift online, or if sending a gift by mail, please make your check payable to the Clemson University Foundation, and specify the Choral Activities Booster Association (CABA) in the subject line. Mail to the Clemson University Foundation; PO Box 1889; Clemson, SC 29633-1889.</p>
+              <div id="custom-button">
+                <a href="https://iamatiger.clemson.edu/giving." target="_blank"><CustomButton label="Make a Gift"/></a>
+              </div>
             </div>
           </div>
           <div className="right-wide">

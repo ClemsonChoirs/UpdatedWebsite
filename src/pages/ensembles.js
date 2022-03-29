@@ -19,13 +19,12 @@ const Ensembles = () => {
 
         <div className="ensembles-wrapper">
             <h1>Choral Ensembles</h1>
-
+            <hr className="solid"></hr>
             <div className="ensembles-content">
                 {EnsembleInfo.map((item, index) => {
                     return(
-                       <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body}/> 
+                        <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body}/> 
                     )
-                    
                 })}
             </div>
 

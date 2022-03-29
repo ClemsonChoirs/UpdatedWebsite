@@ -11,16 +11,14 @@
     border-radius: 17px;
     height: auto;
     /* max-height: 50vh; */
-    width: auto;
-    max-width: 400px;
-    min-width: 340px;
+    width: 340px;
     box-shadow: 5px 5px 5px #424242;
     margin: 20px 30px;
 }
 
 .small-ensemble img {
     height: 50%;
-    width: 100%;
+    width: 340px;
     border-radius: 17px;
     object-fit: fill;
 }
