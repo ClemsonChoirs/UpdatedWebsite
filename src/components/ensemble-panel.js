@@ -4,12 +4,12 @@ import CustomButton from './custom-button'
 
 const EnsemblePanel = (props) => {
     return (
-        <div class="wide-ensemble">
+        <div className="wide-ensemble">
             <img src={props.image}/>
-            <div class="text">
+            <div className="text">
                 <h2>{props.title}</h2>
                 <p>{props.bodytext}</p>
-                <div class="custom-button">
+                <div className="custom-button">
                     <CustomButton label="Learn More"/>
                 </div>
             </div>
