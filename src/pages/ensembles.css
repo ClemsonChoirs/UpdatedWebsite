@@ -24,12 +24,20 @@
     display: flex;
     flex-direction: row;
     width: 100vw;
+    max-width: 1500px;
     justify-content: space-evenly;
-    overflow-wrap: normal;
+    flex-wrap: wrap;
 }
 
 .ensembles-wrapper hr {
     margin: 0;
     border-top: 1.5px solid var(--campus-brick);
     width: 95%;
+}
+
+@media only screen and (max-width: 906px) {
+    .ensembles-content {
+        flex-direction: column;
+        align-items: center;
+    }
 }

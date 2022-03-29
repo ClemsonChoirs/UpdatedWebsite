@@ -2,7 +2,6 @@ import * as React from "react"
 import './ensembles.css'
 
 import Navbar from "../components/navbar"
-import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 import { EnsembleInfo } from '../ensemble-info'
 import SmallEnsemblePanel from '../components/small-ensemble-panel'

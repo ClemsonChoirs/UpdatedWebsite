@@ -1,7 +1,7 @@
 import React from 'react'
 import './custom-button.css'
 
-const CustomButton = (props) => {
+export const CustomButton = (props) => {
     return (
         <>
             <button className="custom">{props.label}</button>
@@ -9,4 +9,11 @@ const CustomButton = (props) => {
     )
 }
 
-export default CustomButton;
+export const BigButton = (props) => {
+    return (
+        <>
+            <button className="big">{props.label}</button>
+        </>
+    )
+}
+

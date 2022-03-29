@@ -1,0 +1,108 @@
+.ensemble-navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 3px 3px 8px;
+}
+
+.ensemble-wrapper {
+    height: 85.5vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ensemble-feature {
+    width: 100vw;
+    height: 28.125vw;
+    background-image: url('../images/cantorei.jpg');
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ensemble-header {
+    background-color: var(--campus-brick);
+    color: white;
+    padding: 10px 60px 5px 60px;
+    border-radius: 20px 20px 0 0;
+}
+
+.ensemble-header h1 {
+    margin: 0;
+    padding: 0;
+    font-family: turbinado-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.ensemble-content {
+    display: flex;
+    margin: 10px;
+    padding: 0 10vw;
+    max-width: 1200px;
+}
+
+.ensemble-left {
+    width: 65%;
+    padding: 10px 50px 0 30px;
+}
+
+.ensemble-left h2 {
+    font-weight: lighter;
+    margin: 0;
+}
+
+.ensemble-left p {
+    color: var(--diploma);
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+.ensemble-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+
+.ensemble-right {
+    width: 35%;
+    padding-right: 30px;
+}
+
+@media only screen and (max-width: 906px) {
+
+    .ensemble-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 40px;
+    }
+
+    .ensemble-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 25px 0 0 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .ensemble-left {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .ensemble-wrapper {
+        height: auto;
+    }
+
+    .ensemble-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}

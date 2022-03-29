@@ -5,7 +5,7 @@ import { EnsembleInfo } from '../ensemble-info'
 import Navbar from "../components/navbar"
 import EnsemblePanel from '../components/ensemble-panel'
 import SmallEnsemblePanel from '../components/small-ensemble-panel'
-import CustomButton from '../components/custom-button'
+import { CustomButton } from '../components/custom-button'
 import Footer from '../components/footer'
 
 import picLogo from '../images/logo-with-pics.jpg'
@@ -47,7 +47,7 @@ const IndexPage = () => {
             <div className="side-content">
               <h3>Support Clemson Choirs</h3>
               <hr className="solid"></hr>
-              <p>The choral program is growing each year, now with six credit-earning ensembles and more than 200 students singing each week! In the past five years, we have established the Clemson Cantorei chamber ensemble, presented an annual Sounds of the Season holiday concert, developed outreach programs in our public schools, and created a YouTube spotlight series, which brings quality music right to your home.</p>
+              <p>The choral program is growing each year, now with six credit-earning ensembles and more than 200 students singing each week! In the past five years, we have established the Clemson Cantorei chamber ensemble, presented an annual Sounds of the Season holiday concert, developed outreach programs in our public schools, and created the Vocal Arts Series on YouTube, which brings quality music right to your home.</p>
               <p>Through a donation to our CABA Account (Choir Activities Booster Association), you can make a difference in our students’ experience. Future projects you may consider supporting are commissioning a new work, funding domestic and international travel, establishing student scholarships, sponsoring a large masterwork with orchestra, helping students purchase concert attire, and more!</p>
               <p>Follow the link below to make a gift online, or if sending a gift by mail, please make your check payable to the Clemson University Foundation, and specify the Choral Activities Booster Association (CABA) in the subject line. Mail to the Clemson University Foundation; PO Box 1889; Clemson, SC 29633-1889.</p>
               <div id="custom-button">
@@ -59,7 +59,7 @@ const IndexPage = () => {
             <h2>Large Ensembles</h2>
             {EnsembleInfo.map((item, index) => {
               return(
-                <EnsemblePanel title={item.name} image={item.image} bodytext={item.body}/>
+                <EnsemblePanel title={item.name} image={item.image} bodytext={item.body} link={item.link} target={item.target}/>
               )
             })}
           </div>

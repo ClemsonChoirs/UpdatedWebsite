@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from "react"
-import { Link, graphql } from "gatsby"
+import { Link } from "gatsby"
 
 import './navbar.css'
 import logo from '../images/whitelogo.png'

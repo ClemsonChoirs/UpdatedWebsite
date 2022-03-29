@@ -1,0 +1,29 @@
+.media-panel {
+    display: flex;
+    flex-direction: column;
+    background: var(--diploma);
+    border-radius: 17px;
+    height: auto;
+    width: 340px;
+    box-shadow: 5px 5px 5px #424242;
+    margin: 10px 0;
+}
+
+.media-panel .text {
+    padding: 20px 20px;
+}
+
+.media-panel .text h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.media-panel .text p {
+    color: whitesmoke;
+    margin: 0;
+}
+
+.media-panel .media-player {
+    padding: 15px 0;
+    border-style: none;
+}

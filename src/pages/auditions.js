@@ -2,7 +2,7 @@ import * as React from "react"
 import './auditions.css'
 
 import Navbar from "../components/navbar"
-import CustomButton from '../components/custom-button'
+import { CustomButton } from '../components/custom-button'
 import Footer from '../components/footer'
 
 
@@ -39,7 +39,7 @@ const Auditions = () => {
             </div>
         </div>
 
-        <div className="foot">
+        <div className="audition-foot">
           <Footer/>
         </div>
         </>
