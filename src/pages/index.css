@@ -9,6 +9,9 @@
 body {
     background-color: var(--almost-white);
     font-family: trade-gothic-next, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
 }
 
 .navbar {
@@ -28,7 +31,8 @@ h2 {
 
 .wrapper {
     height: 92vh;
-    overflow: scroll;
+    width: 100vw;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 }

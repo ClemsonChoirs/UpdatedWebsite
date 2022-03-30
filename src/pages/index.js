@@ -1,12 +1,13 @@
 import * as React from 'react'
-import './index.css'
 
+import CustomButton from '../components/custom-button'
 import { EnsembleInfo } from '../ensemble-info'
-import Navbar from "../components/navbar"
 import EnsemblePanel from '../components/ensemble-panel'
-import SmallEnsemblePanel from '../components/small-ensemble-panel'
-import { CustomButton } from '../components/custom-button'
 import Footer from '../components/footer'
+import Navbar from "../components/navbar"
+import SmallEnsemblePanel from '../components/small-ensemble-panel'
+
+import './index.css'
 
 import picLogo from '../images/logo-with-pics.jpg'
 

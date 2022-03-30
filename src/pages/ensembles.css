@@ -5,9 +5,12 @@
 }
 
 .ensembles-wrapper {
+    height: 92vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 .ensembles-wrapper h1 {

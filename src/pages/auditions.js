@@ -1,9 +1,10 @@
 import * as React from "react"
-import './auditions.css'
 
-import Navbar from "../components/navbar"
-import { CustomButton } from '../components/custom-button'
+import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
+import Navbar from "../components/navbar"
+
+import './auditions.css'
 
 
 const Auditions = () => {

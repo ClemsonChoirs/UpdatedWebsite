@@ -1,19 +1,12 @@
-import React from 'react'
+import * as React from 'react'
 import './custom-button.css'
 
-export const CustomButton = (props) => {
+const CustomButton = (props) => {
     return (
         <>
-            <button className="custom">{props.label}</button>
+            <button className="custom-button">{props.label}</button>
         </>
     )
 }
 
-export const BigButton = (props) => {
-    return (
-        <>
-            <button className="big">{props.label}</button>
-        </>
-    )
-}
-
+export default CustomButton

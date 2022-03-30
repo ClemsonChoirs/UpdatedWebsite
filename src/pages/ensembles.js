@@ -1,12 +1,11 @@
 import * as React from "react"
-import './ensembles.css'
 
-import Navbar from "../components/navbar"
-import Footer from '../components/footer'
 import { EnsembleInfo } from '../ensemble-info'
+import Footer from '../components/footer'
+import Navbar from "../components/navbar"
 import SmallEnsemblePanel from '../components/small-ensemble-panel'
 
-
+import './ensembles.css'
 
 
 const Ensembles = () => {
@@ -27,11 +26,12 @@ const Ensembles = () => {
                 })}
             </div>
 
+            <div className="foot">
+                <Footer/>
+            </div>
         </div>
 
-        <div className="foot">
-          <Footer/>
-        </div>
+        
         </>
     )
 }

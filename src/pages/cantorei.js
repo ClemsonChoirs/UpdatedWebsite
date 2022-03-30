@@ -1,12 +1,12 @@
 import * as React from "react"
-import './ensemble-page.css'
-
-import Navbar from "../components/navbar"
-import { BigButton } from '../components/custom-button'
-import Footer from '../components/footer'
-import { AudioPanel, VideoPanel } from '../components/media-panels'
 import { Link } from "gatsby"
 
+import BigButton from '../components/big-button'
+import Footer from '../components/footer'
+import { AudioPanel, VideoPanel } from '../components/media-panels'
+import Navbar from "../components/navbar"
+
+import './ensemble-page.css'
 
 import nightSong from '../audio/night-song.mp3'
 

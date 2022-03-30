@@ -1,25 +1,19 @@
-:root {
-    --diploma: #2E1A47;
-    --campus-brick: #B94700;
-    --reflection: #C8C9C7;
-    
-}
-
-.custom-button {
+.big-button {
     background-color: transparent;
     border-color: var(--campus-brick);
     border-style: solid;
     color: var(--campus-brick);
-    padding: 10px 10px;
-    width: 125px;
+    padding: 15px 10px;
+    margin: 15px;
+    width: 250px;
     border-radius: 8px;
     font-family: trade-gothic-next, sans-serif;
+    font-size: large;
     font-weight: bold;
 }
 
-.custom-button:hover {
+.big-button:hover {
     background-color: var(--campus-brick);
     color: white;
     cursor: pointer;
 }
-

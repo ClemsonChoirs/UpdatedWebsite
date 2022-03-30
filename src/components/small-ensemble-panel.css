@@ -4,7 +4,6 @@
     background: var(--diploma);
     border-radius: 17px;
     height: auto;
-    /* max-height: 50vh; */
     width: 340px;
     box-shadow: 5px 5px 5px #424242;
     margin: 20px 30px;
@@ -36,7 +35,7 @@
     margin: 0;
 }
 
-.small-ensemble .custom-button {
+.small-ensemble .small-button-wrapper {
     align-self: center;
     padding: 10px 0;
 }
