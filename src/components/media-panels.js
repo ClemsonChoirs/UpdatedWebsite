@@ -26,3 +26,15 @@ export const VideoPanel = (props) => {
         </div>
     )
 }
+
+export const InfoPanel = (props) => {
+    return (
+        <div className="media-panel">
+            <div className="text">
+                <h2>{props.title}</h2>
+                <h2>{props.subtitle}</h2>
+                <p>{props.bodytext}</p>
+            </div>
+        </div>
+    )
+}

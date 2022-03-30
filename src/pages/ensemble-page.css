@@ -1,5 +1,5 @@
 .ensemble-wrapper {
-    height: 91vh;
+    height: 92vh;
     overflow-x: hidden;
     overflow-y: scroll;
     display: flex;
@@ -7,10 +7,40 @@
     align-items: center;
 }
 
-.ensemble-feature {
+.cantorei-feature {
     width: 100vw;
     min-height: 28.125vw;
     background-image: url('../images/cantorei-wide.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.singers-feature {
+    width: 100vw;
+    min-height: 28.125vw;
+    background-image: url('../images/singers-wide.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.mens-feature {
+    width: 100vw;
+    min-height: 28.125vw;
+    background-image: url('../images/mens-wide.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.womens-feature {
+    width: 100vw;
+    min-height: 28.125vw;
+    background-image: url('../images/womens-wide.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -35,14 +65,14 @@
 
 .ensemble-content {
     display: flex;
-    margin: 10px;
+    /* margin: 10px; */
     padding: 0 10vw;
     max-width: 1200px;
 }
 
 .ensemble-left {
     width: 65%;
-    padding: 10px 50px 0 30px;
+    padding: 20px 50px 0 30px;
 }
 
 .ensemble-left h2 {
@@ -66,6 +96,12 @@
 .ensemble-right {
     width: 35%;
     padding-right: 30px;
+    padding-top: 10px;
+}
+
+#singers-foot, #mens-foot, #womens-foot {
+    position: absolute;
+    bottom: 0;
 }
 
 @media only screen and (max-width: 906px) {

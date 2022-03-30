@@ -16,7 +16,7 @@ const Singers = () => {
         </div>
 
         <div class="ensemble-wrapper">
-            <div class="ensemble-feature">
+            <div class="singers-feature">
                 <div className="ensemble-header">
                     <h1>CU Singers</h1>
                 </div>
@@ -38,7 +38,7 @@ const Singers = () => {
                 </div>
             </div>
 
-            <div className="ensemble-foot">
+            <div className="ensemble-foot" id="singers-foot">
                 <Footer/>
             </div>
 

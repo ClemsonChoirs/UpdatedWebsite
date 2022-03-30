@@ -18,7 +18,7 @@ const Cantorei = () => {
         </div>
 
         <div class="ensemble-wrapper">
-            <div class="ensemble-feature">
+            <div class="cantorei-feature">
                 <div className="ensemble-header">
                     <h1>Cantorei</h1>
                 </div>

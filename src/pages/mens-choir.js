@@ -18,7 +18,7 @@ const MensChoir = () => {
         </div>
 
         <div class="ensemble-wrapper">
-            <div class="ensemble-feature">
+            <div class="mens-feature">
                 <div className="ensemble-header">
                     <h1>Men's Choir</h1>
                 </div>
@@ -40,7 +40,7 @@ const MensChoir = () => {
                 </div>
             </div>
 
-            <div className="ensemble-foot">
+            <div className="ensemble-foot" id="mens-foot">
                 <Footer/>
             </div>
 
