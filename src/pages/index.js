@@ -57,7 +57,7 @@ const IndexPage = () => {
             </div>
           </div>
           <div className="right-wide">
-            <h2>Large Ensembles</h2>
+            <h2>Choral Ensembles</h2>
             {EnsembleInfo.map((item, index) => {
               return(
                 <EnsemblePanel title={item.name} image={item.image} bodytext={item.body} link={item.link} target={item.target}/>
@@ -65,7 +65,7 @@ const IndexPage = () => {
             })}
           </div>
           <div className="right-tall">
-            <h2>Large Ensembles</h2>
+            <h2>Choral Ensembles</h2>
             {EnsembleInfo.map((item, index) => {
               return(
                 <SmallEnsemblePanel title={item.name} image={item.image} bodytext={item.body} link={item.link} target={item.target}/>

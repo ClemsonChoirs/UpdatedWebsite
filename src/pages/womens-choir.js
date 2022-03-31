@@ -30,7 +30,7 @@ const WomensChoir = () => {
                     <p>To participate, register for the course and attend the first rehearsal on the first Thursday of each semester at 2:00 p.m.</p>
                     <div className="ensemble-buttons">
                         <Link to="../auditions"><BigButton label="Audition Information"/></Link>
-                        <Link to="mailto:bernar5@clemson.edu"><BigButton label="Email the Conductor"/></Link>
+                        <Link to="mailto:llritte@clemson.edu"><BigButton label="Email the Conductor"/></Link>
                     </div>
                     
                 </div>

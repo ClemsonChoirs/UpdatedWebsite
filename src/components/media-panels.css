@@ -23,6 +23,14 @@
     margin: 0;
 }
 
+.media-panel .text p a {
+    color: var(--campus-brick);
+}
+
+#info-panel .text h2 {
+    padding-bottom: 10px;
+}
+
 .media-panel .media-player {
     padding: 15px 0;
     border-style: none;
