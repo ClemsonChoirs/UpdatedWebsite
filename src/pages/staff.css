@@ -15,11 +15,20 @@
     width: 200px;
 }
 
+.staff-container {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    justify-content: space-around;
+}
+
 .staff-panel {
     width: 30vw;
-    
+    min-width: 470px;
     overflow: hidden;
-    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .staff-panel h2 {
@@ -53,7 +62,21 @@
 
 .staff-panel p {
     margin: 0;
-    height: 125px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    margin-top: 5px;
+    
 }
+
+.staff-panel .expanded-text {
+    margin: 0;
+    height: auto;
+}
+
+.staff-panel span {
+    color: var(--campus-brick);
+    font-family: trade-gothic-next, sans-serif;
+    
+}
+
+/* .staff-panel button:hover {
+    cursor: pointer;
+} */
