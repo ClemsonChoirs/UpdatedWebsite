@@ -1,0 +1,49 @@
+.outreach-wrapper {
+    height: 92vh;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+}
+
+.outreach-wrapper h1 {
+    /* margin: 0;
+    padding: 0; */
+    font-family: turbinado-pro, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 50px;
+    color: var(--campus-brick);
+    align-self: center;
+}
+
+.outreach-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 0 10vw;
+}
+
+.outreach-content h2 {
+    font-weight: normal;
+}
+
+.outreach-content hr {
+    width: 100%;
+    padding: 0;
+    border-top: 1.5px solid var(--diploma);
+}
+
+.outreach-info {
+    display: flex;
+    margin: 0 30px;
+}
+
+.outreach-info img {
+    width: 20vw;
+    margin-right: 20px;
+    /* height: auto; */
+}
+
+#brochure-button {
+    align-self: center;
+}

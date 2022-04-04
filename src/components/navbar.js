@@ -70,7 +70,7 @@ const Navbar = () => {
                     <li><Link to={'../staff'}>Staff</Link></li>
 
                     <hr className="solid"></hr>
-                    <li><a href="#">Outreach Programs</a></li>
+                    <li><Link to={'../outreach'}>Outreach Programs</Link></li>
                 </ul>
 
             <nav>
@@ -82,7 +82,7 @@ const Navbar = () => {
                     <li><Link to={'../auditions'}>Join a Choir</Link></li>
                     <li><Link to={'../major'}>Major</Link></li>
                     <li><Link to={'../staff'}>Staff</Link></li>
-                    <li><a href="#">Outreach Programs</a></li>
+                    <li><Link to={'../outreach'}>Outreach Programs</Link></li>
                 </ul>
             </nav>
         </header>

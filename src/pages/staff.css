@@ -1,5 +1,5 @@
 .staff-wrapper {
-    height: 91vh;
+    height: 86vh;
     overflow: scroll;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@
 
 .staff-panel {
     width: 30vw;
-    min-width: 470px;
+    min-width: 530px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -84,6 +84,7 @@
     
 }
 
-/* .staff-panel button:hover {
-    cursor: pointer;
-} */
+.staff-foot {
+    position: fixed;
+    bottom: 0;
+}
