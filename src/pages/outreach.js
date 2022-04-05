@@ -6,9 +6,9 @@ import Navbar from "../components/navbar"
 
 import './outreach.css'
 
-import choralarts from '../images/choralarts.png'
-import institute from '../images/vocalinstitute.png'
-import triart from '../images/triartchoralclinic.png'
+import choralarts from '../images/choralarts.jpg'
+import institute from '../images/vocalinstitute.jpg'
+import triart from '../images/triartchoralclinic.jpg'
 
 const Outreach = () => {
     return (
@@ -25,7 +25,11 @@ const Outreach = () => {
                 <h2>Choral Arts Exchange</h2>
                 <hr className="solid" id="top-divider"></hr>
                 <div className="outreach-info">
-                    <img src={choralarts}></img>
+                    <div className="outreach-media">
+                        <img src={choralarts}/>
+                        <BigButton label="Download Brochure" id="brochure-button"/>
+                    </div>                    
+                    
                     <div className="outreach-text">
                         <p>Each year the Clemson Choral Department in partnership with the Brooks Center for the Performing Arts selects a high school choral program for a year long artistic collaboration. This program has three goals: to build relationships with performing arts programs in the upstate area, offer instruction and performance opportunities, and provide various ways for students to engage in the rich concert season presented at the Brooks Center each year.</p>
                         <p>Selected schools will benefit from the following:</p>
@@ -45,7 +49,10 @@ const Outreach = () => {
                 <h2>Summer Vocal Institute</h2>
                 <hr className="solid" id="top-divider"></hr>
                 <div className="outreach-info">
-                    <img src={institute}></img>
+                    <div className="outreach-media">
+                        <img src={institute}/>
+                        <BigButton label="Download Brochure" id="brochure-button"/>
+                    </div>      
                     <div className="outreach-text">
                         <p>This program is open to all rising 9th- 12th grade students. At the Clemson Vocal Institute, you will grow as a singer while participating in an exciting choral experience and having the unique opportunity to study solo vocal performance in a masterclass setting. Come prepare yourself for future auditions, enjoy a college level musical experience at the Brooks Center for the Performing Arts, and meet other students with the same passions as you!</p>
                         <p>Check back soon for Summer 2022 dates!</p>
@@ -57,13 +64,16 @@ const Outreach = () => {
                 <h2>Tri-ART and Choral Clinic</h2>
                 <hr className="solid" id="top-divider"></hr>
                 <div className="outreach-info">
-                    <img src={triart}></img>
+                    <div className="outreach-media">
+                        <img src={triart}/>
+                        <BigButton label="Download Brochure" id="brochure-button"/>
+                    </div>      
                     <div className="outreach-text">
                         <p>Each year the Clemson Choral Program hosts a concert on the Eskridge Tri-Art Series at the Brooks Center for the Performing Arts. In addition, a handful of choirs attending will receive a masterclass with Dr. Bernarducci on the Brooks Center stage upon request. This concert and clinic is at no cost to the schools. We look forward to sharing a day of choral music together!</p>
                         <p>If you have questions concerning reservations or seating availability, please contact Tri-ART Coordinator Nancy Martin at nmartin@clemson.edu or by phone at 864-656-7787 for more information.</p>
                     </div>
                 </div>
-                <BigButton label="Download Brochure" id="brochure-button"/>
+                
             </div>
             <div className="outreach-foot">
                 <Footer/>

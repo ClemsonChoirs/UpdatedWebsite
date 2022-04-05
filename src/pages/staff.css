@@ -1,5 +1,5 @@
 .staff-wrapper {
-    height: 86vh;
+    height: 92vh;
     overflow: scroll;
     display: flex;
     flex-direction: column;
@@ -16,10 +16,13 @@
     margin: 20px 0 10px;
 }
 
-.staff-wrapper #top-divider {
-    margin: 0 0 20px;
-    border-top: 1.5px solid var(--campus-brick);
-    width: 95%;
+.staff-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 9vh;
+    width: 100vw;
 }
 
 .staff-container {
@@ -27,6 +30,10 @@
     flex-direction: row;
     width: 80vw;
     justify-content: space-around;
+}
+
+.staff-right, .staff-left {
+    min-height: 76vh;
 }
 
 .staff-panel {
@@ -84,7 +91,7 @@
     
 }
 
-.staff-foot {
+/* .staff-foot {
     position: fixed;
     bottom: 0;
-}
+} */

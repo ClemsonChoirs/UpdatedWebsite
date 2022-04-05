@@ -99,10 +99,10 @@
     padding-top: 10px;
 }
 
-#singers-foot, #mens-foot, #womens-foot {
+/* #singers-foot, #mens-foot, #womens-foot {
     position: absolute;
     bottom: 0;
-}
+} */
 
 @media only screen and (max-width: 906px) {
 
