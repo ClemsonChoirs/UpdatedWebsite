@@ -10,7 +10,7 @@
 .cantorei-feature {
     width: 100vw;
     min-height: 28.125vw;
-    background-image: url('../images/cantorei-wide.jpg');
+    background-image: url('../../images/cantorei-wide.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@
 .singers-feature {
     width: 100vw;
     min-height: 28.125vw;
-    background-image: url('../images/singers-wide.jpg');
+    background-image: url('../../images/singers-wide.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -30,7 +30,7 @@
 .mens-feature {
     width: 100vw;
     min-height: 28.125vw;
-    background-image: url('../images/mens-wide.jpg');
+    background-image: url('../../images/mens-wide.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -40,7 +40,7 @@
 .womens-feature {
     width: 100vw;
     min-height: 28.125vw;
-    background-image: url('../images/womens-wide.jpg');
+    background-image: url('../../images/womens-wide.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;

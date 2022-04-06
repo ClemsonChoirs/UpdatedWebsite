@@ -4,7 +4,7 @@ import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 
-import './staff.css'
+import './stylesheets/staff.css'
 import DrB from '../images/dr-b.jpg'
 
 const Staff = () => {

@@ -6,7 +6,7 @@ import Footer from '../components/footer'
 import { AudioPanel, VideoPanel } from '../components/media-panels'
 import Navbar from "../components/navbar"
 
-import './ensemble-page.css'
+import './stylesheets/ensemble-page.css'
 
 import nightSong from '../audio/night-song.mp3'
 

@@ -16,7 +16,7 @@
 .audition-feature {
     width: 100vw;
     min-height: 28.125vw;
-    background-image: url('../images/auditions-background.png');
+    background-image: url('../../images/auditions-background.png');
     background-size: contain;
     display: flex;
     justify-content: center;
@@ -80,6 +80,11 @@
     padding: 0 30px;
 }
 
+.audition-instructions .questions {
+    padding: 0 30px;
+    color: var(--diploma);
+}
+
 .instruction-panels {
     display: flex;
     padding: 0 30px;
@@ -123,18 +128,20 @@
     margin-left: 20px;
 }
 
-.voice-part audio {
-    width: 200px;
-    /* color: var(--diploma); */
-    /* color: white; */
+.next-steps {
+    width: 80vw;
 }
 
-/* .audition-foot {
-    position: absolute;
-    bottom: 0;
-} */
+.next-steps h2 {
+    padding: 30px 30px 20px;
+}
 
-.audition-panel {
+.sight-reading-panels {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.audition-steps {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -145,26 +152,81 @@
     margin: 10px 0;
 }
 
-.audition-panel .text {
-    padding: 15px;
+.audition-steps .text {
+    padding: 15px 20px;
     color: white;
 }
 
-.audition-panel h3 {
+.audition-steps h3 {
     color: var(--campus-brick);
     margin: 0;
 }
 
-.audition-panel h4 {
+.audition-steps h4 {
     font-weight: normal;
     margin-top: 5px;
 }
 
-.audition-panel a {
+.audition-steps a {
     align-self: center;
 }
 
+.sight-reading {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 35vw;
+    background: var(--diploma);
+    border-radius: 17px;
+    box-shadow: 5px 5px 5px #424242;
+    margin: 10px 0;
+}
+
+.sight-reading .text {
+    padding: 15px 20px;
+    color: white;
+}
+
+.sight-reading h3 {
+    color: var(--campus-brick);
+    margin: 0;
+}
+
+.audio-button {
+    background-color: transparent;
+    border-color: var(--campus-brick);
+    border-style: solid;
+    color: var(--campus-brick);
+    padding: 10px 10px;
+    width: 125px;
+    border-radius: 8px;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: bold;
+}
+
+.audio-button:hover {
+    background-color: var(--campus-brick);
+    color: white;
+    cursor: pointer;
+}
+
+.audio-button-active {
+    background-color: var(--campus-brick);
+    color: white;
+    border-color: var(--campus-brick);
+    border-style: solid;
+    padding: 10px 10px;
+    width: 125px;
+    border-radius: 8px;
+    font-family: trade-gothic-next, sans-serif;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 906px) {
+
+    .audition-wrapper {
+        overflow-x: hidden;
+    }
 
     .audition-content {
         flex-direction: column;
@@ -177,12 +239,26 @@
         padding: 0;
     }
 
-    .audition-wrapper {
-        /* height: 92vh; */
+    .audition-instructions h2, .audition-instructions .questions {
+        padding-left: 0;
     }
 
-    /* .audition-foot {
-        position: absolute;
-        bottom: 0;
-    } */
+    .audition-instructions h3 {
+        padding-left: 0;
+    }
+
+    .instruction-panels, .music-buttons, .pitch-players, .sight-reading-panels {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .audition-steps, .sight-reading {
+        width: 80vw;
+    }
+
+    .pitch-players a, .music-buttons a {
+        margin: 10px 0;
+    }
+
 }

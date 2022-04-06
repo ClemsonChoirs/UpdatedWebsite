@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 import { InfoPanel } from '../components/media-panels'
 import Navbar from "../components/navbar"
 
-import './major.css'
+import './stylesheets/major.css'
 
 import caroline from '../images/caroline-ritchie-stahl.jpg'
 import whitney from '../images/whitney-davis.jpg'

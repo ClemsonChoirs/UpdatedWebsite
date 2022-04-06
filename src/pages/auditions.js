@@ -1,12 +1,19 @@
-import * as React from "react"
+import React from "react"
+import { useState, useEffect } from "react"
 
 import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 
-import './auditions.css'
+import './stylesheets/auditions.css'
 
-import nightSong from '../audio/night-song.mp3'
+import sopranoFile from '../audio/soprano-and-tenor.mp3'
+import altoFile from '../audio/alto.mp3'
+import bassFile from '../audio/bass.mp3'
+
+import sopranoTenorSheet from "../images/soprano-tenor-key.pdf"
+import altoSheet from "../images/alto-key.pdf"
+import bassSheet from "../images/bass-key.pdf"
 
 const Auditions = () => {
     return (
@@ -50,6 +57,59 @@ const Auditions = () => {
 }
 
 const FullAuditions = () => {
+
+    let soprano = new Audio(sopranoFile);
+    const [sopPlaying, setSopPlaying] = useState(false);
+
+    let alto = new Audio(altoFile);
+    const [altoPlaying, setAltoPlaying] = useState(false);
+
+    let tenor = new Audio(sopranoFile);
+    const [tenPlaying, setTenPlaying] = useState(false);
+
+    let bass = new Audio(bassFile);
+    const [bassPlaying, setBassPlaying] = useState(false);
+
+    const playSoprano = () => {
+        soprano.play();
+        setSopPlaying(true);
+        console.log('playing audio');
+    }
+
+    const playAlto = () => {
+        alto.play();
+        setAltoPlaying(true);
+        console.log('playing audio');
+    }
+
+    const playTenor = () => {
+        tenor.play();
+        setTenPlaying(true);
+        console.log('playing audio');
+    }
+
+    const playBass = () => {
+        bass.play();
+        setBassPlaying(true);
+        console.log('playing audio');
+    }
+
+    useEffect(() => {
+        soprano.addEventListener('ended', () => setSopPlaying(false));
+    });
+
+    useEffect(() => {
+        alto.addEventListener('ended', () => setAltoPlaying(false));
+    });
+
+    useEffect(() => {
+        tenor.addEventListener('ended', () => setTenPlaying(false));
+    });
+
+    useEffect(() => {
+        bass.addEventListener('ended', () => setBassPlaying(false));
+    });
+
     return (
         <>
         <div class="navbar">
@@ -66,7 +126,7 @@ const FullAuditions = () => {
                 <div className="audition-left">
                     <h2>Thank you for your interest in Clemson Choirs! Each of our choral ensembles are open to ALL students at Clemson University.</h2>
                     <p> If you would like to be a part of CU Singers (MUSC 3700) or Cantorei (MUSC 3450), please read the audition instructions below. Audition forms and videos will be due on July 28, 2021. We recommend that you register for the class(es) that you are auditioning for now to avoid scheduling conflicts.</p>
-                    <p>If you would like to be a part of Men's Choir (MUSC 3720) or Women’s Choir (MUSC 3710), no audition is necessary! Simply register for the class on iRoar.</p>
+                    <p>If you would like to be a part of Men's Choir (MUSC 3720) or Women’s Choir (MUSC 3710), no audition is necessary. Simply register for the class on iRoar.</p>
                     <p>For more information on Tigeroar and TakeNote auditions contact Dr. David Conley.</p>
                 </div>
                 <div className="audition-right">
@@ -82,18 +142,22 @@ const FullAuditions = () => {
             </div>
             <div className="audition-instructions">
                 <h2>Audition Instructions</h2>
+                <p className="questions">If you have any questions about the audition process, please email Dr. Bernarducci (bernar5@clemson.edu).</p>
                 <div className="instruction-panels">
                     <AuditionPanel
+                        steps={true}
                         title="Step One"
                         subtitle="Record Your Video"
                         bodytext="In your video, please introduce yourself and sing “My Country ’Tis of Thee”. Please use the sheet music and starting pitch that correspond to your preferred voice part, found below."
                     />
                     <AuditionPanel
+                        steps={true}
                         title="Step Two"
                         subtitle="Upload Your Video"
                         bodytext="Upload the video to either YouTube OR Google Drive. Please include your first and last name in the title of your video. On YouTube, set the video’s visibility to “Unlisted”. On Google Drive, set link sharing permissions to “Anyone with link can view”."
                     />
                     <AuditionPanel
+                        steps={true}
                         title="Step Three"
                         subtitle="Fill Out Your Form"
                         bodytext="Copy the link to your video and paste it in the last field, after answering some questions about your past choir/singing experience."
@@ -104,32 +168,45 @@ const FullAuditions = () => {
                 <div className="sheet-music">
                     <h3>My Country 'tis of Thee Sheet Music</h3>
                     <div className="music-buttons">
-                        <a href="#"><CustomButton label="Soprano Key"/></a>
-                        <a href="#"><CustomButton label="Alto Key"/></a>
-                        <a href="#"><CustomButton label="Tenor Key"/></a>
-                        <a href="#"><CustomButton label="Bass Key"/></a>
+                        <a href={sopranoTenorSheet} download target="_blank">
+                            <CustomButton label="See Soprano"/>
+                        </a>
+                        <a href={altoSheet}>
+                            <CustomButton download target="_blank" label="See Alto"/>
+                        </a>
+                        <a href={sopranoTenorSheet}>
+                            <CustomButton download target="_blank" label="See Tenor"/>
+                        </a>
+                        <a href={bassSheet}>
+                            <CustomButton download target="_blank" label="See Bass"/>
+                        </a>
                     </div>
                 </div>
                 <div className="starting-pitches">
                     <h3>Starting Pitches</h3>
                     <div className="pitch-players">
-                        <div className="voice-part">
-                            <label>Soprano</label>
-                            <audio src={nightSong} controls/>
-                        </div>
-                        <div className="voice-part">
-                            <label>Alto</label>
-                            <audio src={nightSong} controls/>
-                        </div>
-                        <div className="voice-part">
-                            <label>Tenor</label>
-                            <audio src={nightSong} controls/>
-                        </div>
-                        <div className="voice-part">
-                            <label>Bass</label>
-                            <audio src={nightSong} controls/>
-                        </div>
+                            <a onClick={playSoprano}><AudioButton playing={sopPlaying}label="Hear Soprano"/></a>
+                            
+                            <a onClick={playAlto}><AudioButton playing={altoPlaying} label="Hear Alto"/></a>
                         
+                            <a onClick={playTenor}><AudioButton playing={tenPlaying} label="Hear Tenor"/></a>
+                        
+                            <a onClick={playBass}><AudioButton playing={bassPlaying} label="Hear Bass"/></a>
+                    </div>
+                </div>
+                <div className="next-steps">
+                    <h2>Sight-Reading Audition</h2>
+                    <div className="sight-reading-panels">
+                        <AuditionPanel 
+                            steps={false}
+                            title="Cantorei"
+                            bodytext="If you are auditioning for Cantorei, Dr. Bernarducci will email you in the days following the initial submission deadline to schedule a sight-reading audition. These will occur either on Zoom, or in person in the Brooks Center."
+                        />
+                        <AuditionPanel 
+                            steps={false}
+                            title="CU Singers"
+                            bodytext="If you are auditioning only for CU Singers, in the days following the initial submission deadline with a link to sign up for a day to sight-read. On these days, at 11:00 am, a short sight-reading example will be emailed to you, and you will have exactly 2 hours to record a video of yourself singing the example a capella, post it to YouTube as Unlisted, and submit the link to a form that will be included in the email, along with more detailed instructions."
+                        />
                     </div>
                 </div>
             </div>
@@ -147,7 +224,7 @@ export default FullAuditions
 
 const AuditionPanel = (props) => {
     return (
-        <div className="audition-panel">
+        <div className={props.steps ? "audition-steps" : "sight-reading"}>
             <div className="text">
                 <h3>{props.title}</h3>
                 {props.subtitle ?
@@ -157,8 +234,16 @@ const AuditionPanel = (props) => {
                 
             </div>
             {props.btnlabel ?
-                    <a href={props.link} target="_blank"><CustomButton label={props.btnlabel}/></a> : ''
-                }
+                <a href={props.link} target="_blank"><CustomButton label={props.btnlabel}/></a> : ''
+            }
         </div>
+    )
+}
+
+const AudioButton = (props) => {
+    return (
+        <>
+            <button className={props.playing ? "audio-button-active" : "audio-button"}>{props.label}</button>
+        </>
     )
 }

@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 import SmallEnsemblePanel from '../components/small-ensemble-panel'
 
-import './ensembles.css'
+import './stylesheets/ensembles.css'
 
 
 const Ensembles = () => {

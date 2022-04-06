@@ -7,7 +7,7 @@ import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 import SmallEnsemblePanel from '../components/small-ensemble-panel'
 
-import './index.css'
+import './stylesheets/index.css'
 
 import picLogo from '../images/logo-with-pics.jpg'
 

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
 import { Link } from "gatsby"
 
-import './navbar.css'
+import './stylesheets/navbar.css'
 import logo from '../images/whitelogo.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -92,8 +92,8 @@ const Navbar = () => {
             <li><Link to={'../cantorei'}>Cantorei</Link></li>
             <li><Link to={'../mens-choir'}>Men's Choir</Link></li>
             <li><Link to={'../womens-choir'}>Women's Choir</Link></li>
-            <li><Link to={'https://www.clemsontakenote.com/'} target="_blank">TakeNote</Link></li>
-            <li><Link to={'https://www.clemsontigeroar.com/'} target="_blank">Tigeroar</Link></li>
+            <li><a href={'https://www.clemsontakenote.com/'} target="_blank">TakeNote</a></li>
+            <li><a href={'https://www.clemsontigeroar.com/'} target="_blank">Tigeroar</a></li>
         </ul>
         </>
     )

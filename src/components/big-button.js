@@ -1,5 +1,5 @@
 import * as React from 'react'
-import './big-button.css'
+import './stylesheets/big-button.css'
 
 const BigButton = (props) => {
     return (

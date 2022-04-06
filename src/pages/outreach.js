@@ -4,7 +4,7 @@ import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 
-import './outreach.css'
+import './stylesheets/outreach.css'
 
 import choralarts from '../images/choralarts.jpg'
 import institute from '../images/vocalinstitute.jpg'

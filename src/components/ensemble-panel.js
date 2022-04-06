@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from "gatsby"
 
 import CustomButton from '../components/custom-button'
-import './ensemble-panel.css'
+import './stylesheets/ensemble-panel.css'
 
 
 const EnsemblePanel = (props) => {
@@ -13,7 +13,11 @@ const EnsemblePanel = (props) => {
                 <h2>{props.title}</h2>
                 <p>{props.bodytext}</p>
                 <div className="button-wrapper">
-                    <Link to={props.link} target={props.target}><CustomButton label="Learn More"/></Link>
+                {props.internal ?
+                        <Link to={props.link} target={props.target}><CustomButton label="Learn More"/></Link>
+                        :
+                        <a href={props.link} target={props.target}><CustomButton label="Learn More"/></a>
+                    }
                 </div>
             </div>
         </div>
