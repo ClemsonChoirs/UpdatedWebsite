@@ -6,6 +6,7 @@ import Navbar from "../components/navbar"
 
 import './auditions.css'
 
+import nightSong from '../audio/night-song.mp3'
 
 const Auditions = () => {
     return (
@@ -100,7 +101,37 @@ const FullAuditions = () => {
                         link="#"
                     />
                 </div>
-
+                <div className="sheet-music">
+                    <h3>My Country 'tis of Thee Sheet Music</h3>
+                    <div className="music-buttons">
+                        <a href="#"><CustomButton label="Soprano Key"/></a>
+                        <a href="#"><CustomButton label="Alto Key"/></a>
+                        <a href="#"><CustomButton label="Tenor Key"/></a>
+                        <a href="#"><CustomButton label="Bass Key"/></a>
+                    </div>
+                </div>
+                <div className="starting-pitches">
+                    <h3>Starting Pitches</h3>
+                    <div className="pitch-players">
+                        <div className="voice-part">
+                            <label>Soprano</label>
+                            <audio src={nightSong} controls/>
+                        </div>
+                        <div className="voice-part">
+                            <label>Alto</label>
+                            <audio src={nightSong} controls/>
+                        </div>
+                        <div className="voice-part">
+                            <label>Tenor</label>
+                            <audio src={nightSong} controls/>
+                        </div>
+                        <div className="voice-part">
+                            <label>Bass</label>
+                            <audio src={nightSong} controls/>
+                        </div>
+                        
+                    </div>
+                </div>
             </div>
             <div className="audition-foot">
                 <Footer/>

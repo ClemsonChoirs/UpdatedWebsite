@@ -55,6 +55,11 @@
     margin: 0;
 }
 
+.audition-wrapper h3 {
+    font-weight: normal;
+    color: var(--campus-brick);
+}
+
 .audition-left p {
     color: var(--diploma);
     font-size: 18px;
@@ -68,6 +73,7 @@
 
 .audition-instructions {
     width: 80vw;
+    margin-bottom: 30px;
 }
 
 .audition-instructions h2 {
@@ -78,6 +84,49 @@
     display: flex;
     padding: 0 30px;
     justify-content: space-evenly;
+}
+
+.sheet-music {
+    width: 80vw;
+}
+
+.sheet-music h3 {
+    padding: 20px 30px;
+}
+
+.music-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.starting-pitches {
+    width: 80vw;
+}
+
+.starting-pitches h3 {
+    padding: 20px 30px;
+}
+
+.pitch-players {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.voice-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.voice-part label {
+    color: var(--campus-brick);
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.voice-part audio {
+    width: 200px;
+    /* color: var(--diploma); */
+    /* color: white; */
 }
 
 /* .audition-foot {
@@ -99,10 +148,6 @@
 .audition-panel .text {
     padding: 15px;
     color: white;
-}
-
-.audition-panel h3, .audition-panel h4 {
-    
 }
 
 .audition-panel h3 {
