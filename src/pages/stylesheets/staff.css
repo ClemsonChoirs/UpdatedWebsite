@@ -91,7 +91,21 @@
     
 }
 
-/* .staff-foot {
-    position: fixed;
-    bottom: 0;
-} */
+@media only screen and (max-width: 906px) {
+    .staff-container {
+        flex-direction: column;
+        margin-top: 10px;
+        width: 90vw;
+    }
+
+    .staff-left, .staff-right {
+        width: 100%;
+    }
+
+    .staff-panel {
+        width: 100%;
+        min-width: 0;
+    }
+
+
+}

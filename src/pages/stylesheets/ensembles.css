@@ -1,9 +1,3 @@
-:root {
-    --diploma: #2E1A47;
-    --campus-brick: #B94700;
-    --reflection: #C8C9C7;
-}
-
 .ensembles-wrapper {
     height: 92vh;
     display: flex;
