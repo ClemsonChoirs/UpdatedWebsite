@@ -16,6 +16,7 @@ const Singers = () => {
         </div>
 
         <div class="ensemble-wrapper">
+        <div className="ensemble-subwrapper">
             <div class="singers-feature">
                 <div className="ensemble-header">
                     <h1>CU Singers</h1>
@@ -37,7 +38,7 @@ const Singers = () => {
                     <VideoPanel title={"Proud Music of the Storm"} subtitle={""} video={"https://www.youtube.com/embed/cbzS7gR-HG4"} bodytext="CU Singers performed Jake Runestad's “Proud Music of the Storm” at their Fall Concert in October of 2021."/>
                 </div>
             </div>
-
+</div>
             <div className="ensemble-foot" id="singers-foot">
                 <Footer/>
             </div>

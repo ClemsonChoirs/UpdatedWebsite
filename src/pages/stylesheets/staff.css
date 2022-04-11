@@ -34,6 +34,7 @@
 
 .staff-right, .staff-left {
     min-height: 76vh;
+    margin: 0 10px;
 }
 
 .staff-panel {
@@ -88,6 +89,7 @@
 .staff-panel span {
     color: var(--campus-brick);
     font-family: trade-gothic-next, sans-serif;
+    cursor: pointer;
     
 }
 
@@ -96,10 +98,12 @@
         flex-direction: column;
         margin-top: 10px;
         width: 90vw;
+        align-items: center;
     }
 
     .staff-left, .staff-right {
-        width: 100%;
+        width: 60vw;
+        min-height: 0;
     }
 
     .staff-panel {

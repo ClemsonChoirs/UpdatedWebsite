@@ -60,21 +60,14 @@ const FullAuditions = () => {
 
     const [soprano, setSoprano] = useState(new Audio(sopranoFile));
     const [sopPlaying, setSopPlaying] = useState(false);
-    soprano.className = 'audio';
 
     const [alto, setAlto] = useState(new Audio(altoFile));
-    // let alto = new Audio(altoFile);
-    alto.className = 'audio';
     const [altoPlaying, setAltoPlaying] = useState(false);
 
     const [tenor, setTenor] = useState(new Audio(sopranoFile));
-    // let tenor = new Audio(sopranoFile);
-    tenor.className = 'audio';
     const [tenPlaying, setTenPlaying] = useState(false);
 
     const [bass, setBass] = useState(new Audio(bassFile));
-    // let bass = new Audio(bassFile);
-    bass.className = 'audio';
     const [bassPlaying, setBassPlaying] = useState(false);
 
     var allAudios = [soprano, alto, tenor, bass];
@@ -97,59 +90,48 @@ const FullAuditions = () => {
         }
     }
 
-    // function playAudio(file, vp) {
-    //     if (audio) {
-    //         audio.pause();
-    //     }
-        
-    //     audio = new Audio(file);
-        
-    //     audio.play();
-
-    //     switch (vp) {
-    //         case 'soprano':
-    //             setSopPlaying(true);
-    //             break;
-    //         case 'alto':
-    //             setAltoPlaying(true);
-    //             break;
-    //         case 'tenor':
-    //             setTenPlaying(true);
-    //             break;
-    //         case 'bass':
-    //             setBassPlaying(true);
-    //             break;
-    //     }
-    // }
     const playSoprano = () => {
-        stopAllAudio();
-        allAudios[0].play();
-        setSopPlaying(true);
-        console.log('playing audio');
+        if (sopPlaying) {
+            stopAllAudio();
+        } else {
+            stopAllAudio();
+            allAudios[0].play();
+            setSopPlaying(true);
+        }
+        
     }
 
     const playAlto = () => {
-        stopAllAudio();
-        allAudios[1].play();
+        if (altoPlaying) {
+            stopAllAudio();
+        } else {
+            stopAllAudio();
+            allAudios[1].play();
+            setAltoPlaying(true);
+        }
         
-        setAltoPlaying(true);
-        console.log('playing audio');
     }
 
     const playTenor = () => {
-        stopAllAudio();
-        allAudios[2].play();
+        if (tenPlaying) {
+            stopAllAudio();
+        } else {
+            stopAllAudio();
+            allAudios[2].play();
+            setTenPlaying(true);
+        }
         
-        setTenPlaying(true);
-        console.log('playing audio');
     }
 
     const playBass = () => {
-        stopAllAudio();
-        allAudios[3].play();
+        if (bassPlaying) {
+            stopAllAudio();
+        } else {
+            stopAllAudio();
+            allAudios[3].play();
+            setBassPlaying(true);
+        }
         
-        setBassPlaying(true);
-        console.log('playing audio');
     }
 
     useEffect(() => {
@@ -195,6 +177,7 @@ const FullAuditions = () => {
             </div>
             <div className="audition-instructions">
                 <h2>Audition Instructions</h2>
+                <p className="questions">Audition forms and videos will be due on August 1, 2022 at 11:59pm.</p>
                 <p className="questions">If you have any questions about the audition process, please email Dr. Bernarducci (bernar5@clemson.edu).</p>
                 <div className="instruction-panels">
                     <AuditionPanel

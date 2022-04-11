@@ -55,6 +55,11 @@
 
 .outreach-info p {
     margin-top: 0;
+    color: var(--diploma);
+}
+
+.outreach-info ul {
+    color: var(--diploma);
 }
 
 #brochure-button {

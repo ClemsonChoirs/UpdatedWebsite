@@ -10,6 +10,10 @@ import choralarts from '../images/choralarts.jpg'
 import institute from '../images/vocalinstitute.jpg'
 import triart from '../images/triartchoralclinic.jpg'
 
+import choralartsBrochure from '../images/choral-arts-exchange.pdf'
+import instituteBrochure from '../images/vocal-institute.pdf'
+import triartBrochure from '../images/tri-art-choral-clinic.pdf'
+
 const Outreach = () => {
     return (
         <>
@@ -27,7 +31,9 @@ const Outreach = () => {
                 <div className="outreach-info">
                     <div className="outreach-media">
                         <img src={choralarts}/>
-                        <BigButton label="Download Brochure" id="brochure-button"/>
+                        <a href={choralartsBrochure} download target="_blank">
+                            <BigButton label="Download Brochure" id="brochure-button"/>
+                        </a>
                     </div>                    
                     
                     <div className="outreach-text">
@@ -51,7 +57,10 @@ const Outreach = () => {
                 <div className="outreach-info">
                     <div className="outreach-media">
                         <img src={institute}/>
-                        <BigButton label="Download Brochure" id="brochure-button"/>
+                        <a href={instituteBrochure} download target="_blank">
+                            <BigButton label="Download Brochure" id="brochure-button"/>
+                        </a>
+                        
                     </div>      
                     <div className="outreach-text">
                         <p>This program is open to all rising 9th- 12th grade students. At the Clemson Vocal Institute, you will grow as a singer while participating in an exciting choral experience and having the unique opportunity to study solo vocal performance in a masterclass setting. Come prepare yourself for future auditions, enjoy a college level musical experience at the Brooks Center for the Performing Arts, and meet other students with the same passions as you!</p>
@@ -66,7 +75,10 @@ const Outreach = () => {
                 <div className="outreach-info">
                     <div className="outreach-media">
                         <img src={triart}/>
-                        <BigButton label="Download Brochure" id="brochure-button"/>
+                        <a href={triartBrochure} download target="_blank">
+                            <BigButton label="Download Brochure" id="brochure-button"/>
+                        </a>
+                        
                     </div>      
                     <div className="outreach-text">
                         <p>Each year the Clemson Choral Program hosts a concert on the Eskridge Tri-Art Series at the Brooks Center for the Performing Arts. In addition, a handful of choirs attending will receive a masterclass with Dr. Bernarducci on the Brooks Center stage upon request. This concert and clinic is at no cost to the schools. We look forward to sharing a day of choral music together!</p>

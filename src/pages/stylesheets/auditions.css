@@ -74,6 +74,8 @@
 .audition-instructions {
     width: 80vw;
     margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .audition-instructions h2 {
@@ -87,8 +89,11 @@
 
 .instruction-panels {
     display: flex;
-    padding: 0 30px;
+    width: 80vw;
+    max-width: 1180px;
+    align-self: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .sheet-music {
@@ -146,10 +151,12 @@
     flex-direction: column;
     height: auto;
     width: 22vw;
+    min-width: 300px;
+    max-width: 350px;
     background: var(--diploma);
     border-radius: 17px;
     box-shadow: 5px 5px 5px #424242;
-    margin: 10px 0;
+    margin: 10px 15px;
 }
 
 .audition-steps .text {
@@ -169,13 +176,15 @@
 
 .audition-steps a {
     align-self: center;
+    padding-bottom: 15px;
 }
 
 .sight-reading {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 35vw;
+    width: 33vw;
+    max-width: 425px;
     background: var(--diploma);
     border-radius: 17px;
     box-shadow: 5px 5px 5px #424242;

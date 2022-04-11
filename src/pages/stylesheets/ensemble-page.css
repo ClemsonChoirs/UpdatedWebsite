@@ -7,6 +7,15 @@
     align-items: center;
 }
 
+.ensemble-subwrapper {
+    min-height: 85vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .cantorei-feature {
     width: 100vw;
     min-height: 28.125vw;
