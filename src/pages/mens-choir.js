@@ -37,7 +37,7 @@ const MensChoir = () => {
                 </div>
                 <div className="ensemble-right">
                     {/* <AudioPanel title={"Evening Gale Mvt. 1,"} subtitle={"“Night Song”"} audio={nightSong} bodytext="“Night Song” is the first movement in a three movement piece titled “Evening Gale” by Dr. Anthony Bernarducci. “Evening Gale” was premiered by Cantorei in the fall of 2019."/> */}
-                    <VideoPanel title={"Wild Mountain Thyme & O Mistress Mine"} subtitle={""} video={"https://www.youtube.com/embed/ymT4mUm8_aQ"} bodytext="The CU Men's Choir performed “Wild Mountain Thyme” arranged by Karen Marrolli and “O Mistress Mine” by Matthew Harris in the spring of 2021 to celebrate the 125th anniversary of the choir."/>
+                    <VideoPanel title={"Wild Mountain Thyme & O Mistress Mine"} subtitle={""} video={"https://www.youtube.com/embed/ymT4mUm8_aQ"} bodytext="The CU Men's Choir performs “Wild Mountain Thyme” arranged by Karen Marrolli and “O Mistress Mine” by Matthew Harris in the spring of 2021."/>
                 </div>
             </div>
             </div>

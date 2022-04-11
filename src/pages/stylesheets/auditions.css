@@ -41,8 +41,8 @@
 
 .audition-content {
     display: flex;
-    margin-top: 10px;
-    width: 80vw;
+    margin: 10px;
+    padding: 0 10vw;
 }
 
 .audition-left {
@@ -72,8 +72,9 @@
 }
 
 .audition-instructions {
-    width: 80vw;
-    margin-bottom: 30px;
+    margin: 10px 10px 20px;
+    padding: 0 10vw;
+    width: 79vw;
     display: flex;
     flex-direction: column;
 }
@@ -89,7 +90,7 @@
 
 .instruction-panels {
     display: flex;
-    width: 80vw;
+    /* width: 80vw; */
     max-width: 1180px;
     align-self: center;
     justify-content: space-evenly;
@@ -97,7 +98,7 @@
 }
 
 .sheet-music {
-    width: 80vw;
+    /* width: 80vw; */
 }
 
 .sheet-music h3 {
@@ -110,7 +111,7 @@
 }
 
 .starting-pitches {
-    width: 80vw;
+    /* width: 80vw; */
 }
 
 .starting-pitches h3 {
@@ -134,7 +135,7 @@
 }
 
 .next-steps {
-    width: 80vw;
+    /* width: 80vw; */
 }
 
 .next-steps h2 {

@@ -8,7 +8,7 @@
 }
 
 .ensemble-subwrapper {
-    min-height: 85vh;
+    min-height: 83vh;
     overflow-x: hidden;
     overflow-y: scroll;
     display: flex;
@@ -18,7 +18,7 @@
 
 .cantorei-feature {
     width: 100vw;
-    min-height: 28.125vw;
+    min-height: 23.1vw;
     background-image: url('../../images/cantorei-wide.jpg');
     background-size: cover;
     display: flex;
@@ -28,7 +28,7 @@
 
 .singers-feature {
     width: 100vw;
-    min-height: 28.125vw;
+    min-height: 23.1vw;
     background-image: url('../../images/singers-wide.jpg');
     background-size: cover;
     display: flex;
@@ -38,7 +38,7 @@
 
 .mens-feature {
     width: 100vw;
-    min-height: 28.125vw;
+    min-height: 23.1vw;
     background-image: url('../../images/mens-wide.jpg');
     background-size: cover;
     display: flex;
@@ -48,7 +48,7 @@
 
 .womens-feature {
     width: 100vw;
-    min-height: 28.125vw;
+    min-height: 23.1vw;
     background-image: url('../../images/womens-wide.jpg');
     background-size: cover;
     display: flex;
@@ -108,10 +108,10 @@
     padding-top: 10px;
 }
 
-/* #singers-foot, #mens-foot, #womens-foot {
+#singers-foot, #mens-foot, #womens-foot {
     position: absolute;
     bottom: 0;
-} */
+}
 
 @media only screen and (max-width: 906px) {
 
