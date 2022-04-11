@@ -58,56 +58,109 @@ const Auditions = () => {
 
 const FullAuditions = () => {
 
-    let soprano = new Audio(sopranoFile);
+    const [soprano, setSoprano] = useState(new Audio(sopranoFile));
     const [sopPlaying, setSopPlaying] = useState(false);
+    soprano.className = 'audio';
 
-    let alto = new Audio(altoFile);
+    const [alto, setAlto] = useState(new Audio(altoFile));
+    // let alto = new Audio(altoFile);
+    alto.className = 'audio';
     const [altoPlaying, setAltoPlaying] = useState(false);
 
-    let tenor = new Audio(sopranoFile);
+    const [tenor, setTenor] = useState(new Audio(sopranoFile));
+    // let tenor = new Audio(sopranoFile);
+    tenor.className = 'audio';
     const [tenPlaying, setTenPlaying] = useState(false);
 
-    let bass = new Audio(bassFile);
+    const [bass, setBass] = useState(new Audio(bassFile));
+    // let bass = new Audio(bassFile);
+    bass.className = 'audio';
     const [bassPlaying, setBassPlaying] = useState(false);
 
+    var allAudios = [soprano, alto, tenor, bass];
+
+    function stopAllAudio() {
+        console.log(allAudios);
+        
+        if (sopPlaying) {
+            allAudios[0].pause();
+            setSopPlaying(false);
+        } else if (altoPlaying) {
+            allAudios[1].pause();
+            setAltoPlaying(false);
+        } else if (tenPlaying) {
+            allAudios[2].pause();
+            setTenPlaying(false);
+        } else if (bassPlaying) {
+            allAudios[3].pause();
+            setBassPlaying(false);
+        }
+    }
+
+    // function playAudio(file, vp) {
+    //     if (audio) {
+    //         audio.pause();
+    //     }
+        
+    //     audio = new Audio(file);
+        
+    //     audio.play();
+
+    //     switch (vp) {
+    //         case 'soprano':
+    //             setSopPlaying(true);
+    //             break;
+    //         case 'alto':
+    //             setAltoPlaying(true);
+    //             break;
+    //         case 'tenor':
+    //             setTenPlaying(true);
+    //             break;
+    //         case 'bass':
+    //             setBassPlaying(true);
+    //             break;
+    //     }
+    // }
     const playSoprano = () => {
-        soprano.play();
+        stopAllAudio();
+        allAudios[0].play();
         setSopPlaying(true);
         console.log('playing audio');
     }
 
     const playAlto = () => {
-        alto.play();
+        stopAllAudio();
+        allAudios[1].play();
+        
         setAltoPlaying(true);
         console.log('playing audio');
     }
 
     const playTenor = () => {
-        tenor.play();
+        stopAllAudio();
+        allAudios[2].play();
+        
         setTenPlaying(true);
         console.log('playing audio');
     }
 
     const playBass = () => {
-        bass.play();
+        stopAllAudio();
+        allAudios[3].play();
+        
         setBassPlaying(true);
         console.log('playing audio');
     }
 
     useEffect(() => {
-        soprano.addEventListener('ended', () => setSopPlaying(false));
+        allAudios[0].addEventListener('ended', () => setSopPlaying(false));
+        allAudios[1].addEventListener('ended', () => setAltoPlaying(false));
+        allAudios[2].addEventListener('ended', () => setTenPlaying(false));
+        allAudios[3].addEventListener('ended', () => setBassPlaying(false));
     });
 
     useEffect(() => {
-        alto.addEventListener('ended', () => setAltoPlaying(false));
-    });
-
-    useEffect(() => {
-        tenor.addEventListener('ended', () => setTenPlaying(false));
-    });
-
-    useEffect(() => {
-        bass.addEventListener('ended', () => setBassPlaying(false));
+        
     });
 
     return (
