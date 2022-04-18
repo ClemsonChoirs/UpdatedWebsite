@@ -1,5 +1,7 @@
 import * as React from 'react'
 
+import { Link } from 'gatsby'
+
 import CustomButton from '../components/custom-button'
 import { EnsembleInfo } from '../ensemble-info'
 import EnsemblePanel from '../components/ensemble-panel'
@@ -9,7 +11,7 @@ import SmallEnsemblePanel from '../components/small-ensemble-panel'
 
 import './stylesheets/index.css'
 
-import picLogo from '../images/logo-with-pics.jpg'
+import picLogo from '../images/background-wide.jpg'
 
 
 const IndexPage = () => {
@@ -42,7 +44,7 @@ const IndexPage = () => {
               <hr className="solid"></hr>
               <p>If you would like more information about Clemson Choirs, please fill out this short form to receive a personal email from our director.</p>
               <div id="custom-button">
-                <a href="https://forms.gle/kH1CGbdybgLd5J1a8" target="_blank"><CustomButton label="Go to Form"/></a>
+                <Link to="../interest-form" target="_blank"><CustomButton label="Go to Form"/></Link>
               </div>
             </div>
             <div className="side-content">
