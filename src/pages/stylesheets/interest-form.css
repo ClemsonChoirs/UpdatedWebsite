@@ -4,30 +4,96 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: scroll;
 }
 
-h1 {
-    margin-left: 30px;
+.interest-wrapper h1 {
     margin-top: 10px;
+    margin-bottom: 0;
     color: var(--campus-brick);
     font-family: turbinado-pro, sans-serif;
     font-size: 50px;
     font-weight: 300;
 }
 
+.interest-wrapper h3 {
+    color: var(--diploma);
+    margin: 0 0 40px 0;
+}
+
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: row;
     width: 80vw;
-
+    margin-bottom: 30px;
 }
 
-.voice-part {
+.form-left, .form-right {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 40vw;
 }
 
-.how-hear {
+.form-left {
+    margin-left: 5vw;
+}
+
+.form-right {
+    margin-right: 4vw;
+    margin-left: 1vw;
+}
+
+form label {
+    color: var(--campus-brick);
+    font-weight: 500;
+    font-size: large;
+    
+}
+
+form #sublabel {
+    font-size: medium;
+    color: var(--diploma);
+}
+
+form .text-input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 90%;
+}
+
+.voice-part, .how-hear {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding: 10px 5px;
+}
+
+.voice-part input, .how-hear input {
+    margin: 7px 8px 3px 3px;
+}
+
+.voice-part text, .how-hear text {
+    color: var(--diploma);
+    font-size: 18px;
+}
+
+#how-hear-label {
+    margin-top: 15px;
+}
+
+.how-hear .specify {
+    margin-left: 5px;
+    width: 15vw;
+}
+
+form button {
+    background: none;
+    border-style: none;
 }
