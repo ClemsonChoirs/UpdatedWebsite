@@ -42,12 +42,12 @@ const MensChoir = () => {
             </div>
             </div>
 
-            <div className="ensemble-foot" id="mens-foot">
-                <Footer/>
-            </div>
+            
 
         </div>
-
+        <div className="ensemble-foot" id="mens-foot">
+            <Footer/>
+        </div>
         
         </>
     )

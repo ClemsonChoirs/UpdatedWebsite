@@ -29,19 +29,23 @@ router.post("/contact", (req, res) => {
   const name = req.body.name;
   const email = req.body.email;
   const voicepart = req.body.voicepart;
+  const grade = req.body.grade;
   const highschool = req.body.highschool;
   const foundUs = req.body.foundUs;
   const other = req.body.other;
   const currentmember = req.body.currentmember;
+  const comments = req.body.comments;
   const mail = {
     from: name,
-    to: "bernar5@g.clemson.edu",
+    to: "mboyt@g.clemson.edu",
     subject: "Interest Form Submission",
     html: `<p>${name} filled out the interest form!</p>
             <p>Email: ${email}</p>
             <p>Voice Part: ${voicepart}</p>
+            <p>Grade: ${grade}</p>
             <p>High School: ${highschool}</p>
-            <p>How they heard about us: ${foundUs} ${currentmember} ${other}</p>`,
+            <p>How they heard about us: ${foundUs} ${currentmember} ${other}</p>
+            <p>Comments (optional): ${comments}`,
   };
   contactEmail.sendMail(mail, (error) => {
     if (error) {

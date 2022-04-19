@@ -53,8 +53,7 @@ form {
 form label {
     color: var(--campus-brick);
     font-weight: 500;
-    font-size: large;
-    
+    font-size: large;   
 }
 
 form #sublabel {
@@ -63,37 +62,76 @@ form #sublabel {
 }
 
 form .text-input {
-    margin: 10px 0;
+    margin: 15px 0;
     padding: 5px;
     width: 90%;
 }
 
-.voice-part, .how-hear {
+.voice-part, .how-hear, .grade {
     display: flex;
     flex-direction: row;
     align-items: center;
     padding: 10px 5px;
 }
 
-.voice-part input, .how-hear input {
+.voice-part input, .how-hear input, .grade input {
     margin: 7px 8px 3px 3px;
 }
 
-.voice-part text, .how-hear text {
+.voice-part p, .how-hear p, .grade p {
     color: var(--diploma);
     font-size: 18px;
+    margin: 0;
 }
 
-#how-hear-label {
+#how-hear-label, #grade-label, #comments-label {
     margin-top: 15px;
 }
 
 .how-hear .specify {
     margin-left: 5px;
     width: 15vw;
+    min-width: 250px;
+}
+
+.form-right textarea {
+    margin-top: 15px;
+    padding: 5px;
+    width: 90%;
+    height: 10vh;
 }
 
 form button {
     background: none;
     border-style: none;
+}
+
+@media only screen and (max-width: 906px) {
+    .form-wrapper {
+        flex-direction: column;
+        width: 80vw;
+        align-items: center;
+    }
+
+    .interest-wrapper h3 {
+        padding: 0 5vw;
+        text-align: center;
+    }
+
+    .form-left, .form-right {
+        width: 100%;
+        margin: 0;
+    }
+
+    form .text-input, .form-right textarea {
+        width: 100%;
+    }
+
+    #highschool-label {
+        margin-top: 15px;
+    }
+
+    .how-hear, .voice-part, .grade {
+        margin-left: 20px;
+    }
 }
