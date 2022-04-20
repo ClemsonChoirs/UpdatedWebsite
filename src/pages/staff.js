@@ -1,6 +1,5 @@
 import * as React from "react"
 import { useState } from 'react'
-import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 
@@ -94,7 +93,7 @@ const StaffPanel = (props) => {
             <h2>{props.name}</h2>
             <hr className="solid"></hr>
             <div className="panel-content">
-                <img src={props.image}/>
+                <img src={props.image} alt={"Image of " + props.name}/>
                 <h3>{props.title}</h3>
                 {props.subtitle ? <h4>{props.subtitle}</h4> : ''}
                 <p>

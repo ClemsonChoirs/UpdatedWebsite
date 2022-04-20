@@ -72,7 +72,7 @@ const InterestForm = () => {
       </div>
   
       <div className="interest-wrapper">
-        <img className="feature" src={picLogo}/>
+        <img className="feature" src={picLogo} alt="Images of Clemson Choirs rehearsing with logo"/>
         <h1>Interest Form</h1>
         {status === 'Submit' ?
           <h3>Please fill out this form if you're interested in learning more about Clemson Choirs.</h3>

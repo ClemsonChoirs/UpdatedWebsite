@@ -22,7 +22,7 @@ const IndexPage = () => {
     </div>
 
     <div className="wrapper">
-      <img className="feature" src={picLogo}/>
+      <img className="feature" src={picLogo} alt="Images of Clemson Choirs rehearsing with logo"/>
         <div className="content">
           
           <div className="left">
@@ -36,7 +36,7 @@ const IndexPage = () => {
               <hr className="solid"></hr>
               <p>The Clemson Vocal Arts Series is a showcase of our choral ensembles, voice majors, and talent from within our choirs. The goal with this online music series is to connect with our community and create another avenue for everyone to have access to music.</p>
               <div id="custom-button">
-                <a href="https://youtube.com/playlist?list=PLJI3Pv0gkD2CPArkG0ui87QUeIPaojqy7" target="_blank"><CustomButton label="View on YouTube"/></a>
+                <a href="https://youtube.com/playlist?list=PLJI3Pv0gkD2CPArkG0ui87QUeIPaojqy7" target="_blank" rel="noreferrer"><CustomButton label="View on YouTube"/></a>
               </div>
             </div>
             <div className="side-content">
@@ -54,7 +54,7 @@ const IndexPage = () => {
               <p>Through a donation to our CABA Account (Choir Activities Booster Association), you can make a difference in our students’ experience. Future projects you may consider supporting are commissioning a new work, funding domestic and international travel, establishing student scholarships, sponsoring a large masterwork with orchestra, helping students purchase concert attire, and more!</p>
               <p>Follow the link below to make a gift online, or if sending a gift by mail, please make your check payable to the Clemson University Foundation, and specify the Choral Activities Booster Association (CABA) in the subject line. Mail to the Clemson University Foundation; PO Box 1889; Clemson, SC 29633-1889.</p>
               <div id="custom-button">
-                <a href="https://iamatiger.clemson.edu/giving." target="_blank"><CustomButton label="Make a Gift"/></a>
+                <a href="https://iamatiger.clemson.edu/giving." target="_blank" rel="noreferrer"><CustomButton label="Make a Gift"/></a>
               </div>
             </div>
           </div>

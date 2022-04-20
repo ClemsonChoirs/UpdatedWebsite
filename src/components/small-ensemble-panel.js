@@ -7,7 +7,7 @@ import './stylesheets/components.css'
 const SmallEnsemblePanel = (props) => {
     return (
         <div className="small-ensemble">
-            <img src={props.image}/>
+            <img src={props.image} alt={"Image of " + props.title}/>
             <div className="text">
                 <h2>{props.title}</h2>
                 <p>{props.bodytext}</p>

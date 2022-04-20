@@ -46,7 +46,7 @@ const Major = () => {
                     <h3>Caroline Ritchie Stahl</h3>
                     <hr className="solid"></hr>
                     <div className="story-content">
-                        <img src={caroline}/>
+                        <img src={caroline} alt="Image of alum, Caroline Ritchie Stahl, in Carnegie Hall"/>
                         <p>I attended Clemson from Fall 2005 to Spring 2009. My favorite part of the degree—and perhaps of my college experience in general!—was participating in Clemson Choirs. I looked forward to every rehearsal, as it was always a highlight of my day and a much-needed respite from the stress of academic life. There is nothing like singing and making music with your peers. I made some of my very best friends in Clemson Choirs, many of whom I still keep up with to this day! After college, I moved to New York City and pursued a career in Arts Administration. I spent 5 years in the Development department at Carnegie Hall, where I worked in foundation relations, corporate sponsorships, and individual giving. In the fall of 2021, I was thrilled to return to the Brooks Center, where I now work as Director of Public Relations.</p>
                     </div>
                 </div>
@@ -54,7 +54,7 @@ const Major = () => {
                     <h3>Whitney Davis</h3>
                     <hr className="solid"></hr>
                     <div className="story-content">
-                        <img src={whitney}/>
+                        <img src={whitney} alt="Image of alum, Whitney Davis"/>
                         <p>I attended Clemson from Fall 2008 to Spring 2012. One of the biggest benefits of this degree for me was the size of the department. Because of the smaller class sizes, I felt more included in the department. The camaraderie between the disciplines was enjoyable and led me to have a varied experience with opportunities exploring theatre and audio technology on top of music. I currently am an an adjunct professor at Francis Marion University where I teach music appreciation as well as voice lessons. I also run a private vocal studio in Hartsville, SC, and am the contemporary music director for a local church.</p>
                     </div>
                 </div>

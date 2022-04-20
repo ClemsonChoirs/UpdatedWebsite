@@ -30,7 +30,7 @@ const Outreach = () => {
                 <hr className="solid" id="top-divider"></hr>
                 <div className="outreach-info">
                     <div className="outreach-media">
-                        <img src={choralarts}/>
+                        <img src={choralarts} alt="Graphic for the Clemson Choral Arts Exchange"/>
                         <a href={choralartsBrochure} download target="_blank">
                             <BigButton label="Download Brochure" id="brochure-button"/>
                         </a>
@@ -56,7 +56,7 @@ const Outreach = () => {
                 <hr className="solid" id="top-divider"></hr>
                 <div className="outreach-info">
                     <div className="outreach-media">
-                        <img src={institute}/>
+                        <img src={institute} alt="Graphic for the Clemson Vocal Institute"/>
                         <a href={instituteBrochure} download target="_blank">
                             <BigButton label="Download Brochure" id="brochure-button"/>
                         </a>
@@ -74,7 +74,7 @@ const Outreach = () => {
                 <hr className="solid" id="top-divider"></hr>
                 <div className="outreach-info">
                     <div className="outreach-media">
-                        <img src={triart}/>
+                        <img src={triart} alt="Graphic for the Clemson Tri-ART and Choral Clinic"/>
                         <a href={triartBrochure} download target="_blank">
                             <BigButton label="Download Brochure" id="brochure-button"/>
                         </a>

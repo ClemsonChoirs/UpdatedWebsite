@@ -76,7 +76,7 @@ const Navbar = () => {
         <>
         <header>
             <div className="reduced-nav">
-                <img src={logo} className="logo"/>
+                <img src={logo} className="logo" alt="Clemson Choirs logo"/>
                 <button className={dropdown ? "dropdown-button-active" : "dropdown-button"}>
                    <FontAwesomeIcon icon={faCaretDown} onClick={setShowDropdown}/> 
                 </button>
@@ -102,7 +102,7 @@ const Navbar = () => {
                 </ul>
 
             <nav>
-                <img src={logo} className="logo"/>
+                <img src={logo} className="logo" alt="Clemson Choirs logo"/>
                 
                 <ul className="pages">
                     <li><Link to={'../'}>Home</Link></li>
@@ -120,8 +120,8 @@ const Navbar = () => {
             <li><Link to={'../cantorei'}>Cantorei</Link></li>
             <li><Link to={'../mens-choir'}>Men's Choir</Link></li>
             <li><Link to={'../womens-choir'}>Women's Choir</Link></li>
-            <li><a href={'https://www.clemsontakenote.com/'} target="_blank">TakeNote</a></li>
-            <li><a href={'https://www.clemsontigeroar.com/'} target="_blank">Tigeroar</a></li>
+            <li><a href={'https://www.clemsontakenote.com/'} target="_blank" rel="noreferrer">TakeNote</a></li>
+            <li><a href={'https://www.clemsontigeroar.com/'} target="_blank" rel="noreferrer">Tigeroar</a></li>
         </ul>
 
         <ul className={join ? "auditions-active" : "auditions-hidden"} onMouseEnter={auditionsHover} onMouseLeave={auditionsUnhover}>
