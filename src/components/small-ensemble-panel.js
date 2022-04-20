@@ -2,7 +2,7 @@ import React from 'react'
 import CustomButton from '../components/custom-button'
 import { Link } from "gatsby"
 
-import './stylesheets/small-ensemble-panel.css'
+import './stylesheets/components.css'
 
 const SmallEnsemblePanel = (props) => {
     return (

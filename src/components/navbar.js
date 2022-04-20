@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react"
 import { Link } from "gatsby"
 
-import './stylesheets/navbar.css'
+import './stylesheets/components.css'
 import logo from '../images/whitelogo.png'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

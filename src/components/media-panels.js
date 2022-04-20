@@ -1,5 +1,5 @@
 import React from 'react'
-import './stylesheets/media-panels.css'
+import './stylesheets/components.css'
 
 export const AudioPanel = (props) => {
     return (

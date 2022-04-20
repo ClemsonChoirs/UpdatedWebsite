@@ -2,7 +2,7 @@ import React from 'react'
 import instagram from '../images/instagram.png'
 import facebook from '../images/facebook.png'
 import youtube from '../images/youtube.png'
-import './stylesheets/footer.css'
+import './stylesheets/components.css'
 
 const Footer = () => {
     return (
