@@ -88,6 +88,10 @@
     color: var(--diploma);
 }
 
+.auditions-foot {
+    width: 100vw;
+}
+
 .instruction-panels {
     display: flex;
     /* width: 80vw; */

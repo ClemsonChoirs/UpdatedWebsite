@@ -26,7 +26,7 @@ const Ensembles = () => {
                 })}
             </div>
 
-            <div className="foot">
+            <div className="ensembles-foot">
                 <Footer/>
             </div>
         </div>

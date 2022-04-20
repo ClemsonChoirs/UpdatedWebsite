@@ -1,5 +1,6 @@
 import React from "react"
 import { useState, useEffect } from "react"
+import { Link } from 'gatsby'
 
 import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
@@ -41,7 +42,7 @@ const Auditions = () => {
                         <hr class="solid"></hr>
                         <p>If you would like more information about Clemson Choirs, please fill out this short form to receive a personal email from our director.</p>
                         <div id="custom-button">
-                            <CustomButton label="Go to Form"/>
+                            <Link to={"../interest-form"}><CustomButton label="Go to Form"/></Link>
                         </div>
                     </div>
                 </div>
@@ -170,7 +171,7 @@ const FullAuditions = () => {
                         <hr class="solid"></hr>
                         <p>If you would like more information about Clemson Choirs, please fill out this short form to receive a personal email from our director.</p>
                         <div id="custom-button">
-                            <CustomButton label="Go to Form"/>
+                            <Link to={"../interest-form"}><CustomButton label="Go to Form"/></Link>
                         </div>
                     </div>
                 </div>
@@ -246,9 +247,10 @@ const FullAuditions = () => {
                     </div>
                 </div>
             </div>
-            <div className="audition-foot">
+            <div className="auditions-foot">
                 <Footer/>
             </div>
+           
         </div>
 
        

@@ -42,6 +42,34 @@ const Navbar = () => {
         showDropdown(!dropdown);
     }
 
+    const [join, showJoin] = useState(true);
+    const [hoverOnJoin, setHoverOnJoin] = useState(false);
+    const [hoverOnAuditions, setHoverOnAuditions] = useState(false);
+
+
+    const joinHover = () => {
+        setHoverOnJoin(true);
+    }
+
+    const auditionsHover = () => {
+        setHoverOnAuditions(true);
+    }
+
+    const joinUnhover = () => {
+        setHoverOnJoin(false);
+    }
+
+    const auditionsUnhover = () => {
+        setHoverOnAuditions(false);
+    }
+
+    useEffect (() => {
+        if (hoverOnJoin || hoverOnAuditions) {
+            showJoin(true);
+        } else {
+            showJoin(false);
+        }
+    }, [hoverOnJoin, hoverOnAuditions])
 
     
     return (
@@ -79,7 +107,7 @@ const Navbar = () => {
                 <ul className="pages">
                     <li><Link to={'../'}>Home</Link></li>
                     <li><Link to={'../ensembles'} onMouseEnter={ensemblesHover} onMouseLeave={ensemblesUnhover} className={ensembles ? "active" : ""}>Ensembles</Link></li>
-                    <li><Link to={'../auditions'}>Join a Choir</Link></li>
+                    <li><Link to={'../auditions'} onMouseEnter={joinHover} onMouseLeave={joinUnhover} className={join ? "active" : ""}>Join a Choir</Link></li>
                     <li><Link to={'../major'}>Major</Link></li>
                     <li><Link to={'../staff'}>Staff</Link></li>
                     <li><Link to={'../outreach'}>Outreach Programs</Link></li>
@@ -95,7 +123,16 @@ const Navbar = () => {
             <li><a href={'https://www.clemsontakenote.com/'} target="_blank">TakeNote</a></li>
             <li><a href={'https://www.clemsontigeroar.com/'} target="_blank">Tigeroar</a></li>
         </ul>
+
+        <ul className={join ? "auditions-active" : "auditions-hidden"} onMouseEnter={auditionsHover} onMouseLeave={auditionsUnhover}>
+            <li><Link to={'../auditions'}>Auditions</Link></li>
+            <li><Link to={'../interest-form'}>Interest Form</Link></li>
+            
+        </ul>
+        
         </>
+
+        
     )
 
   

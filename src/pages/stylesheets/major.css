@@ -1,6 +1,8 @@
 .major-wrapper {
     height: 92vh;
-    overflow: scroll;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
     display: flex;
     flex-direction: column;
 }

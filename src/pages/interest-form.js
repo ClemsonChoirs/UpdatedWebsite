@@ -190,7 +190,7 @@ const InterestForm = () => {
 
         </form>
         
-        <div className="foot">
+        <div className="interest-foot">
           <Footer/>
         </div>
     </div>

@@ -101,6 +101,37 @@ nav .pages li a:hover {
     display: none;
 }
 
+.auditions-active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: var(--campus-brick);
+}
+
+.auditions-active li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 7vh;
+    width: 130px;
+    text-decoration: none;
+    color: white;
+    margin: 0 50px;
+}
+
+.auditions-active li a:hover {
+    text-decoration: underline;
+}
+
+.auditions-hidden {
+    display: none;
+}
+
 @media only screen and (max-width: 906px) {
     nav {
         display: none;

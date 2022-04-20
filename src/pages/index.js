@@ -44,7 +44,7 @@ const IndexPage = () => {
               <hr className="solid"></hr>
               <p>If you would like more information about Clemson Choirs, please fill out this short form to receive a personal email from our director.</p>
               <div id="custom-button">
-                <Link to="../interest-form" target="_blank"><CustomButton label="Go to Form"/></Link>
+                <Link to={"../interest-form"}><CustomButton label="Go to Form"/></Link>
               </div>
             </div>
             <div className="side-content">

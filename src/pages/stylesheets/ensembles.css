@@ -33,6 +33,10 @@
     width: 95%;
 }
 
+.ensembles-foot {
+    width: 100vw;
+}
+
 @media only screen and (max-width: 906px) {
     .ensembles-content {
         flex-direction: column;
