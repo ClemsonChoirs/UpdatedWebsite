@@ -75,6 +75,14 @@
     margin: 0;
 }
 
+.web-staff-title {
+    display: inherit;
+}
+
+.mobile-staff-title {
+    display: none;
+}
+
 .staff-panel h4 {
     margin: 0;
     color: var(--campus-brick);
@@ -106,13 +114,22 @@
     }
 
     .staff-left, .staff-right {
-        width: 60vw;
+        width: 80vw;
         min-height: 0;
     }
 
     .staff-panel {
         width: 100%;
         min-width: 0;
+    }
+
+    .web-staff-title {
+        display: none;
+    }
+    
+    .mobile-staff-title {
+        display: block;
+        margin-bottom: 10px !important;
     }
 
 

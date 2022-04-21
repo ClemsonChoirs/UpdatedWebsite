@@ -93,8 +93,9 @@ const StaffPanel = (props) => {
             <h2>{props.name}</h2>
             <hr className="solid"></hr>
             <div className="panel-content">
+                <h3 className="mobile-staff-title">{props.title}</h3>
                 <img src={props.image} alt={"Image of " + props.name}/>
-                <h3>{props.title}</h3>
+                <h3 className="web-staff-title">{props.title}</h3>
                 {props.subtitle ? <h4>{props.subtitle}</h4> : ''}
                 <p>
                     {expand ? props.body : props.body.slice(0, 220)}
