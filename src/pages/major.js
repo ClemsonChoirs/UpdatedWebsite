@@ -59,9 +59,11 @@ const Major = () => {
                     </div>
                 </div>
             </div>
+            <div className="major-foot">
+                <Footer/>
 
-            <Footer/>
-
+            </div>
+            
         </div>
 
         

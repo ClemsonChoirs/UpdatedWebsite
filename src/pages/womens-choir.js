@@ -3,12 +3,10 @@ import { Link } from "gatsby"
 
 import BigButton from '../components/big-button'
 import Footer from '../components/footer'
-import { AudioPanel, VideoPanel } from '../components/media-panels'
+import { VideoPanel } from '../components/media-panels'
 import Navbar from "../components/navbar"
 
 import './stylesheets/ensemble-page.css'
-
-import nightSong from '../audio/night-song.mp3'
 
 const WomensChoir = () => {
     return (

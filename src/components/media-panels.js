@@ -20,7 +20,7 @@ export const VideoPanel = (props) => {
             <div className="text">
                 <h2>{props.title}</h2>
                 <h2>{props.subtitle}</h2>
-                <iframe src={props.video} className="media-player"></iframe>
+                <iframe src={props.video} className="media-player" title={props.title}></iframe>
                 <p>{props.bodytext}</p>
             </div>
         </div>

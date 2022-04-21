@@ -98,7 +98,7 @@ const StaffPanel = (props) => {
                 {props.subtitle ? <h4>{props.subtitle}</h4> : ''}
                 <p>
                     {expand ? props.body : props.body.slice(0, 220)}
-                    <span onClick={toggleExpand}>
+                    <span role="button" tabIndex={0} onClick={toggleExpand} onKeyDown={toggleExpand}>
                         {expand ? " Read Less" : "...Read More"}
                     </span>
                 </p>

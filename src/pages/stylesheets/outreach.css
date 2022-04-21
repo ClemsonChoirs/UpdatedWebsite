@@ -65,3 +65,23 @@
 #brochure-button {
     align-self: center;
 }
+
+@media only screen and (max-width: 906px) {
+    .outreach-content h2 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .outreach-media {
+        margin-right: 0;
+    }
+
+    .outreach-info {
+        flex-direction: column;
+    }
+
+    .outreach-info img {
+        width: 60vw;
+        height: 34.56vw;
+    }
+}

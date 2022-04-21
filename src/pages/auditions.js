@@ -59,17 +59,26 @@ const Auditions = () => {
 
 const FullAuditions = () => {
 
-    const [soprano, setSoprano] = useState(new Audio(sopranoFile));
+    const [soprano, setSoprano] = useState(null);
     const [sopPlaying, setSopPlaying] = useState(false);
 
-    const [alto, setAlto] = useState(new Audio(altoFile));
+    const [alto, setAlto] = useState(null);
     const [altoPlaying, setAltoPlaying] = useState(false);
 
-    const [tenor, setTenor] = useState(new Audio(sopranoFile));
+    const [tenor, setTenor] = useState(null);
     const [tenPlaying, setTenPlaying] = useState(false);
 
-    const [bass, setBass] = useState(new Audio(bassFile));
+    const [bass, setBass] = useState(null);
     const [bassPlaying, setBassPlaying] = useState(false);
+
+    useEffect(() => {
+
+        setSoprano(new Audio(sopranoFile))
+        setAlto(new Audio(altoFile))
+        setTenor(new Audio(sopranoFile))
+        setBass(new Audio(bassFile)) // only call client
+    
+    }, [])
 
     var allAudios = [soprano, alto, tenor, bass];
 
@@ -205,17 +214,17 @@ const FullAuditions = () => {
                 <div className="sheet-music">
                     <h3>My Country 'tis of Thee Sheet Music</h3>
                     <div className="music-buttons">
-                        <a href={sopranoTenorSheet} download target="_blank">
+                        <a href={sopranoTenorSheet} download target="_blank" rel="noreferrer">
                             <CustomButton label="See Soprano"/>
                         </a>
-                        <a href={altoSheet}>
-                            <CustomButton download target="_blank" label="See Alto"/>
+                        <a href={altoSheet} download target="_blank" rel="noreferrer">
+                            <CustomButton label="See Alto"/>
                         </a>
-                        <a href={sopranoTenorSheet}>
-                            <CustomButton download target="_blank" label="See Tenor"/>
+                        <a href={sopranoTenorSheet} download target="_blank" rel="noreferrer">
+                            <CustomButton label="See Tenor"/>
                         </a>
-                        <a href={bassSheet}>
-                            <CustomButton download target="_blank" label="See Bass"/>
+                        <a href={bassSheet} download target="_blank" rel="noreferrer">
+                            <CustomButton label="See Bass"/>
                         </a>
                     </div>
                 </div>
