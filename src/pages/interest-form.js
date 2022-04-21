@@ -17,7 +17,7 @@ function encode(data) {
 }
 
 const InterestForm = () => {
-  const [status, setStatus] = useState("Submit");
+  const [status, setStatus] = useState("Submitted");
 
   // const [name, setName] = useState('');
   // const [email, setEmail] = useState('');
@@ -171,13 +171,19 @@ const InterestForm = () => {
               <button type="submit"><CustomButton label="Submit Form"/></button>
 
             </form>
+            <div className="interest-foot">
+              <Footer/>
+            </div>
           </div>
           :
-          <h3>Your response has been submitted. Thank you!</h3>
-        }
-        <div className="interest-foot">
-          <Footer/>
+          <div className="filled">
+            <h3>Your response has been submitted. Thank you!</h3>
+            <div className="interest-foot">
+              <Footer/>
+            </div>
         </div>
+        }
+        
     </div>
       
         
