@@ -145,10 +145,13 @@ const FullAuditions = () => {
     }
 
     useEffect(() => {
-        allAudios[0].addEventListener('ended', () => setSopPlaying(false));
-        allAudios[1].addEventListener('ended', () => setAltoPlaying(false));
-        allAudios[2].addEventListener('ended', () => setTenPlaying(false));
-        allAudios[3].addEventListener('ended', () => setBassPlaying(false));
+        if (allAudios[0] && allAudios[1] && allAudios[2] && allAudios[3]) {
+            allAudios[0].addEventListener('ended', () => setSopPlaying(false));
+            allAudios[1].addEventListener('ended', () => setAltoPlaying(false));
+            allAudios[2].addEventListener('ended', () => setTenPlaying(false));
+            allAudios[3].addEventListener('ended', () => setBassPlaying(false));
+        }
+        
     });
 
     useEffect(() => {
