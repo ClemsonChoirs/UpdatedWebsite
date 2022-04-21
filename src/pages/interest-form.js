@@ -10,60 +10,47 @@ import './stylesheets/interest-form.css'
 
 import picLogo from '../images/background-wide.jpg'
 
+function encode(data) {
+  return Object.keys(data)
+    .map((key) => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
+    .join('&')
+}
+
 const InterestForm = () => {
   const [status, setStatus] = useState("Submit");
 
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [voicepart, setVoicePart] = useState('');
-  const [grade, setGrade] = useState('');
-  const [highschool, setHighSchool] = useState('');
-  const [foundUs, setFoundUs] = useState('');
-  const [currentmember, setCurrentMember] = useState('');
-  const [other, setOther] = useState('');
-  const [comments, setComments] = useState('');
+  // const [name, setName] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [voicepart, setVoicePart] = useState('');
+  // const [grade, setGrade] = useState('');
+  // const [highschool, setHighSchool] = useState('');
+  // const [foundUs, setFoundUs] = useState('');
+  // const [currentmember, setCurrentMember] = useState('');
+  // const [other, setOther] = useState('');
+  // const [comments, setComments] = useState('');
 
-  const handleChangeMacro = (changeValue) => (e) => changeValue(e.target.value)
+  const [state, setState] = React.useState({})
+
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value })
+  }
+
+  // const handleChangeMacro = (changeValue) => (e) => changeValue(e.target.value)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus("Sending...");
-    const { name, email, voicepart, highschool, foundUs, currentmember, other, grade, comments } = e.target.elements;
-    let details = {
-      name: name.value,
-      email: email.value,
-      voicepart: voicepart.value,
-      highschool: highschool.value,
-      foundUs: foundUs.value,
-      currentmember: currentmember.value,
-      other: other.value,
-      grade: grade.value,
-      comments: comments.value
-    };
-
-    await fetch("http://localhost:5000/contact", {
+    fetch("/", {
       method: "POST",
-      headers: {
-        "Content-Type": "application/json;charset=utf-8",
-      },
-      body: JSON.stringify(details),
-    });
-
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "Interest", ...state})
+    })
+      .then(() => alert("Success!"))
+      .catch(error => alert(error));
     setStatus("Submitted");
-
-    console.log('Submit')
   };
 
   React.useEffect (() => {
-    setName('');
-    setEmail('');
-    setHighSchool('');
-    setCurrentMember('');
-    setOther('');
-    setVoicePart('');
-    setFoundUs('');
-    setGrade('');
-    setComments('');
+    setState({});
     
   }, [status])
 
@@ -83,61 +70,62 @@ const InterestForm = () => {
         }
         
 
-        <form onSubmit={handleSubmit}>
-          <div className="form-wrapper">
+        <form onSubmit={handleSubmit} name="Interest" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="Interest" />
+          <div className="form-wrapper"> 
             <div className="form-left">
               <label htmlFor="name">Full Name: *</label>
-              <input type='p' id="name" className="text-input" value={name} onChange={handleChangeMacro(setName)}/>
+              <input type='text' id="name" className="text-input" name="Name" onChange={handleChange}/>
 
               <label htmlFor="email">Email: *</label>
               <label htmlFor="email2" id="sublabel">(Preferably clemson.edu address)</label>
-              <input type="text" id="email" className="text-input" value={email} onChange={handleChangeMacro(setEmail)}/>
+              <input type="text" id="email" className="text-input" name="Email" onChange={handleChange}/>
 
               <label htmlFor="voice-part">Voice Part: *</label>
                 <div className="voice-part">
-                  <input type="radio" id="voicepart" name="voicepart" value="Soprano" checked={voicepart === 'Soprano'} onChange={handleChangeMacro(setVoicePart)}/>
+                  <input type="radio" id="voicepart" name="voicepart" value="Soprano" onChange={handleChange}/>
                   <p>Soprano</p>
                 </div>
                 <div className="voice-part">
-                  <input type="radio" id="voicepart" name="voicepart" value="Alto" checked={voicepart === 'Alto'} onChange={handleChangeMacro(setVoicePart)}/>
+                  <input type="radio" id="voicepart" name="voicepart" value="Alto" onChange={handleChange}/>
                   <p>Alto</p>
                 </div>
                 <div className="voice-part">
-                  <input type="radio" id="voicepart" name="voicepart" value="Tenor" checked={voicepart === 'Tenor'} onChange={handleChangeMacro(setVoicePart)}/>
+                  <input type="radio" id="voicepart" name="voicepart" value="Tenor" onChange={handleChange}/>
                   <p>Tenor</p>
                 </div>
                 <div className="voice-part">
-                  <input type="radio" id="voicepart" name="voicepart" value="Bass" checked={voicepart === 'Bass'} onChange={handleChangeMacro(setVoicePart)}/>
+                  <input type="radio" id="voicepart" name="voicepart" value="Bass" onChange={handleChange}/>
                   <p>Bass</p>
                 </div>
                 <div className="voice-part">
-                  <input type="radio" id="voicepart" name="voicepart" value="Not sure" checked={voicepart === 'Not sure'} onChange={handleChangeMacro(setVoicePart)}/>
+                  <input type="radio" id="voicepart" name="voicepart" value="Not sure" onChange={handleChange}/>
                   <p>Not sure</p>
                 </div>
 
                 <label htmlFor="class-standing" id="grade-label">Class Standing: *</label>
                 <div className="grade">
-                  <input type="radio" id="grade" name="grade" value="High School" checked={grade === 'High School'} onChange={handleChangeMacro(setGrade)}/>
+                  <input type="radio" id="grade" name="grade" value="High School" onChange={handleChange}/>
                   <p>High School</p>
                 </div>
                 <div className="grade">
-                  <input type="radio" id="grade" name="grade" value="Freshman" checked={grade === 'Freshman'} onChange={handleChangeMacro(setGrade)}/>
+                  <input type="radio" id="grade" name="grade" value="Freshman" onChange={handleChange}/>
                   <p>Freshman</p>
                 </div>
                 <div className="grade">
-                  <input type="radio" id="grade" name="grade" value="Sophomore" checked={grade === 'Sophomore'} onChange={handleChangeMacro(setGrade)}/>
+                  <input type="radio" id="grade" name="grade" value="Sophomore" onChange={handleChange}/>
                   <p>Sophomore</p>
                 </div>
                 <div className="grade">
-                  <input type="radio" id="grade" name="grade" value="Junior" checked={grade === 'Junior'} onChange={handleChangeMacro(setGrade)}/>
+                  <input type="radio" id="grade" name="grade" value="Junior" onChange={handleChange}/>
                   <p>Junior</p>
                 </div>
                 <div className="grade">
-                <input type="radio" id="grade" name="grade" value="Senior" checked={grade === 'Senior'} onChange={handleChangeMacro(setGrade)}/>
+                <input type="radio" id="grade" name="grade" value="Senior" onChange={handleChange}/>
                   <p>Senior</p>
                 </div>
                 <div className="grade">
-                  <input type="radio" id="grade" name="grade" value="Graduate" checked={grade === 'Graduate'} onChange={handleChangeMacro(setGrade)}/>
+                  <input type="radio" id="grade" name="grade" value="Graduate" onChange={handleChange}/>
                   <p>Graduate</p>
                 </div>
             </div>
@@ -145,46 +133,46 @@ const InterestForm = () => {
             <div className="form-right">
               <label htmlFor="high-school" id="highschool-label">If you participated in choir in high school, what high school did you attend?</label>
               
-              <input type="text" id="highschool" className="text-input" value={highschool} onChange={handleChangeMacro(setHighSchool)}/>
+              <input type="text" id="highschool" className="text-input" name="highschool" onChange={handleChange}/>
                 
               <label htmlFor="foundUs" id="how-hear-label">How did you hear about us?</label>
 
               <div className="how-hear">
-                <input type="radio" id="foundUs" name="foundUs" value="Socials" checked={foundUs === 'Socials'} onChange={handleChangeMacro(setFoundUs)}/>
+                <input type="radio" id="foundUs" name="foundUs" value="Socials" onChange={handleChange}/>
                 <p>Social Media</p>
               </div>
 
               <div className="how-hear">
-                <input type="radio" id="foundUs" name="foundUs" value="Current Member: " checked={foundUs === 'Current Member: '} onChange={handleChangeMacro(setFoundUs)}/>
+                <input type="radio" id="foundUs" name="foundUs" value="Current Member: " onChange={handleChange}/>
                 <p>Current Member:</p>
-                <input type="text" id="currentmember" className="specify" placeholder="What is the member's name?" value={currentmember} onChange={handleChangeMacro(setCurrentMember)}/>
+                <input type="text" id="currentmember" className="specify" placeholder="What is the member's name?" name="currentmember" onChange={handleChange}/>
               </div>
 
               <div className="how-hear">
-                <input type="radio" id="foundUs" name="foundUs" value="Email" checked={foundUs === 'Email'} onChange={handleChangeMacro(setFoundUs)}/>
+                <input type="radio" id="foundUs" name="foundUs" value="Email" onChange={handleChange}/>
                 <p>Received an Email from us</p>
               </div>
 
               <div className="how-hear">
-                <input type="radio" id="foundUs" name="foundUs" value="Letter" checked={foundUs === 'Letter'} onChange={handleChangeMacro(setFoundUs)}/>
+                <input type="radio" id="foundUs" name="foundUs" value="Letter" onChange={handleChange}/>
                 <p>Received a Letter from us</p>
               </div>
 
               <div className="how-hear">
-                <input type="radio" id="foundUs" name="foundUs" value="Advisor" checked={foundUs === 'Advisor'} onChange={handleChangeMacro(setFoundUs)}/>
+                <input type="radio" id="foundUs" name="foundUs" value="Advisor" onChange={handleChange}/>
                 <p>Academic Advisor</p>
               </div>
 
               <div className="how-hear">
-                <input type="radio" id="foundUs" name="foundUs" value="Other: " checked={foundUs === 'Other: '} onChange={handleChangeMacro(setFoundUs)}/>
+                <input type="radio" id="foundUs" name="foundUs" value="Other: " onChange={handleChange}/>
                 <p>Other:</p>
-                <input type="text" className="specify" id="other" placeholder="Please specify" value={other} onChange={handleChangeMacro(setOther)}/>
+                <input type="text" className="specify" id="other" placeholder="Please specify" name="other" onChange={handleChange}/>
               </div>
                 
 
               <label htmlFor="comments" id="comments-label">Is there anything you'd like us to know?</label>
 
-              <textarea value={comments} id="comments" onChange={handleChangeMacro(setComments)}/>
+              <textarea id="comments" name="comments" onChange={handleChange}/>
             </div>  
           </div>
 
