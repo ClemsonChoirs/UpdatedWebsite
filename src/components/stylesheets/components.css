@@ -354,7 +354,7 @@ nav .pages li a:hover {
     }
 
     .logo {
-        /* padding: 0 20px; */
+        padding: 0 10px;
     }
 
     .dropdown-button {
@@ -365,6 +365,7 @@ nav .pages li a:hover {
         transition-duration: 0.5s;
         transform-origin: center;
         margin: 0;
+        padding: 0;
     }
 
     .dropdown-button-active {
@@ -376,6 +377,7 @@ nav .pages li a:hover {
         font-size: 35px;
         transition-duration: 0.5s;
         margin: 0;
+        padding: 0;
     }
 
     .dropdown-hidden {
