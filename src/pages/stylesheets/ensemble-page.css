@@ -1,6 +1,6 @@
 .ensemble-wrapper {
     background-color: var(--almost-white);
-    height: 86vh;
+    height: 86%;
     overflow-x: hidden;
     /* overflow-y: scroll; */
     display: flex;
@@ -9,7 +9,7 @@
 }
 
 .ensemble-subwrapper {
-    height: 82.5vh;
+    height: 86%;
     overflow-x: hidden;
     overflow-y: scroll;
     display: flex;

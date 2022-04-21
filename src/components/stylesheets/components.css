@@ -375,7 +375,7 @@ nav .pages li a:hover {
         color: white;
         font-size: 35px;
         transition-duration: 0.5s;
-        margin: 0 20px;
+        /* margin: 0 20px; */
     }
 
     .dropdown-hidden {

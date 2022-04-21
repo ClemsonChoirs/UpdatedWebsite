@@ -1,6 +1,6 @@
 .outreach-wrapper {
     background-color: var(--almost-white);
-    height: 92vh;
+    height: 92%;
     overflow: scroll;
     display: flex;
     flex-direction: column;

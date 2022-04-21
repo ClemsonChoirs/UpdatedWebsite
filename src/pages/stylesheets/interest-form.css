@@ -1,6 +1,6 @@
 .interest-wrapper {
     background-color: var(--almost-white);
-    height: 92vh;
+    height: 92%;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ form {
 .form-wrapper {
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 80%;
     margin-bottom: 30px;
 }
 
@@ -99,7 +99,7 @@ form .text-input {
     margin-top: 15px;
     padding: 5px;
     width: 90%;
-    height: 10vh;
+    height: 10%;
 }
 
 form button {
