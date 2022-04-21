@@ -7,9 +7,10 @@
 }
 
 body {
-    background-color: var(--almost-white);
+    background-color: var(--diploma);
     font-family: trade-gothic-next, sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: -webkit-fill-available;
     width: 100vw;
     overflow: hidden;
     padding-bottom: env(safe-area-inset-bottom);
@@ -31,6 +32,7 @@ h2 {
 }
 
 .wrapper {
+    background-color: var(--almost-white);
     height: 92vh;
     width: 100vw;
     overflow-x: hidden;

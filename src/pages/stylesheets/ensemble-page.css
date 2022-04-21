@@ -1,4 +1,5 @@
 .ensemble-wrapper {
+    background-color: var(--almost-white);
     height: 86vh;
     overflow-x: hidden;
     /* overflow-y: scroll; */

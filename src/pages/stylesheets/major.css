@@ -1,4 +1,5 @@
 .major-wrapper {
+    background-color: var(--almost-white);
     height: 92vh;
     width: 100%;
     overflow-x: hidden;
