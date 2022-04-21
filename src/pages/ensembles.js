@@ -5,12 +5,15 @@ import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 import SmallEnsemblePanel from '../components/small-ensemble-panel'
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/ensembles.css'
 
 
 const Ensembles = () => {
     return (
-        <>
+        <Div100vh>
+
         <div className="navbar">
             <Navbar/>
         </div>
@@ -32,7 +35,7 @@ const Ensembles = () => {
         </div>
 
         
-        </>
+        </Div100vh>
     )
 }
 

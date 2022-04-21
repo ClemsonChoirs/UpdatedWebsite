@@ -5,6 +5,8 @@ import Footer from '../components/footer'
 import { InfoPanel } from '../components/media-panels'
 import Navbar from "../components/navbar"
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/major.css'
 
 import caroline from '../images/caroline-ritchie-stahl.jpg'
@@ -12,7 +14,8 @@ import whitney from '../images/whitney-davis.jpg'
 
 const Major = () => {
     return (
-        <>
+        <Div100vh>
+
         <div class="navbar">
             <Navbar/>
         </div>
@@ -67,7 +70,7 @@ const Major = () => {
         </div>
 
         
-        </>
+        </Div100vh>
     )
 }
 

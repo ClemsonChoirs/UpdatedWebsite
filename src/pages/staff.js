@@ -3,7 +3,10 @@ import { useState } from 'react'
 import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/staff.css'
+
 import DrB from '../images/dr-b.jpg'
 import odom from '../images/odom.jpg'
 import doyel from '../images/doyel.jpg'
@@ -13,7 +16,8 @@ import grace from '../images/grace.jpg'
 
 const Staff = () => {
     return (
-        <>
+        <Div100vh>
+
         <div class="navbar">
             <Navbar/>
         </div>
@@ -75,7 +79,7 @@ const Staff = () => {
             </div>
 
         </div>
-        </>
+        </Div100vh>
     )
 }
 

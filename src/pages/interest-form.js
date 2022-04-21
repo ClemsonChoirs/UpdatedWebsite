@@ -4,6 +4,8 @@ import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/interest-form.css'
 
 import picLogo from '../images/background-wide.jpg'
@@ -66,7 +68,7 @@ const InterestForm = () => {
   }, [status])
 
     return (
-      <>
+      <Div100vh>
       <div className="navbar">
         <Navbar/>
       </div>
@@ -196,7 +198,7 @@ const InterestForm = () => {
     </div>
       
         
-    </>
+    </Div100vh>
   )
 }
 

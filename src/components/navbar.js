@@ -83,22 +83,22 @@ const Navbar = () => {
                 
             </div>
             <ul className={dropdown ? "dropdown-active" : "dropdown-hidden"}>
-                    <li><Link to={'../'}>Home</Link></li>
+                    <li><Link to={'../'} onClick={setShowDropdown}>Home</Link></li>
 
                     <hr className="solid"></hr>
-                    <li><Link to={'../ensembles'}>Ensembles</Link></li>
+                    <li><Link to={'../ensembles'} onClick={setShowDropdown}>Ensembles</Link></li>
 
                     <hr className="solid"></hr>
-                    <li><Link to={'../auditions'}>Join a Choir</Link></li>
+                    <li><Link to={'../auditions'} onClick={setShowDropdown}>Join a Choir</Link></li>
 
                     <hr className="solid"></hr>
-                    <li><Link to={'../major'}>Major</Link></li>
+                    <li><Link to={'../major'} onClick={setShowDropdown}>Major</Link></li>
 
                     <hr className="solid"></hr>
-                    <li><Link to={'../staff'}>Staff</Link></li>
+                    <li><Link to={'../staff'} onClick={setShowDropdown}>Staff</Link></li>
 
                     <hr className="solid"></hr>
-                    <li><Link to={'../outreach'}>Outreach Programs</Link></li>
+                    <li><Link to={'../outreach'} onClick={setShowDropdown}>Outreach Programs</Link></li>
                 </ul>
 
             <nav>

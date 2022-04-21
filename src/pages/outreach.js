@@ -4,6 +4,8 @@ import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/outreach.css'
 
 import choralarts from '../images/choralarts.jpg'
@@ -16,7 +18,8 @@ import triartBrochure from '../images/tri-art-choral-clinic.pdf'
 
 const Outreach = () => {
     return (
-        <>
+        <Div100vh>
+
         <div class="navbar">
             <Navbar/>
         </div>
@@ -93,7 +96,7 @@ const Outreach = () => {
         </div>
 
         
-        </>
+        </Div100vh>
     )
 }
 

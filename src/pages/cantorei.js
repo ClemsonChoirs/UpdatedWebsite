@@ -6,13 +6,16 @@ import Footer from '../components/footer'
 import { AudioPanel, VideoPanel } from '../components/media-panels'
 import Navbar from "../components/navbar"
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/ensemble-page.css'
 
 import nightSong from '../audio/night-song.mp3'
 
 const Cantorei = () => {
     return (
-        <>
+        <Div100vh>
+
          <div class="navbar">
             <Navbar/>
         </div>
@@ -47,7 +50,7 @@ const Cantorei = () => {
         <div className="ensemble-foot">
                 <Footer/>
             </div>
-        </>
+    </Div100vh>
     )
 }
 

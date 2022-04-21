@@ -6,6 +6,8 @@ import CustomButton from '../components/custom-button'
 import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/auditions.css'
 
 import sopranoFile from '../audio/soprano-and-tenor.mp3'
@@ -18,7 +20,7 @@ import bassSheet from "../images/bass-key.pdf"
 
 const Auditions = () => {
     return (
-        <>
+        <Div100vh>
         <div class="navbar">
             <Navbar/>
         </div>
@@ -53,7 +55,7 @@ const Auditions = () => {
         </div>
 
        
-        </>
+        </Div100vh>
     )
 }
 
@@ -159,7 +161,7 @@ const FullAuditions = () => {
     });
 
     return (
-        <>
+        <Div100vh>
         <div class="navbar">
             <Navbar/>
         </div>
@@ -266,7 +268,7 @@ const FullAuditions = () => {
         </div>
 
        
-        </>
+        </Div100vh>
     )
 }
 

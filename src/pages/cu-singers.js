@@ -6,11 +6,14 @@ import Footer from '../components/footer'
 import { VideoPanel } from '../components/media-panels'
 import Navbar from "../components/navbar"
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/ensemble-page.css'
 
 const Singers = () => {
     return (
-        <>
+        <Div100vh>
+
          <div class="navbar">
             <Navbar/>
         </div>
@@ -47,7 +50,7 @@ const Singers = () => {
         <div className="ensemble-foot" id="singers-foot">
                 <Footer/>
             </div>
-        </>
+        </Div100vh>
     )
 }
 
