@@ -25,6 +25,7 @@
     "netlify-cms-app": "^2.15.67",
     "nodemailer": "^6.7.3",
     "react": "^17.0.1",
+    "react-div-100vh": "^0.7.0",
     "react-dom": "^17.0.1"
   }
 }

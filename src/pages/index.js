@@ -9,6 +9,8 @@ import Footer from '../components/footer'
 import Navbar from "../components/navbar"
 import SmallEnsemblePanel from '../components/small-ensemble-panel'
 
+import Div100vh from 'react-div-100vh'
+
 import './stylesheets/index.css'
 
 import picLogo from '../images/background-wide.jpg'
@@ -16,7 +18,7 @@ import picLogo from '../images/background-wide.jpg'
 
 const IndexPage = () => {
   return (
-    <>
+    <Div100vh>
     <div className="navbar">
       <Navbar/>
     </div>
@@ -82,7 +84,7 @@ const IndexPage = () => {
     </div>
       
         
-    </>
+    </Div100vh>
   )
 }
 
