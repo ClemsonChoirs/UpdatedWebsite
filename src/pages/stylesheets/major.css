@@ -147,7 +147,9 @@
     }
 
     .major-stories .story-content {
-        display: inline;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         padding: 0;
     }
 
@@ -156,10 +158,10 @@
     }
 
     .major-stories .story-content img {
-        width: 50%;
+        width: 80%;
         height: auto;
         margin-bottom: 10px;
-        float: left;
+        /* float: left; */
     }
 
 }

@@ -22,6 +22,7 @@ const Staff = () => {
             <Navbar/>
         </div>
         <div className="staff-wrapper">
+            <div className="staff-subwrapper">
             <div className="staff-header">
                 <h1>{'Faculty & Staff'}</h1>
             </div>
@@ -72,6 +73,7 @@ const Staff = () => {
 
                         />
                     </div>
+                </div>
                 </div>
             
             <div className="staff-foot">

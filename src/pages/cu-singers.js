@@ -43,13 +43,13 @@ const Singers = () => {
                 </div>
             </div>
 
-            
+            <div className="ensemble-foot" id="singers-foot">
+                <Footer/>
+            </div>
 
         </div>
 
-        <div className="ensemble-foot" id="singers-foot">
-                <Footer/>
-            </div>
+        
         </Div100vh>
     )
 }

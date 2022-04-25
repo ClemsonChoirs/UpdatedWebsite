@@ -5,9 +5,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
-.staff-wrapper h1 {
+.staff-header h1 {
     font-family: turbinado-pro, sans-serif;
     color: var(--campus-brick);
     font-weight: 300;
@@ -22,8 +23,14 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 9%;
     width: 100vw;
+    margin: 10px 0;
+}
+
+.staff-subwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .staff-container {

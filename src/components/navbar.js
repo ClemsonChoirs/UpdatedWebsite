@@ -42,7 +42,7 @@ const Navbar = () => {
         showDropdown(!dropdown);
     }
 
-    const [join, showJoin] = useState(true);
+    const [join, showJoin] = useState(false);
     const [hoverOnJoin, setHoverOnJoin] = useState(false);
     const [hoverOnAuditions, setHoverOnAuditions] = useState(false);
 

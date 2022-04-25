@@ -1,20 +1,24 @@
-.ensemble-wrapper {
-    background-color: var(--almost-white);
-    height: 86%;
-    overflow-x: hidden;
-    /* overflow-y: scroll; */
+#div100 {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
 }
 
-.ensemble-subwrapper {
-    height: 86%;
+.ensemble-wrapper {
+    background-color: var(--almost-white);
+    height: 92%;
     overflow-x: hidden;
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+}
+
+.ensemble-subwrapper {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .cantorei-feature {
@@ -75,10 +79,11 @@
 
 .ensemble-content {
     display: flex;
-    /* margin: 10px; */
     padding: 0 10vw;
+    margin: 0;
     max-width: 1200px;
     padding-bottom: 60px;
+    align-self: center;
 }
 
 .ensemble-left {
@@ -111,8 +116,7 @@
 }
 
 .ensemble-foot {
-    position: sticky;
-    bottom: 0;
+    width: 100vw;
 }
 
 @media only screen and (max-width: 906px) {

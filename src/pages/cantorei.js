@@ -43,13 +43,13 @@ const Cantorei = () => {
                 </div>
             </div>
 
-            
+            <div className="ensemble-foot">
+                <Footer/>
+            </div>
 
         </div>
 
-        <div className="ensemble-foot">
-                <Footer/>
-            </div>
+        
     </Div100vh>
     )
 }
