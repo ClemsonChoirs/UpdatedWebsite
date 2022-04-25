@@ -11,6 +11,11 @@ header {
     z-index: 1;
 }
 
+.reduced-nav a {
+    height: 8vh;
+    min-height: 81px;
+}
+
 .logo {
     height: 8vh;
     min-height: 81px;

@@ -76,7 +76,7 @@ const Navbar = () => {
         <>
         <header>
             <div className="reduced-nav">
-                <img src={logo} className="logo" alt="Clemson Choirs logo"/>
+                <Link to={"../"}><img src={logo} className="logo" alt="Clemson Choirs logo"/></Link>
                 <button className={dropdown ? "dropdown-button-active" : "dropdown-button"}>
                    <FontAwesomeIcon icon={faCaretDown} onClick={setShowDropdown}/> 
                 </button>
@@ -102,7 +102,7 @@ const Navbar = () => {
                 </ul>
 
             <nav>
-                <img src={logo} className="logo" alt="Clemson Choirs logo"/>
+                <Link to={"../"}><img src={logo} className="logo" alt="Clemson Choirs logo"/></Link>
                 
                 <ul className="pages">
                     <li><Link to={'../'}>Home</Link></li>
