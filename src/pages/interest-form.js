@@ -17,7 +17,7 @@ function encode(data) {
 }
 
 const InterestForm = () => {
-  const [status, setStatus] = useState("Submitted");
+  const [status, setStatus] = useState("Submit");
 
   // const [name, setName] = useState('');
   // const [email, setEmail] = useState('');
