@@ -431,6 +431,10 @@ nav .pages li a:hover {
         background-color: var(--campus-brick);
     }
 
+    .custom-button {
+        border-width: 2.5px;
+    }
+
     .footer-wrapper {
         flex-direction: column;
         align-items: center;
