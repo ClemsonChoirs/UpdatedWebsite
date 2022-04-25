@@ -285,4 +285,8 @@
         margin: 10px 0;
     }
 
+    .audio-button {
+        border-width: 2.5px;
+    }
+
 }
