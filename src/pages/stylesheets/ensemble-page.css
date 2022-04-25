@@ -1,9 +1,3 @@
-#div100 {
-    display: flex;
-    flex-direction: column;
-    
-}
-
 .ensemble-wrapper {
     background-color: var(--almost-white);
     height: 92%;

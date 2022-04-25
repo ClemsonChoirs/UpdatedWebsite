@@ -271,6 +271,8 @@ nav .pages li a:hover {
 
 .media-panel .text {
     padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .media-panel .text h2 {
@@ -294,6 +296,7 @@ nav .pages li a:hover {
 .media-panel .media-player {
     padding: 15px 0;
     border-style: none;
+    align-self: center;
 }
 
 .small-ensemble {
