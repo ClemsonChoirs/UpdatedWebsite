@@ -12,7 +12,7 @@ import './stylesheets/ensemble-page.css'
 
 const MensChoir = () => {
     return (
-    <Div100vh id="div100">
+    <Div100vh>
          <div class="navbar">
             <Navbar/>
         </div>
