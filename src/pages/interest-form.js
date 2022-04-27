@@ -136,7 +136,7 @@ const InterestForm = () => {
 
                   <div className="how-hear">
                     <input type="radio" id="foundUs" name="foundUs" value="Current Member: " onChange={handleChange}/>
-                    <p>Current Member:</p>
+                    <p id="current-member-label">Current Member:</p>
                     <input type="text" id="currentmember" className="specify" placeholder="What is the member's name?" name="Current member" onChange={handleChange}/>
                   </div>
 

@@ -38,24 +38,25 @@ form {
 .form-wrapper {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 60vw;
     margin-bottom: 30px;
+    justify-content: space-evenly;
 }
 
 .form-left, .form-right {
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 45%;
 }
 
-.form-left {
+/* .form-left {
     margin-left: 5vw;
 }
 
 .form-right {
     margin-right: 4vw;
     margin-left: 1vw;
-}
+} */
 
 form label {
     color: var(--campus-brick);
@@ -71,7 +72,7 @@ form #sublabel {
 form .text-input {
     margin: 15px 0;
     padding: 5px;
-    width: 90%;
+    width: 95%;
 }
 
 .voice-part, .how-hear, .grade {
@@ -95,6 +96,10 @@ form .text-input {
     margin-top: 15px;
 }
 
+#current-member-label {
+    min-width: 135px;
+}
+
 .how-hear .specify {
     margin-left: 5px;
     width: 15vw;
@@ -104,7 +109,7 @@ form .text-input {
 .form-right textarea {
     margin-top: 15px;
     padding: 5px;
-    width: 90%;
+    width: 95%;
     height: 10%;
 }
 
