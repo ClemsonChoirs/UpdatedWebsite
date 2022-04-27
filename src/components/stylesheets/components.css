@@ -249,6 +249,11 @@ nav .pages li a:hover {
     justify-content: space-between;
 }
 
+.footer-wrapper .socials a {
+    color: white;
+    font-size: 35px;
+}
+
 .footer-wrapper .socials img {
     height: 30px;
     width: auto;
