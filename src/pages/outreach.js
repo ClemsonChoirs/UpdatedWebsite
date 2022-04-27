@@ -34,7 +34,7 @@ const Outreach = () => {
                 <div className="outreach-info">
                     <div className="outreach-media">
                         <img src={choralarts} alt="Graphic for the Clemson Choral Arts Exchange"/>
-                        <a href={choralartsBrochure} download target="_blank">
+                        <a href={choralartsBrochure} download target="_blank" rel="noreferrer">
                             <BigButton label="Download Brochure" id="brochure-button"/>
                         </a>
                     </div>                    
@@ -60,14 +60,15 @@ const Outreach = () => {
                 <div className="outreach-info">
                     <div className="outreach-media">
                         <img src={institute} alt="Graphic for the Clemson Vocal Institute"/>
-                        <a href={instituteBrochure} download target="_blank">
+                        <a href={instituteBrochure} download target="_blank" rel="noreferrer">
                             <BigButton label="Download Brochure" id="brochure-button"/>
                         </a>
                         
                     </div>      
                     <div className="outreach-text">
                         <p>This program is open to all rising 9th- 12th grade students. At the Clemson Vocal Institute, you will grow as a singer while participating in an exciting choral experience and having the unique opportunity to study solo vocal performance in a masterclass setting. Come prepare yourself for future auditions, enjoy a college level musical experience at the Brooks Center for the Performing Arts, and meet other students with the same passions as you!</p>
-                        <p>Check back soon for Summer 2022 dates!</p>
+                        <p>Summer 2022 Dates: July 18 – 22</p>
+                        <p>See more information on Summer Scholars and register <a href="https://www.clemson.edu/summer/summer-scholars/index.html" target="_blank" rel="noreferrer">here</a>.</p>
                     </div>
                     
                 </div>
@@ -78,7 +79,7 @@ const Outreach = () => {
                 <div className="outreach-info">
                     <div className="outreach-media">
                         <img src={triart} alt="Graphic for the Clemson Tri-ART and Choral Clinic"/>
-                        <a href={triartBrochure} download target="_blank">
+                        <a href={triartBrochure} download target="_blank" rel="noreferrer">
                             <BigButton label="Download Brochure" id="brochure-button"/>
                         </a>
                         

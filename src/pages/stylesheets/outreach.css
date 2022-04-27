@@ -63,6 +63,10 @@
     color: var(--diploma);
 }
 
+.outreach-text p a {
+    color: var(--campus-brick);
+}
+
 #brochure-button {
     align-self: center;
 }

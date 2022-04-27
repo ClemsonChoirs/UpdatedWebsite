@@ -10,7 +10,7 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/ensemble-page.css'
 
-import nightSong from '../audio/night-song.mp3'
+import featuredAudio from '../audio/my-spirit-sang.mp3'
 
 const Cantorei = () => {
     return (
@@ -38,8 +38,8 @@ const Cantorei = () => {
                     
                 </div>
                 <div className="ensemble-right">
-                    <AudioPanel title={"Evening Gale Mvt. 1,"} subtitle={"“Night Song”"} audio={nightSong} bodytext="“Night Song” is the first movement in a three movement piece titled “Evening Gale” by Dr. Anthony Bernarducci. “Evening Gale” was premiered by Cantorei in the fall of 2019."/>
-                    <VideoPanel title={"“Gloria” from the Missa Brevis San Francesco d’Assisi"} subtitle={""} video={"https://www.youtube.com/embed/fGec1KIPtCI"} bodytext="Gloria is the second movement of Anthony Bernarducci’s Missa Brevis San Francesco d’Assisi, performed by Clemson Cantorei in October of 2021."/>
+                    <AudioPanel title={"My Spirit Sang All Day"} audio={featuredAudio} bodytext="Listen to “My Spirit Sang All Day” by Gerald Finzi, performed by Cantorei at their Fall Concert in 2021."/>
+                    <VideoPanel title={"“Gloria” from the Missa Brevis San Francesco d’Assisi"} subtitle={""} video={"https://www.youtube.com/embed/fGec1KIPtCI"} bodytext="“Gloria” is the second movement of Anthony Bernarducci’s Missa Brevis San Francesco d’Assisi, performed by Clemson Cantorei in October of 2021."/>
                 </div>
             </div>
 
