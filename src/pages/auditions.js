@@ -213,7 +213,7 @@ const FullAuditions = () => {
                         subtitle="Fill Out Your Form"
                         bodytext="Copy the link to your video and paste it in the last field, after answering some questions about your past choir/singing experience."
                         btnlabel="Audition Form"
-                        link="#"
+                        link="https://docs.google.com/forms/d/e/1FAIpQLSc7BHT8F-D5c35ByvFm_dyq2pORIQVWZ38I5nUHkCkr29Uj8A/viewform?usp=sf_link"
                     />
                 </div>
                 <div className="sheet-music">
@@ -256,7 +256,7 @@ const FullAuditions = () => {
                         <AuditionPanel 
                             steps={false}
                             title="CU Singers"
-                            bodytext="If you are auditioning only for CU Singers, in the days following the initial submission deadline with a link to sign up for a day to sight-read. On these days, at 11:00 am, a short sight-reading example will be emailed to you, and you will have exactly 2 hours to record a video of yourself singing the example a capella, post it to YouTube as Unlisted, and submit the link to a form that will be included in the email, along with more detailed instructions."
+                            bodytext="If you are auditioning only for CU Singers, in the days following the initial submission deadline with a link to sign up for a day to sight-read. On these days, August 12th and 13th, at 11:00 am, a short sight-reading example will be emailed to you, and you will have exactly 2 hours to record a video of yourself singing the example a capella, post it to YouTube or Google Drive, and submit the link to a form that will be included in the email, along with more detailed instructions. If you have a conflict with either of these times, please let Dr. Bernarducci know as soon as possible."
                         />
                     </div>
                 </div>
