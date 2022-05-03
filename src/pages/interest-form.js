@@ -19,23 +19,11 @@ function encode(data) {
 const InterestForm = () => {
   const [status, setStatus] = useState("Submit");
 
-  // const [name, setName] = useState('');
-  // const [email, setEmail] = useState('');
-  // const [voicepart, setVoicePart] = useState('');
-  // const [grade, setGrade] = useState('');
-  // const [highschool, setHighSchool] = useState('');
-  // const [foundUs, setFoundUs] = useState('');
-  // const [currentmember, setCurrentMember] = useState('');
-  // const [other, setOther] = useState('');
-  // const [comments, setComments] = useState('');
-
   const [state, setState] = React.useState({})
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value })
   }
-
-  // const handleChangeMacro = (changeValue) => (e) => changeValue(e.target.value)
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -98,7 +86,7 @@ const InterestForm = () => {
                     <label htmlFor="class-standing" id="grade-label">Class Standing: *</label>
                     <div className="grade">
                       <input type="radio" id="grade" name="grade" value="High School" onChange={handleChange}/>
-                      <p>High School</p>
+                      <p>I'm in High School</p>
                     </div>
                     <div className="grade">
                       <input type="radio" id="grade" name="grade" value="Freshman" onChange={handleChange}/>
@@ -118,7 +106,7 @@ const InterestForm = () => {
                     </div>
                     <div className="grade">
                       <input type="radio" id="grade" name="grade" value="Graduate" onChange={handleChange}/>
-                      <p>Graduate</p>
+                      <p>I'm a Graduate Student</p>
                     </div>
                 </div>
                     

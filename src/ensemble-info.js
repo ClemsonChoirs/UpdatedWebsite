@@ -1,6 +1,6 @@
 import cantorei from './images/cantorei.jpg'
 import singers from './images/singers2.jpg'
-import mens from './images/mens.jpg'
+import mens from './images/mens3.jpg'
 import womens from './images/womens.jpg'
 import tigeroar from './images/tigeroar.jpg'
 import takenote from './images/takenote.jpg'

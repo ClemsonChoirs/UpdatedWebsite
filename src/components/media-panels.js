@@ -34,7 +34,7 @@ export const InfoPanel = (props) => {
                 <h2>{props.title}</h2>
                 <p>{props.bodytext}<a href="mailto:bernar5@clemson.edu">bernar5@clemson.edu</a>.</p>
                 <br/>
-                <p>{props.bodytext2}<a href="https://www.clemson.edu/caah/academics/performing-arts/index.html">here</a>.</p>
+                <p>{props.bodytext2}<a href="https://www.clemson.edu/caah/academics/performing-arts/index.html" target="_blank" rel="noreferrer">here</a>.</p>
             </div>
         </div>
     )
