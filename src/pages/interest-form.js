@@ -32,13 +32,13 @@ const InterestForm = () => {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "Interest", ...state})
     })
-      .then(() => alert("Success!"))
       .catch(error => alert(error));
     setStatus("Submitted");
   };
 
     return (
       <Div100vh>
+        <title>Interest Form - Clemson University Choirs</title>
       <div className="navbar">
         <Navbar/>
       </div>

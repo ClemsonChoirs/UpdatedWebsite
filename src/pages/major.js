@@ -15,7 +15,7 @@ import whitney from '../images/whitney-davis.jpg'
 const Major = () => {
     return (
         <Div100vh>
-
+            <title>Voice Major - Clemson University Choirs</title>
         <div class="navbar">
             <Navbar/>
         </div>

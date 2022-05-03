@@ -16,8 +16,8 @@ import featuredAudio from '../audio/daemon.wav'
 const Singers = () => {
     return (
         <Div100vh>
-
-         <div class="navbar">
+        <title>CU Singers - Clemson University Choirs</title>
+        <div class="navbar">
             <Navbar/>
         </div>
 

@@ -22,11 +22,14 @@
     "cors": "^2.8.5",
     "express": "^4.17.3",
     "gatsby": "^4.9.0",
+    "gatsby-plugin-manifest": "^4.13.0",
     "gatsby-plugin-netlify-cms": "^6.9.0",
+    "gatsby-plugin-react-helmet": "^5.13.0",
     "netlify-cms-app": "^2.15.67",
     "nodemailer": "^6.7.3",
     "react": "^17.0.1",
     "react-div-100vh": "^0.7.0",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
   }
 }

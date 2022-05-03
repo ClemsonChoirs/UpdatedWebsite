@@ -13,6 +13,7 @@ import './stylesheets/ensemble-page.css'
 const MensChoir = () => {
     return (
     <Div100vh>
+        <title>Men's Choir - Clemson University Choirs</title>
          <div class="navbar">
             <Navbar/>
         </div>

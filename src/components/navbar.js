@@ -92,7 +92,7 @@ const Navbar = () => {
                     <li><Link to={'../auditions'} onClick={setShowDropdown}>Join a Choir</Link></li>
 
                     <hr className="solid"></hr>
-                    <li><Link to={'../major'} onClick={setShowDropdown}>Major</Link></li>
+                    <li><Link to={'../major'} onClick={setShowDropdown}>Vocal Arts Major</Link></li>
 
                     <hr className="solid"></hr>
                     <li><Link to={'../staff'} onClick={setShowDropdown}>Staff</Link></li>
@@ -108,7 +108,7 @@ const Navbar = () => {
                     <li><Link to={'../'}>Home</Link></li>
                     <li><Link to={'../ensembles'} onMouseEnter={ensemblesHover} onMouseLeave={ensemblesUnhover} className={ensembles ? "active" : ""}>Ensembles</Link></li>
                     <li><Link to={'../auditions'} onMouseEnter={joinHover} onMouseLeave={joinUnhover} className={join ? "active" : ""}>Join a Choir</Link></li>
-                    <li><Link to={'../major'}>Major</Link></li>
+                    <li><Link to={'../major'}>Vocal Arts Major</Link></li>
                     <li><Link to={'../staff'}>Staff</Link></li>
                     <li><Link to={'../outreach'}>Outreach Programs</Link></li>
                 </ul>

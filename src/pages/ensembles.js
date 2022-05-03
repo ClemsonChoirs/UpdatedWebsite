@@ -13,7 +13,7 @@ import './stylesheets/ensembles.css'
 const Ensembles = () => {
     return (
         <Div100vh>
-
+            <title>Ensembles - Clemson University Choirs</title>
         <div className="navbar">
             <Navbar/>
         </div>

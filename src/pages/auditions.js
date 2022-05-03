@@ -21,6 +21,7 @@ import bassSheet from "../images/bass-key.pdf"
 const Auditions = () => {
     return (
         <Div100vh>
+            <title>Auditions - Clemson University Choirs</title>
         <div class="navbar">
             <Navbar/>
         </div>
@@ -162,6 +163,7 @@ const FullAuditions = () => {
 
     return (
         <Div100vh>
+            <title>Auditions - Clemson University Choirs</title>
         <div class="navbar">
             <Navbar/>
         </div>

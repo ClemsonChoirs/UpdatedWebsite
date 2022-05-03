@@ -2,6 +2,10 @@ import * as React from 'react'
 
 import { Link } from 'gatsby'
 
+import favicon from '../images/paw.png'
+import { Helmet } from "react-helmet"
+
+
 import CustomButton from '../components/custom-button'
 import { EnsembleInfo } from '../ensemble-info'
 import EnsemblePanel from '../components/ensemble-panel'
@@ -19,6 +23,11 @@ import picLogo from '../images/background-wide.jpg'
 const IndexPage = () => {
   return (
     <Div100vh>
+    <title>Clemson University Choirs</title>
+    <Helmet>
+      <meta name="icon" href={favicon} />
+    </Helmet>
+    
     <div className="navbar">
       <Navbar/>
     </div>

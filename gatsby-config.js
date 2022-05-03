@@ -1,7 +1,14 @@
 module.exports = {
   siteMetadata: {
-      title: ``,
-    siteUrl: `https://www.yourdomain.tld`
+      title: `Clemson University Choirs`,
+    siteUrl: `https://www.clemsonchoirs.com`
   },
-  plugins: ["gatsby-plugin-netlify-cms"]
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        icon: 'src/images/paw.png',
+      },
+    },
+  ],
 };

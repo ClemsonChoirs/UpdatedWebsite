@@ -19,7 +19,7 @@ import triartBrochure from '../images/tri-art-choral-clinic.pdf'
 const Outreach = () => {
     return (
         <Div100vh>
-
+            <title>Outreach Programs - Clemson University Choirs</title>
         <div class="navbar">
             <Navbar/>
         </div>

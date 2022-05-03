@@ -15,8 +15,8 @@ import featuredAudio from '../audio/my-spirit-sang.mp3'
 const Cantorei = () => {
     return (
         <Div100vh>
-
-         <div class="navbar">
+        <title>Cantorei - Clemson University Choirs</title>
+        <div class="navbar">
             <Navbar/>
         </div>
 

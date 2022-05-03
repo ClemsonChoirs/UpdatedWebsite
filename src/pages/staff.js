@@ -17,7 +17,7 @@ import grace from '../images/grace.jpg'
 const Staff = () => {
     return (
         <Div100vh>
-
+            <title>Staff - Clemson University Choirs</title>
         <div class="navbar">
             <Navbar/>
         </div>
