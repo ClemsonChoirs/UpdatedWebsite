@@ -3,10 +3,13 @@ import { Link } from "gatsby"
 
 import BigButton from '../components/big-button'
 import Footer from '../components/footer'
-import { VideoPanel } from '../components/media-panels'
+import { AudioPanel } from '../components/media-panels'
 import Navbar from "../components/navbar"
 
 import Div100vh from 'react-div-100vh'
+
+import almaMater from '../audio/alma-mater.wav'
+import eternalFather from '../audio/eternal-father.mp3'
 
 import './stylesheets/ensemble-page.css'
 
@@ -37,8 +40,9 @@ const MensChoir = () => {
                         
                     </div>
                     <div className="ensemble-right">
-                        {/* <AudioPanel title={"Evening Gale Mvt. 1,"} subtitle={"“Night Song”"} audio={nightSong} bodytext="“Night Song” is the first movement in a three movement piece titled “Evening Gale” by Dr. Anthony Bernarducci. “Evening Gale” was premiered by Cantorei in the fall of 2019."/> */}
-                        <VideoPanel title={"Wild Mountain Thyme & O Mistress Mine"} subtitle={""} video={"https://www.youtube.com/embed/ymT4mUm8_aQ"} bodytext="The CU Men's Choir performs “Wild Mountain Thyme” arranged by Karen Marrolli and “O Mistress Mine” by Matthew Harris in the spring of 2021."/>
+                        <AudioPanel title={"Clemson University"} subtitle={"Alma Mater"} audio={almaMater} bodytext="Listen to the CU Men's Choir perform the Clemson University Alma Mater, written by Robert Farmer and Hugh McGarity, which they sing at the end of each of their concerts."/>
+                        <AudioPanel title={"Eternal Father, Strong to Save"} audio={eternalFather} bodytext="Hear the CU Men's Choir perform “Eternal Father, Strong to Save” arranged by Dan Forrest at their 2021 Fall Concert."/>
+                        
                     </div>
                 </div>
             </div>
