@@ -8,7 +8,7 @@ import Navbar from "../components/navbar"
 
 import Div100vh from 'react-div-100vh'
 
-import almaMater from '../audio/alma-mater.wav'
+import almaMater from '../audio/alma-mater.mp3'
 import eternalFather from '../audio/eternal-father.mp3'
 
 import './stylesheets/ensemble-page.css'
