@@ -9,7 +9,6 @@ import Navbar from "../components/navbar"
 import Div100vh from 'react-div-100vh'
 
 import ifICanSing from '../audio/if-i-can-sing.mp3'
-import singOut from '../audio/sing-out-my-soul.mp3'
 
 import './stylesheets/ensemble-page.css'
 
@@ -41,7 +40,6 @@ const WomensChoir = () => {
                     </div>
                     <div className="ensemble-right">
                         <AudioPanel title={"If I Can Sing, I Will Be Free"} audio={ifICanSing} bodytext="Listen to the CU Women's Choir perform “If I Can Sing, I Will Be Free” by Michael John Trotta at their 2022 Spring Concert."/>
-                        <AudioPanel title={"Sing Out, My Soul"} audio={singOut} bodytext="Listen to the CU Women's Choir perform “Sing Out, My Soul” by Marques L.A. Garrett at their 2022 Spring Concert."/>
                         
                     </div>
                 </div>

@@ -9,7 +9,6 @@ import Navbar from "../components/navbar"
 import Div100vh from 'react-div-100vh'
 
 import almaMater from '../audio/alma-mater.mp3'
-import eternalFather from '../audio/eternal-father.mp3'
 
 import './stylesheets/ensemble-page.css'
 
@@ -41,7 +40,6 @@ const MensChoir = () => {
                     </div>
                     <div className="ensemble-right">
                         <AudioPanel title={"Clemson University"} subtitle={"Alma Mater"} audio={almaMater} bodytext="Listen to the CU Men's Choir perform the Clemson University Alma Mater, written by Robert Farmer and Hugh McGarity, which they sing at the end of each of their concerts."/>
-                        <AudioPanel title={"Eternal Father, Strong to Save"} audio={eternalFather} bodytext="Hear the CU Men's Choir perform “Eternal Father, Strong to Save” arranged by Dan Forrest at their 2021 Fall Concert."/>
                         
                     </div>
                 </div>

@@ -10,7 +10,7 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/ensemble-page.css'
 
-import featuredAudio from '../audio/daemon.wav'
+import featuredAudio from '../audio/daemon.mp3'
 
 
 const Singers = () => {
