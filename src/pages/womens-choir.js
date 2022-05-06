@@ -33,7 +33,6 @@ const WomensChoir = () => {
                         <p>The Clemson University Women’s Choir consists of about 45 undergraduate students. The ladies represent almost every major Clemson University offers, but are united by a passion for vocal music. Women’s Choir meets twice a week, learning a multitude of pieces from varying genres of choral literature. CU Women's Choir is conducted by Laura Ritter.</p>
                         <p>To participate, register for the course and attend the first rehearsal on the first Thursday of each semester at 2:00 p.m.</p>
                         <div className="ensemble-buttons">
-                            <Link to="../auditions"><BigButton label="Audition Information"/></Link>
                             <Link to="mailto:llritte@clemson.edu"><BigButton label="Email the Conductor"/></Link>
                         </div>
                         
