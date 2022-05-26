@@ -10,7 +10,7 @@ import Div100vh from 'react-div-100vh'
 import './stylesheets/major.css'
 
 import caroline from '../images/caroline-ritchie-stahl.jpg'
-import whitney from '../images/whitney-davis.jpg'
+import kevin from '../images/kevin.png'
 
 const Major = () => {
     return (
@@ -54,11 +54,11 @@ const Major = () => {
                     </div>
                 </div>
                 <div className="story">
-                    <h3>Whitney Davis</h3>
+                    <h3>Kevin Arnold</h3>
                     <hr className="solid"></hr>
                     <div className="story-content">
-                        <img src={whitney} alt="Image of alum, Whitney Davis"/>
-                        <p>I attended Clemson from Fall 2008 to Spring 2012. One of the biggest benefits of this degree for me was the size of the department. Because of the smaller class sizes, I felt more included in the department. The camaraderie between the disciplines was enjoyable and led me to have a varied experience with opportunities exploring theatre and audio technology on top of music. I currently am an an adjunct professor at Francis Marion University where I teach music appreciation as well as voice lessons. I also run a private vocal studio in Hartsville, SC, and am the contemporary music director for a local church.</p>
+                        <img src={kevin} alt="Image of alum, Kevin Arnold"/>
+                        <p>Being a Performing Arts major at Clemson University was instrumental in my development as not only an artist, but as a person. The truly special thing about the Department of Performing Arts is that you really get to establish a personal relationship with each of your professors, and they take a great investment in your growth. As a vocal performance major, I found that not only was the music faculty invested in my success, but the theatre and audio-tech professors were equally devoted to my maturation. Clemson has prepared me to be a successful artist at the graduate and professional level, and I feel very proud to say I went to Clemson.</p>
                     </div>
                 </div>
             </div>
