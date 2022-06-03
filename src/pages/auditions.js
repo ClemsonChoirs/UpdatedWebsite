@@ -177,7 +177,7 @@ const FullAuditions = () => {
             <div class="audition-content">
                 <div className="audition-left">
                     <h2>Thank you for your interest in Clemson Choirs! Each of our choral ensembles are open to ALL students at Clemson University.</h2>
-                    <p> If you would like to be a part of CU Singers (MUSC 3700) or Cantorei (MUSC 3450), please read the audition instructions below. Audition forms and videos will be due on July 28, 2021. We recommend that you register for the class(es) that you are auditioning for now to avoid scheduling conflicts.</p>
+                    <p> If you would like to be a part of CU Singers (MUSC 3700) or Cantorei (MUSC 3450), please read the audition instructions below. Audition forms and videos will be due on August 1, 2022. We recommend that you register for the class(es) that you are auditioning for now to avoid scheduling conflicts.</p>
                     <p>If you would like to be a part of Men's Choir (MUSC 3720) or Women’s Choir (MUSC 3710), no audition is necessary. Simply register for the class on iRoar.</p>
                     <p>For more information on Tigeroar and TakeNote auditions contact Dr. David Conley.</p>
                 </div>
