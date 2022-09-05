@@ -13,6 +13,7 @@ import doyel from '../images/doyel.jpg'
 import ritter from '../images/ritter.jpg'
 import conley from '../images/conley.jpg'
 import grace from '../images/grace.jpg'
+import alyssa from '../images/alyssa.jpg'
 
 const Staff = () => {
     return (
@@ -49,6 +50,13 @@ const Staff = () => {
                             title="Collaborative Pianist"
                             image={grace}
                             body="Grace Berardo is a collaborative pianist, vocal coach, and organist in the Greenville, SC area. She earned her B.M. in Music Business at Berry College and her Masters of Music in Collaborative Piano from the University of Tennessee, Knoxville. While at UTK she held an accompanying assistantship where some of her duties included coaching and accompanying VolOpera (the undergraduate opera scenes program) and the University of Tennessee Opera Theatre (UTOT). She also performed as a keyboardist for the University of Tennessee Symphony and Chamber Orchestras. Grace has frequently collaborated with collegiate and community musical theater productions, high school choirs, professional choirs, voice studios, and she has been a pianist for vocalists participating in both NATS and NATSAA competitions. She was recently engaged to perform a staged version of Franz Schubert’s “Winterreise” with Marble City Opera, and she has had multiple UTK performances featured on Knoxville’s local classical music station, 91.9 WUOT. In addition to performing, Grace also enjoys working in arts administration. With her friend and colleague Logan Campbell, she helped found Appalachia: A Southeastern Wind Symphony, a non-profit, intercollegiate wind orchestra. She now presently serves as the Director of Marketing for the Knoxville-based ensemble. More information can be found at https://appalachiasws.squarespace.com."
+                        />
+
+                        <StaffPanel 
+                            name="Alyssa Conner"
+                            title="Administrative Assistant"
+                            image={alyssa}
+                            body="Alyssa Conner is a 2013 graduate of Southern Wesleyan University. She earned her Bachelor of Arts in music with a concentration in voice. Before becoming the Choral and Vocal Arts Administrative Assistant, Conner spent six years at Clemson University in the Records and Registration Department."
                         />
                     </div>
                     <div className="staff-right">
