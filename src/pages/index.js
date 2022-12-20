@@ -62,10 +62,10 @@ const IndexPage = () => {
               <h3>Support Clemson Choirs</h3>
               <hr className="solid"></hr>
               <p>The choral program is growing each year, now with six credit-earning ensembles and more than 200 students singing each week! In the past five years, we have established the Clemson Cantorei chamber ensemble, presented an annual Sounds of the Season holiday concert, developed outreach programs in our public schools, and created the Vocal Arts Series on YouTube, which brings quality music right to your home.</p>
-              <p>Through a donation to our CABA Account (Choir Activities Booster Association), you can make a difference in our students’ experience. Future projects you may consider supporting are commissioning a new work, funding domestic and international travel, establishing student scholarships, sponsoring a large masterwork with orchestra, helping students purchase concert attire, and more!</p>
-              <p>Follow the link below to make a gift online, or if sending a gift by mail, please make your check payable to the Clemson University Foundation, and specify the Choral Activities Booster Association (CABA) in the subject line. Mail to the Clemson University Foundation; PO Box 1889; Clemson, SC 29633-1889.</p>
+              <p>Through a donation to our Dr. Anthony Bernarducci Annual Choral Fund, you can make a difference in our students’ experience. Future projects you may consider supporting are commissioning a new work, funding domestic and international travel, establishing student scholarships, sponsoring a large masterwork with orchestra, helping students purchase concert attire, and more!</p>
+              <p>Follow the link below to make a gift online, or if sending a gift by mail, please make your check payable to the Clemson University Foundation and specify Fund #A3959 in the memo line. Mail to the Clemson University Foundation; PO Box 1889; Clemson, SC 29633-1889</p>
               <div id="custom-button">
-                <a href="https://iamatiger.clemson.edu/giving/giving-to-clemson?id=1a887640-aeee-4534-8e42-4d1a9a45bffa" target="_blank" rel="noreferrer" aria-label="Make a Gift"><CustomButton label="Make a Gift"/></a>
+                <a href="https://iamatiger.clemson.edu/giving/giving-to-clemson?id=396ab81e-8213-4190-8bc2-c10827cf4c9c" target="_blank" rel="noreferrer" aria-label="Make a Gift"><CustomButton label="Make a Gift"/></a>
               </div>
             </div>
           </div>

@@ -37,7 +37,7 @@ const Major = () => {
                     <div class="side-content">
                         <InfoPanel 
                             title="Audition Information" 
-                            bodytext="Prospective voice students should prepare two songs of contrasting styles. At least one of the selections MUST be a classical folk song, art song or aria. Foreign language art songs encouraged. The second can be from a musical. Make sure the selections adequately demonstrate musicality, tone quality, and technical abilities. In addition to the prepared pieces, students will be asked to sight read a short excerpt. For repertoire suggestions, please contact Dr. Anthony Bernarducci at "
+                            bodytext="Prospective voice students should prepare two songs of contrasting styles. At least one of the selections MUST be a classical folk song, art song or aria. Foreign language art songs encouraged. The second can be from a musical. Make sure the selections adequately demonstrate musicality, tone quality, and technical abilities. In addition to the prepared pieces, students will be asked to sight read a short excerpt. For repertoire suggestions, please contact Dr. Lisa Sain Odom at "
                             bodytext2="More Information regarding applications and auditions can be found "
                         />
                     </div>
