@@ -177,7 +177,7 @@ const FullAuditions = () => {
             <div class="audition-content">
                 <div className="audition-left">
                     <h2>Thank you for your interest in Clemson Choirs! Each of our choral ensembles are open to ALL students at Clemson University.</h2>
-                    <p> If you would like to be a part of CU Singers (MUSC 3700) or Cantorei (MUSC 3450), please read the audition instructions below. Audition forms and videos will be due on August 1, 2022. We recommend that you register for the class(es) that you are auditioning for now to avoid scheduling conflicts.</p>
+                    <p> If you would like to be a part of CU Singers (MUSC 3700) or Cantorei (MUSC 3450), please read the audition instructions below. Audition forms and videos will be due on August 1, 2023. We recommend that you register for the class(es) that you are auditioning for now to avoid scheduling conflicts.</p>
                     <p>If you would like to be a part of Men's Choir (MUSC 3720) or Women’s Choir (MUSC 3710), no audition is necessary. Simply register for the class on iRoar.</p>
                     <p>For more information on Tigeroar and TakeNote auditions contact Dr. David Conley.</p>
                 </div>
@@ -194,7 +194,7 @@ const FullAuditions = () => {
             </div>
             <div className="audition-instructions">
                 <h2>Audition Instructions</h2>
-                <p className="questions">Audition forms and videos will be due on August 1, 2022 at 11:59pm.</p>
+                <p className="questions">Audition forms and videos will be due on August 1, 2023 at 11:59pm.</p>
                 <p className="questions">If you have any questions about the audition process, please email Dr. Bernarducci (bernar5@clemson.edu).</p>
                 <div className="instruction-panels">
                     <AuditionPanel
@@ -215,7 +215,7 @@ const FullAuditions = () => {
                         subtitle="Fill Out Your Form"
                         bodytext="Copy the link to your video and paste it in the last field, after answering some questions about your past choir/singing experience."
                         btnlabel="Audition Form"
-                        link="https://docs.google.com/forms/d/e/1FAIpQLSc7BHT8F-D5c35ByvFm_dyq2pORIQVWZ38I5nUHkCkr29Uj8A/viewform?usp=sf_link"
+                        link="https://forms.gle/D3fwsdNexTRa9cTu6"
                     />
                 </div>
                 <div className="sheet-music">
@@ -258,7 +258,7 @@ const FullAuditions = () => {
                         <AuditionPanel 
                             steps={false}
                             title="CU Singers"
-                            bodytext="If you are auditioning only for CU Singers, in the days following the initial submission deadline with a link to sign up for a day to sight-read. On these days, August 12th and 13th, at 11:00 am, a short sight-reading example will be emailed to you, and you will have exactly 2 hours to record a video of yourself singing the example a capella, post it to YouTube or Google Drive, and submit the link to a form that will be included in the email, along with more detailed instructions. If you have a conflict with either of these times, please let Dr. Bernarducci know as soon as possible."
+                            bodytext="If you are auditioning only for CU Singers, in the days following the initial submission deadline with a link to sign up for a day to sight-read. On these days, August 11th and 12th, at 11:00 am, a short sight-reading example will be emailed to you, and you will have exactly 2 hours to record a video of yourself singing the example a capella, post it to YouTube or Google Drive, and submit the link to a form that will be included in the email, along with more detailed instructions. If you have a conflict with either of these times, please let Dr. Bernarducci know as soon as possible."
                         />
                     </div>
                 </div>
@@ -274,7 +274,7 @@ const FullAuditions = () => {
     )
 }
 
-export default Auditions
+export default FullAuditions
 
 const AuditionPanel = (props) => {
     return (
