@@ -12,6 +12,8 @@ import './stylesheets/major.css'
 import caroline from '../images/caroline-ritchie-stahl.jpg'
 import kevin from '../images/kevin.png'
 
+import graphic from '../images/major-graphic.jpg'
+
 const Major = () => {
     return (
         <Div100vh>
@@ -21,11 +23,7 @@ const Major = () => {
         </div>
         
         <div class="major-wrapper">
-            <div class="major-feature">
-                <div className="major-header">
-                    <h1>Performing Arts Major</h1>
-                </div>
-            </div>
+            <img className="feature" src={graphic} alt="Images of Clemson Choirs rehearsing with logo"/>
             <div class="major-content">
                 <div className="major-left">
                     <h2>Vocal Studies in Performing Arts</h2>

@@ -10,9 +10,7 @@
 
 .major-feature {
     width: 100vw;
-    min-height: 28.125vw;
-    background-image: url('../../images/major.jpg');
-    background-size: contain;
+    min-height: 23.1vw;
     display: flex;
     justify-content: center;
     align-items: flex-end;

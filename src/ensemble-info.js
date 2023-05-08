@@ -1,5 +1,5 @@
 import cantorei from './images/cantorei.jpg'
-import singers from './images/singers.jpg'
+import singers from './images/cu-singers-beethoven.jpg'
 import mens from './images/mens3.jpg'
 import womens from './images/womens.jpg'
 import tigeroar from './images/tigeroar.jpg'
