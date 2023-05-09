@@ -108,7 +108,7 @@ const Navbar = () => {
                     <li><Link to={'../'}>Home</Link></li>
                     <li><Link to={'../ensembles'} onMouseEnter={ensemblesHover} onMouseLeave={ensemblesUnhover} className={ensembles ? "active" : ""}>Ensembles</Link></li>
                     <li><Link to={'../auditions'} onMouseEnter={joinHover} onMouseLeave={joinUnhover} className={join ? "active" : ""}>Join a Choir</Link></li>
-                    <li><Link to={'../major'}>Vocal Arts Major</Link></li>
+                    <li><Link to={'../major'}>Performing Arts Major</Link></li>
                     <li><Link to={'../staff'}>Staff</Link></li>
                     <li><Link to={'../outreach'}>Outreach Programs</Link></li>
                 </ul>
