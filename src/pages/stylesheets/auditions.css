@@ -14,32 +14,6 @@
     align-items: center;
 }
 
-.audition-feature {
-    width: 100vw;
-    min-height: 28.125vw;
-    background-image: url('../../images/auditions-background.png');
-    background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-.audition-header {
-    background-color: var(--campus-brick);
-    color: white;
-    padding: 10px 60px 5px 60px;
-    border-radius: 20px 20px 0 0;
-}
-
-.audition-header h1 {
-    margin: 0;
-    padding: 0;
-    font-family: turbinado-pro, sans-serif;
-    font-weight: 300;
-    font-style: normal;
-    font-size: 50px;
-}
-
 .audition-content {
     display: flex;
     margin: 10px;
@@ -51,8 +25,16 @@
     padding: 10px 50px 0 30px;
 }
 
+.audition-left .header {
+    font-family: turbinado-pro, sans-serif;
+    color: var(--campus-brick);
+    font-size: 38px;
+    margin: 0;
+}
+
 .audition-wrapper h2 {
     font-weight: lighter;
+    font-size: 20px;
     margin: 0;
 }
 
@@ -95,15 +77,10 @@
 
 .instruction-panels {
     display: flex;
-    /* width: 80vw; */
     max-width: 1180px;
     align-self: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-.sheet-music {
-    /* width: 80vw; */
 }
 
 .sheet-music h3 {
@@ -113,10 +90,6 @@
 .music-buttons {
     display: flex;
     justify-content: space-evenly;
-}
-
-.starting-pitches {
-    /* width: 80vw; */
 }
 
 .starting-pitches h3 {
@@ -137,10 +110,6 @@
     color: var(--campus-brick);
     margin-bottom: 10px;
     margin-left: 20px;
-}
-
-.next-steps {
-    /* width: 80vw; */
 }
 
 .next-steps h2 {
