@@ -55,6 +55,26 @@
     align-items: flex-end;
 }
 
+.takenote-feature {
+    width: 100vw;
+    min-height: 23.1vw;
+    background-image: url('../../images/new-takenote-wide.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.tigerroar-feature {
+    width: 100vw;
+    min-height: 23.1vw;
+    background-image: url('../../images/new-tigeroar-wide.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 .ensemble-header {
     background-color: var(--campus-brick);
     color: white;
@@ -101,6 +121,10 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 15px;
+}
+
+.ensemble-buttons > a:first-child {
+    margin-right: 15px;
 }
 
 .ensemble-right {
@@ -170,5 +194,10 @@
     .ensemble-buttons {
         flex-direction: column;
         align-items: center;
+    }
+
+    .ensemble-buttons > a:first-child {
+        margin-right: 0;
+        margin-bottom: 15px;
     }
 }

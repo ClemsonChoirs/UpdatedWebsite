@@ -92,7 +92,7 @@ const Navbar = () => {
                     <li><Link to={'../auditions'} onClick={setShowDropdown}>Join a Choir</Link></li>
 
                     <hr className="solid"></hr>
-                    <li><Link to={'../major'} onClick={setShowDropdown}>Vocal Arts Major</Link></li>
+                    <li><Link to={'../major'} onClick={setShowDropdown}>Performing Arts Major</Link></li>
 
                     <hr className="solid"></hr>
                     <li><Link to={'../staff'} onClick={setShowDropdown}>Staff</Link></li>
@@ -120,8 +120,8 @@ const Navbar = () => {
             <li><Link to={'../cantorei'}>Cantorei</Link></li>
             <li><Link to={'../mens-choir'}>Men's Choir</Link></li>
             <li><Link to={'../womens-choir'}>Women's Choir</Link></li>
-            <li><a href={'https://www.clemsontakenote.com/'} target="_blank" rel="noreferrer">TakeNote</a></li>
-            <li><a href={'https://www.clemsontigeroar.com/'} target="_blank" rel="noreferrer">Tigeroar</a></li>
+            <li><Link to={'../takenote'} target="_blank" rel="noreferrer">TakeNote</Link></li>
+            <li><Link to={'../tigerroar'} target="_blank" rel="noreferrer">TigerRoar</Link></li>
         </ul>
 
         <ul className={join ? "auditions-active" : "auditions-hidden"} onMouseEnter={auditionsHover} onMouseLeave={auditionsUnhover}>

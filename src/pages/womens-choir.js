@@ -30,10 +30,10 @@ const WomensChoir = () => {
                 <div class="ensemble-content">
                     <div className="ensemble-left">
                         <h2>Women’s Choir (MUSC 3710) is a non-auditioned all-female ensemble from any major.</h2>
-                        <p>The Clemson University Women’s Choir consists of about 45 undergraduate students. The ladies represent almost every major Clemson University offers, but are united by a passion for vocal music. Women’s Choir meets twice a week, learning a multitude of pieces from varying genres of choral literature. CU Women's Choir is conducted by Laura Ritter.</p>
+                        <p>The Clemson University Women’s Choir consists of about 45 undergraduate students. The ladies represent almost every major Clemson University offers, but are united by a passion for vocal music. Women’s Choir meets twice a week, learning a multitude of pieces from varying genres of choral literature. CU Women's Choir is conducted by Luke Browder.</p>
                         <p>To participate, register for the course and attend the first rehearsal on the first Thursday of each semester at 2:00 p.m.</p>
                         <div className="ensemble-buttons">
-                            <Link to="mailto:llritte@clemson.edu"><BigButton label="Email the Conductor"/></Link>
+                            <Link to="mailto:luke.browder@gmail.com"><BigButton label="Email the Conductor"/></Link>
                         </div>
                         
                     </div>
