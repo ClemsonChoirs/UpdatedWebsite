@@ -124,11 +124,11 @@ const Navbar = () => {
             <li><Link to={'../tigerroar'} target="_blank" rel="noreferrer">TigerRoar</Link></li>
         </ul>
 
-        <ul className={join ? "auditions-active" : "auditions-hidden"} onMouseEnter={auditionsHover} onMouseLeave={auditionsUnhover}>
+        {/* <ul className={join ? "auditions-active" : "auditions-hidden"} onMouseEnter={auditionsHover} onMouseLeave={auditionsUnhover}>
             <li><Link to={'../auditions'}>Auditions</Link></li>
             <li><Link to={'../interest-form'}>Interest Form</Link></li>
             
-        </ul>
+        </ul> */}
         
         </>
 

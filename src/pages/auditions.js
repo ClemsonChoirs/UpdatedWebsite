@@ -178,7 +178,7 @@ const FullAuditions = () => {
                     <p>If you would like to be a part of Men's Choir (MUSC 3720) or Women’s Choir (MUSC 3710), no audition is necessary. Simply register for the class on iRoar.</p>
                     <p>For more information on Tigeroar and TakeNote auditions contact Dr. David Conley.</p>
                 </div>
-                <div className="audition-right">
+                {/* <div className="audition-right">
                     <div class="side-content">
                         <h3>Interest Form</h3>
                         <hr class="solid"></hr>
@@ -187,7 +187,7 @@ const FullAuditions = () => {
                             <Link to={"../interest-form"}><CustomButton label="Go to Form"/></Link>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
             <div className="audition-instructions">
                 <h2>Audition Instructions</h2>
