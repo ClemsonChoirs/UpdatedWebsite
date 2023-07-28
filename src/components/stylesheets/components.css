@@ -142,14 +142,19 @@ nav .pages li a:hover {
     border-color: var(--campus-brick);
     border-style: solid;
     color: var(--campus-brick);
-    padding: 15px 10px;
+    padding: 0x 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     width: 250px;
     border-radius: 8px;
     font-family: trade-gothic-next, sans-serif;
     font-size: large;
     font-weight: bold;
+    min-height: 57px;
     max-height: 57px;
+    text-decoration: none;
 }
 
 .big-button:hover {
@@ -235,7 +240,7 @@ nav .pages li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 10px 10px 30px;
 }
 
 .footer-wrapper p {

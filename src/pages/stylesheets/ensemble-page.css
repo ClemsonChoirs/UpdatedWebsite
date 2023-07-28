@@ -5,7 +5,7 @@
     overflow-y: scroll;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -96,8 +96,13 @@
     padding: 0 10vw;
     margin: 0;
     max-width: 1200px;
-    padding-bottom: 60px;
+    padding-bottom: 20px;
     align-self: center;
+}
+
+.audition-info-wrapper {
+    padding: 0 calc(10vw + 30px);
+    padding-bottom: 60px;
 }
 
 .ensemble-left {
@@ -105,15 +110,34 @@
     padding: 20px 50px 0 30px;
 }
 
-.ensemble-left h2 {
+.ensemble-left h2,
+.audition-info-wrapper h2 {
     font-weight: lighter;
     margin: 0;
 }
 
-.ensemble-left p {
+.ensemble-left p,
+.audition-info-wrapper p {
     color: var(--diploma);
     font-size: 18px;
     padding: 5px 0;
+}
+
+.audition-info-wrapper p {
+    margin: 10px 0;
+}
+
+.ensemble-wrapper .audition-info {
+    margin: 0;
+}
+
+.ensemble-wrapper ol {
+    color: var(--diploma);
+    margin-top: 5px;
+}
+
+.ensemble-wrapper li {
+    padding: 5px 0; 
 }
 
 .ensemble-buttons {
@@ -121,6 +145,10 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding-top: 15px;
+}
+
+.ensemble-buttons a {
+    text-decoration: none;
 }
 
 .ensemble-buttons > a:first-child {
@@ -169,7 +197,7 @@
     .ensemble-content {
         flex-direction: column;
         align-items: center;
-        padding: 10px 40px 30px;
+        padding: 10px 40px;
     }
 
     .ensemble-right {
@@ -185,6 +213,10 @@
         width: 100%;
         padding: 0;
         margin: 0;
+    }
+
+    .audition-info-wrapper {
+        padding: 10px 40px 30px;
     }
 
     .ensemble-wrapper {
