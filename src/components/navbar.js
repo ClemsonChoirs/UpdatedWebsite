@@ -121,7 +121,7 @@ const Navbar = () => {
             <li><Link to={'../mens-choir'}>Men's Choir</Link></li>
             <li><Link to={'../womens-choir'}>Women's Choir</Link></li>
             <li><Link to={'../takenote'} target="_blank" rel="noreferrer">TakeNote</Link></li>
-            <li><Link to={'../tigerroar'} target="_blank" rel="noreferrer">TigerRoar</Link></li>
+            <li><Link to={'../tigeroar'} target="_blank" rel="noreferrer">Tigeroar</Link></li>
         </ul>
 
         {/* <ul className={join ? "auditions-active" : "auditions-hidden"} onMouseEnter={auditionsHover} onMouseLeave={auditionsUnhover}>
