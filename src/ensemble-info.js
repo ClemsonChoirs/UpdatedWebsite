@@ -47,10 +47,10 @@ export const EnsembleInfo = [
         internal: true
     },
     {
-        name: "TigerRoar",
+        name: "Tigeroar",
         image: tigeroar,
-        body: "TigerRoar is Clemson University's only all-male a-cappella ensemble. Founded in 1997 by Dr. Dan Rash and Dr. David Conley, the group has a long and proud tradition of musical excellence in Clemson, SC. The group is rich in the Clemson spirit and pursuant of respect and humility in our community and beyond. ",
-        link: "../tigerroar",
+        body: "Tigeroar is Clemson University's only all-male a-cappella ensemble. Founded in 1997 by Dr. Dan Rash and Dr. David Conley, the group has a long and proud tradition of musical excellence in Clemson, SC. The group is rich in the Clemson spirit and pursuant of respect and humility in our community and beyond. ",
+        link: "../tigeroar",
         target: "_self",
         internal: true
     }

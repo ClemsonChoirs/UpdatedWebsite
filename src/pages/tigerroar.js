@@ -13,7 +13,7 @@ import './stylesheets/ensemble-page.css'
 const Cantorei = () => {
     return (
         <Div100vh>
-        <title>TigerRoar - Clemson University Choirs</title>
+        <title>Tigeroar - Clemson University Choirs</title>
         <div class="navbar">
             <Navbar/>
         </div>
@@ -21,17 +21,17 @@ const Cantorei = () => {
         <div class="ensemble-wrapper">
             <div class="tigerroar-feature">
                 <div className="ensemble-header">
-                    <h1>TigerRoar</h1>
+                    <h1>Tigeroar</h1>
                 </div>
             </div>
             <div class="ensemble-content">
                 <div className="ensemble-left">
-                    <h2>TigerRoar is an auditioned male acapella group consisting of a max of 16 members.</h2>
-                    <p>TigerRoar is comprised of 12-16 men selected from the larger Clemson choral ensembles by audition. The group aims to bring talented and passionate vocal performers together in the pursuit of musicianship and excellence in a-cappella performance, while bringing popular songs to life with new and interesting covers.</p>
-                    <p>TigerRoar rehearses on Tuesdays and Thursdays in Brooks 117, meeting from 5pm to 6:15pm during the Spring semester, and from 6:30pm to 7:45pm in the Fall. To enroll, register for MUSC 3410 (Men's Breakout Ensemble).</p>
+                    <h2>Tigeroar is an auditioned male acapella group consisting of a max of 16 members.</h2>
+                    <p>Tigeroar is comprised of 12-16 men selected from the larger Clemson choral ensembles by audition. The group aims to bring talented and passionate vocal performers together in the pursuit of musicianship and excellence in a-cappella performance, while bringing popular songs to life with new and interesting covers.</p>
+                    <p>Tigeroar rehearses on Tuesdays and Thursdays in Brooks 117, meeting from 5pm to 6:15pm during the Spring semester, and from 6:30pm to 7:45pm in the Fall. To enroll, register for MUSC 3410 (Men's Breakout Ensemble).</p>
                     <div className="ensemble-buttons">
                         <Link to="mailto:conley2@clemson.edu"><BigButton label="Email the Faculty Director"/></Link>
-                        <a href="https:/instagram.com/tigeroarclemson" target="_blank"><BigButton label="@TIGEROARClemson on Instagram"/></a>
+                        <a href="https:/instagram.com/tigeroarclemson" target="_blank"><BigButton label="@TigeroarClemson on Instagram"/></a>
                     </div> 
                 </div>
                 <div className="ensemble-right">
