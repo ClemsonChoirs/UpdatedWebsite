@@ -35,7 +35,7 @@ const Auditions = () => {
                 <div className="audition-left">
                     <h1 className="header">Thank you for your interest in Clemson Choirs!</h1>
                     <h2>Each of our choral ensembles are open to ALL students at Clemson University.</h2>
-                    <p>Auditions for CU Singers (MUSC 3700) and Cantorei (MUSC 3450) for the Spring 2023 Semester are closed. Check back this summer for Fall 2023 auditions!</p>
+                    <p>The deadline to audition for CU Singers (MUSC 3700) and Cantorei (MUSC 3450) for the Fall 2023 Semester has passed. If you would still like to audition for one of these ensembles, please <a href="mailto:bernar5@clemson.edu">contact Dr. Bernarducci</a>.</p>
                     <p>If you would like to be a part of Men's Choir (MUSC 3720) or Women’s Choir (MUSC 3710), no audition is necessary! Simply register for the class on iRoar.</p>
                     <p>For more information on Tigeroar and TakeNote auditions contact Dr. David Conley.</p>
                 </div>
@@ -50,12 +50,11 @@ const Auditions = () => {
                     </div>
                 </div>
             </div>
+            
+        </div>
             <div className="auditions-foot">
                 <Footer/>
             </div>
-        </div>
-
-       
         </Div100vh>
     )
 }
@@ -271,7 +270,7 @@ const FullAuditions = () => {
     )
 }
 
-export default FullAuditions
+export default Auditions
 
 const AuditionPanel = (props) => {
     return (

@@ -1,3 +1,8 @@
+:root {
+    --header-height: max(81px, 8vh);
+    --footer-height: max(81px, 6vh);
+}
+
 body {
     margin: 0;
     font-family: trade-gothic-next, sans-serif;
@@ -5,8 +10,7 @@ body {
 
 header {
     background-color: var(--diploma);
-    height: 8vh;
-    min-height: 81px;
+    height: var(--header-height);
     width: 100%;
     z-index: 1;
 }
@@ -234,13 +238,12 @@ nav .pages li a:hover {
 .footer-wrapper {
     background-color: var(--diploma);
     color: white;
-    height: 6vh;
-    min-height: 81px;
+    height: var(--footer-height);
     max-width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 10px 30px;
+    padding: 10px 10px 40px;
 }
 
 .footer-wrapper p {
