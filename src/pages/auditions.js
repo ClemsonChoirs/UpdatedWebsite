@@ -255,7 +255,7 @@ const FullAuditions = () => {
                         <AuditionPanel 
                             steps={false}
                             title="CU Singers"
-                            bodytext="If you are auditioning only for CU Singers, in the days following the initial submission deadline with a link to sign up for a day to sight-read. On these days, August 11th and 12th, at 11:00 am, a short sight-reading example will be emailed to you, and you will have exactly 2 hours to record a video of yourself singing the example a capella, post it to YouTube or Google Drive, and submit the link to a form that will be included in the email, along with more detailed instructions. If you have a conflict with either of these times, please let Dr. Bernarducci know as soon as possible."
+                            bodytext="If you are auditioning only for CU Singers, in the days following the initial submission deadline with a link to sign up for a day to sight-read. On these days, August 12th and 13th, at 11:00 am, a short sight-reading example will be emailed to you, and you will have exactly 2 hours to record a video of yourself singing the example a capella, post it to YouTube or Google Drive, and submit the link to a form that will be included in the email, along with more detailed instructions. If you have a conflict with either of these times, please let Dr. Bernarducci know as soon as possible."
                         />
                     </div>
                 </div>
