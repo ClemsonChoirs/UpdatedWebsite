@@ -50,6 +50,10 @@
     padding: 5px 0;
 }
 
+.audition-left p a {
+    color: var(--campus-brick);
+}
+
 .audition-right {
     width: 35%;
     padding-right: 30px;
