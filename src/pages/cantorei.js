@@ -39,7 +39,7 @@ const Cantorei = () => {
                 </div>
                 <div className="ensemble-right">
                     <AudioPanel title={"My Spirit Sang All Day"} audio={featuredAudio} bodytext="Listen to “My Spirit Sang All Day” by Gerald Finzi, performed by Cantorei at their Fall Concert in 2021."/>
-                    <VideoPanel title={"Missa Brevis San Francesco d'Assisi"} subtitle={""} video={"https://www.youtube.com/embed/1Nw3eGMgJbg"} bodytext="Throughout the Spring semester of 2022, Cantorei worked to prepare our very own Anthony Bernarducci's Missa Brevis San Francesco d'Assisi. This piece has 3 movements: I. Kyrie, II. Gloria, and III. Agnus Dei."/>
+                    <VideoPanel title={"Something Beautiful Remains"} subtitle={""} video={"https://www.youtube.com/embed/Gq0v2qVdJDo?si=vDILVocSFoRIuHm6"} bodytext="Cantorei performs “Something Beautiful Remains”, composed by choir director, Anthony Bernarducci."/>
                 </div>
             </div>
 
