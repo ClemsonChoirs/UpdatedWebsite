@@ -316,6 +316,11 @@ nav .pages li a:hover {
     color: var(--campus-brick);
 }
 
+.media-panel.audio .subtitle {
+    font-size: 18px;
+    font-weight: normal;
+}
+
 #info-panel .text h2 {
     padding-bottom: 10px;
 }

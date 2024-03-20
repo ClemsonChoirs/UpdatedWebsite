@@ -3,10 +3,10 @@ import './stylesheets/components.css'
 
 export const AudioPanel = (props) => {
     return (
-        <div className="media-panel">
+        <div className="media-panel audio">
             <div className="text">
                 <h2>{props.title}</h2>
-                <h2>{props.subtitle}</h2>
+                <h2 className='subtitle'>{props.subtitle}</h2>
                 <audio src={props.audio} controls controlsList="nodownload" className="media-player"/>
                 <p>{props.bodytext}</p>
             </div>
@@ -33,8 +33,6 @@ export const InfoPanel = (props) => {
             <div className="text">
                 <h2>{props.title}</h2>
                 <p>{props.bodytext}<a href="mailto:odom@clemson.edu?subject=Vocal Arts Major Audition Inquiry">odom@clemson.edu</a>.</p>
-                <br/>
-                <p>{props.bodytext2}<a href="https://www.clemson.edu/caah/academics/performing-arts/index.html" target="_blank" rel="noreferrer">here</a>.</p>
             </div>
         </div>
     )

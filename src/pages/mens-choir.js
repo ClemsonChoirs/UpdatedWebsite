@@ -38,7 +38,7 @@ const MensChoir = () => {
                         
                     </div>
                     <div className="ensemble-right">
-                        <AudioPanel title={"Clemson University"} subtitle={"Alma Mater"} audio={almaMater} bodytext="Listen to the CU Men's Choir perform the Clemson University Alma Mater, written by Robert Farmer and Hugh McGarity, which they sing at the end of each of their concerts."/>
+                        <AudioPanel title={"Clemson University Alma Mater"} audio={almaMater} bodytext="Listen to the CU Men's Choir perform the Clemson University Alma Mater, written by Robert Farmer and Hugh McGarity, which they sing at the end of each of their concerts."/>
                         
                     </div>
                 </div>

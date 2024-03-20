@@ -10,7 +10,7 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/ensemble-page.css'
 
-import featuredAudio from '../audio/daemon.mp3'
+import featuredAudio from '../audio/credo.mp3'
 
 
 const Singers = () => {
@@ -40,7 +40,7 @@ const Singers = () => {
                         
                     </div>
                     <div className="ensemble-right">
-                        <AudioPanel title={"Daemon Irrepit Callidus"} audio={featuredAudio} bodytext="Listen to “Daemon Irrepit Callidus” by György Orbán, performed by CU Singers at their Fall Concert in 2021."/>
+                        <AudioPanel title={"III. Credo"} subtitle={"Beethoven's Mass in C Major op. 86"} audio={featuredAudio} bodytext="Listen to the third movement of Beethoven's Mass in C Major op. 86, performed by CU Singers at their Spring Concert on April 27th, 2023."/>
                         <VideoPanel title={"Proud Music of the Storm"} subtitle={""} video={"https://www.youtube.com/embed/cbzS7gR-HG4"} bodytext="CU Singers performed Jake Runestad's “Proud Music of the Storm” at their Fall Concert in October of 2021."/>
                     </div>
                 </div>

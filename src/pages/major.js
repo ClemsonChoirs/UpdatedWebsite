@@ -27,16 +27,15 @@ const Major = () => {
             <div class="major-content">
                 <div className="major-left">
                     <h2>Vocal Studies in Performing Arts</h2>
-                    <p>The B.A. in Performing Arts - Music Concentration allows you to create your own future in the Performing Arts. Our innovative Music degree combines performance (lessons and ensembles), music theory, music history, music technology (Finale, MIDI, recording), and arts administration (music business, entrepreneurship, and marketing).</p>
-                    <p>Music students collaborate with Theater and Audio students and get hands-on experience in our professional roadhouse, the Brooks Center for the Performing Arts, our on-site learning laboratory.</p>
-                    <p>Students also participate in masterclasses, develop connections with professional artists, and work alongside dynamic faculty who are leaders in their field. Most importantly, our students are prepared for today’s highly competitive job market after graduation.</p>
+                    <p>A music student in the Bachelor of Arts in Performing Arts is equipped with the knowledge and skills to thrive in the dynamic performing arts market. Our degree prepares students through music courses such as performance, theory, history, technology, arts administration, and entrepreneurship.</p>
+                    <p>Music students can choose from more than 20 large and small ensembles within our band, choir, and orchestra programs and get hands-on experience in our professional roadhouse, the Brooks Center for the Performing Arts, our on-site learning laboratory.  Students also participate in masterclasses, develop connections with professional artists, and work alongside dynamic faculty who are leaders in their field.</p>
+                    <p>More information regarding applications and auditions can be found <a href="https://www.clemson.edu/cah/academics/performing-arts/academics/music.html" target="_blank" rel="noreferrer">here</a>.</p>
                 </div>
                 <div className="major-right">
                     <div class="side-content">
                         <InfoPanel 
                             title="Audition Information" 
-                            bodytext="Prospective voice students should prepare two songs of contrasting styles. At least one of the selections MUST be a classical folk song, art song or aria. Foreign language art songs encouraged. The second can be from a musical. Make sure the selections adequately demonstrate musicality, tone quality, and technical abilities. In addition to the prepared pieces, students will be asked to sight read a short excerpt. For repertoire suggestions, please contact Dr. Lisa Sain Odom at "
-                            bodytext2="More Information regarding applications and auditions can be found "
+                            bodytext="Prospective voice students should prepare two vocal solos of contrasting styles. At least one of the selections MUST be a classical folk song, art song, or aria. Foreign language art songs are encouraged. The second can be from a musical. Make sure the selections adequately demonstrate musicality, tone quality, and technical abilities. Singers are encouraged to memorize their songs. For repertoire suggestions, please contact Dr. Lisa Sain Odom at "
                         />
                     </div>
                 </div>
