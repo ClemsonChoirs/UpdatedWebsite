@@ -109,6 +109,10 @@
     
 }
 
+.staff-panel a {
+    color: var(--campus-brick);
+}
+
 .staff-foot {
     width: 100vw;
 }
