@@ -43,7 +43,7 @@ const Outreach = () => {
                         <p>Each year the Clemson Choral Department in partnership with the Brooks Center for the Performing Arts selects a high school choral program for a year long artistic collaboration. This program has three goals: to build relationships with performing arts programs in the upstate area, offer instruction and performance opportunities, and provide various ways for students to engage in the rich concert season presented at the Brooks Center each year.</p>
                         <p>Selected schools will benefit from the following:</p>
                         <ul>
-                            <li>Two choral workshops with Dr. Bernarducci</li>
+                            <li>Choral workshops with Dr. Bernarducci and Dr. Browder</li>
                             <li>One voice masterclass with Dr. Odom</li>
                             <li>Group tickets for two Brooks Center Shows</li>
                             <li>A joint concert experience with a Clemson Choir</li>
@@ -67,7 +67,7 @@ const Outreach = () => {
                     </div>      
                     <div className="outreach-text">
                         <p>This program is open to all rising 9th- 12th grade students. At the Clemson Vocal Institute, you will grow as a singer while participating in an exciting choral experience and having the unique opportunity to study solo vocal performance in a masterclass setting. Come prepare yourself for future auditions, enjoy a college level musical experience at the Brooks Center for the Performing Arts, and meet other students with the same passions as you!</p>
-                        <p>Summer 2023 Dates: July 24 - 28</p>
+                        <p>Summer 2024 Dates: July 15 - 19</p>
                         <p>See more information on Summer Scholars and register <a href="https://www.clemson.edu/summer/summer-scholars/index.html" target="_blank" rel="noreferrer">here</a>.</p>
                     </div>
                     
