@@ -47,7 +47,7 @@ const IndexPage = () => {
               <hr className="solid"></hr>
               <p>The Clemson Vocal Arts Series is a showcase of our choral ensembles, voice majors, and talent from within our choirs. The goal with this online music series is to connect with our community and create another avenue for everyone to have access to music.</p>
               <div id="custom-button">
-                <a href="https://youtube.com/playlist?list=PLJI3Pv0gkD2CPArkG0ui87QUeIPaojqy7" target="_blank" rel="noreferrer" aria-label="View on YouTube"><CustomButton label="View on YouTube"/></a>
+                <a href="https://www.youtube.com/@ClemsonChoirsandVocalArts" target="_blank" rel="noreferrer" aria-label="View on YouTube"><CustomButton label="View on YouTube"/></a>
               </div>
             </div>
             <div className="side-content">
