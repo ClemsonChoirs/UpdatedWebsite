@@ -14,6 +14,7 @@ import conley from '../images/conley.jpg'
 import grace from '../images/grace.jpg'
 import alyssa from '../images/alyssa.jpg'
 import browder from '../images/browder.jpg'
+import haithcock from '../images/haithcock.jpg'
 
 const Staff = () => {
     return (
@@ -79,6 +80,12 @@ const Staff = () => {
                             image={doyel}
                             body="Jonathan Doyel, tenor, has been a performer and educator for two decades with a passion for helping musicians discover their true voices. As an adjunct professor, singer, entrepreneur, photographer, and writer, Jonathan has found the exploration and development of the creative mind an endless fascination. He has taught a number of successful voice students, including Laura Paruzinski, the winner of the 2016 NATS National Student Auditions Female Lower Collegiate Music Theater category. Jonathan has performed the tenor roles in Handel's Messiah, Mendelssohn's Elijah, and Haydn's Creation; Basilio in Mozart's Don Giovanni; Gastone in Verdi's La Traviata; and several other operatic roles. He resides in Greenville, South Carolina with his three children."
 
+                        />
+                        <StaffPanel 
+                            name="Heather Haithcock"
+                            title="Applied Lecturer, Voice"
+                            image={haithcock}
+                            body="Heather Haithcock, soprano, has been a performer, worship leader, and educator for 16 years. Her passion is developing students to grow both vocally and personally.  Heather graduated with her Bachelor of Arts in Music from Southern Wesleyan University, in 2008, and continued her education by earning a Master of Arts in Music from Radford University in 2011. Upon graduation, she was a Young Apprentice Artist with Opera Roanoke and worked as the administrative assistant to the Artistic Director. With extensive performance and college teaching experience, Heather is comfortable as a performer and educator in a multitude of musical genres including, but not limited to: Musical Theatre, Pop, Rock, Opera, Classical, Spiritual, and Jazz. In addition to teaching at her two Alma Maters, Heather is delighted to join the Clemson faculty  as a lecture in applied voice. She lives in Clemson, SC, with her husband Paul, and their two kids Jackson and Bennett."
                         />
                     </div>
                 </div>

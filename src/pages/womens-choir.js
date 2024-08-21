@@ -33,7 +33,7 @@ const WomensChoir = () => {
                         <p>The Clemson University Women's represent almost every major Clemson University offers, but are united by a passion for vocal music. Women's Choir meets twice a week, learning a multitude of pieces from varying genres of choral literature. No audition required.</p>
                         <p>To participate, register for the course and attend the first rehearsal on the first Thursday of each semester at 2:00 p.m.</p>
                         <div className="ensemble-buttons">
-                            <Link to="mailto:luke.browder@gmail.com"><BigButton label="Email the Conductor"/></Link>
+                            <Link to="mailto:llbrowd@clemson.edu"><BigButton label="Email the Conductor"/></Link>
                         </div>
                         
                     </div>
