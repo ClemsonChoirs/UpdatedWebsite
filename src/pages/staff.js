@@ -76,7 +76,7 @@ const Staff = () => {
                         />
                         <StaffPanel
                             name="Jonathan Doyel"
-                            title="Adjunct Voice Instructor"
+                            title="Applied Lecturer, Voice"
                             image={doyel}
                             body="Jonathan Doyel, tenor, has been a performer and educator for two decades with a passion for helping musicians discover their true voices. As an adjunct professor, singer, entrepreneur, photographer, and writer, Jonathan has found the exploration and development of the creative mind an endless fascination. He has taught a number of successful voice students, including Laura Paruzinski, the winner of the 2016 NATS National Student Auditions Female Lower Collegiate Music Theater category. Jonathan has performed the tenor roles in Handel's Messiah, Mendelssohn's Elijah, and Haydn's Creation; Basilio in Mozart's Don Giovanni; Gastone in Verdi's La Traviata; and several other operatic roles. He resides in Greenville, South Carolina with his three children."
 

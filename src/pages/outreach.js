@@ -73,24 +73,6 @@ const Outreach = () => {
                     
                 </div>
             </div>
-            <div className="outreach-content">
-                <h2>Tri-ART and Choral Clinic</h2>
-                <hr className="solid" id="top-divider"></hr>
-                <div className="outreach-info">
-                    <div className="outreach-media">
-                        <img src={triart} alt="Graphic for the Clemson Tri-ART and Choral Clinic"/>
-                        <a href={triartBrochure} download target="_blank" rel="noreferrer">
-                            <BigButton label="Download Brochure" id="brochure-button"/>
-                        </a>
-                        
-                    </div>      
-                    <div className="outreach-text">
-                        <p>Each year the Clemson Choral Program hosts a concert on the Eskridge Tri-Art Series at the Brooks Center for the Performing Arts. In addition, a handful of choirs attending will receive a masterclass with Dr. Bernarducci on the Brooks Center stage upon request. This concert and clinic is at no cost to the schools. We look forward to sharing a day of choral music together!</p>
-                        <p>If you have questions concerning reservations or seating availability, please contact Tri-ART Coordinator Nancy Martin at nmartin@clemson.edu or by phone at 864-656-7787 for more information.</p>
-                    </div>
-                </div>
-                
-            </div>
             <div className="outreach-foot">
                 <Footer/>
             </div>
