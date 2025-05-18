@@ -1,15 +1,15 @@
-import cantorei from './images/cantorei.jpg'
-import singers from './images/cu-singers-beethoven.jpg'
-import mens from './images/mens3.jpg'
-import womens from './images/womens.jpg'
-import tigeroar from './images/new-tigeroar.jpg'
-import takenote from './images/new-takenote.jpg'
+import cantorei from './images/cantorei2025.jpg'
+import singers from './images/singers2025.jpg'
+import mens from './images/mens2025.jpg'
+import womens from './images/womens2025.jpg'
+import tigeroar from './images/tigeroar2025.jpg'
+import takenote from './images/takenote2025.jpg'
 
 export const EnsembleInfo = [
     {
         name: "Cantorei",
         image: cantorei,
-        body: "Cantorei provides an enriching chamber music experience to students at Clemson University. Singers can look forward to performing early music, contemporary choral works, and new modern music commissioned for the ensemble.",
+        body: "Premier mixed-voice chamber ensemble of 24 auditioned students. Open to students from all academic disciplines. Known for refined, chamber-focused programming and vocal excellence. Committed to high-level performance and inclusive music education.",
         link: "../cantorei",
         target: "_self",
         internal: true
@@ -17,15 +17,15 @@ export const EnsembleInfo = [
     {
         name: "CU Singers",
         image: singers,
-        body: "Each year, Clemson University Singers performs several concerts in the Brooks Center for the Performing Arts and off-campus. In addition to performing a range of unaccompanied repertoire, each spring CU Singers performs a Choral-Orchestral Masterwork.",
+        body: "Large mixed-voice ensemble of ~70 auditioned students. Open to students from all academic majors. Performs a wide range of choral repertoire each semester. Presents a major choral-orchestral masterwork every spring.",
         link: "../cu-singers",
         target: "_self",
         internal: true
     },
     {
-        name: "Men's Choir",
+        name: "Men's Choir – Est. 1896",
         image: mens,
-        body: "Begun in 1896, Men's Choir is the oldest musical organization at Clemson University. This choir performs a wide variety of traditional choral literature representing multiple genres, style periods, and nationalities. No audition is required and students from all majors are encouraged to join.",
+        body: "No audition - All majors welcome. Make music, meet people, and be part of Clemson’s oldest musical tradition. Just sign up and show up!",
         link: "../mens-choir",
         target: "_self",
         internal: true
@@ -33,7 +33,7 @@ export const EnsembleInfo = [
     {
         name: "Women's Choir",
         image: womens,
-        body: "The Clemson University Women's Choir consists of about 45 undergraduate students. The ladies represent almost every major Clemson University offers, but are united by a passion for vocal music. Women’s Choir meets twice a week, learning a multitude of pieces from varying genres of choral literature.",
+        body: "No Audition - All majors welcome. Welcoming, inclusive community focused on creativity and musical growth. Just sign up and show up!",
         link: "../womens-choir",
         target: "_self",
         internal: true
@@ -41,7 +41,7 @@ export const EnsembleInfo = [
     {
         name: "TakeNote",
         image: takenote,
-        body: "TakeNote is Clemson University's all-female pop a cappella ensemble. The group is comprised of 12-16 women selected from the larger Clemson choral ensembles by audition. While highlighting vocal percussion and soloists, TakeNote performs popular music ranging from the 1960s to contemporary songs.",
+        body: "Clemson University’s all-female a cappella ensemble. Comprised of 12–16 vocalists selected by audition from the university’s choral ensembles. Performs a wide range of popular music, from 1960s classics to current hits. Features dynamic soloists, intricate harmonies, and vocal percussion. Dedicated to musical excellence and creative a cappella performance.",
         link: "../takenote",
         target: "_self",
         internal: true
@@ -49,7 +49,7 @@ export const EnsembleInfo = [
     {
         name: "Tigeroar",
         image: tigeroar,
-        body: "Tigeroar is Clemson University's only all-male a-cappella ensemble. Founded in 1997 by Dr. Dan Rash and Dr. David Conley, the group has a long and proud tradition of musical excellence in Clemson, SC. The group is rich in the Clemson spirit and pursuant of respect and humility in our community and beyond. ",
+        body: "Clemson University’s all-male a cappella group. Includes 12–16 members chosen by audition from the university’s choral community. Specializes in reimagined covers of popular songs, spanning multiple decades and genres. Known for strong vocal blend, energetic performances, and solo talent. Committed to musicianship, innovation, and high-quality a cappella artistry.",
         link: "../tigeroar",
         target: "_self",
         internal: true

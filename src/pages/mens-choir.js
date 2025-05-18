@@ -29,9 +29,11 @@ const MensChoir = () => {
                 </div>
                 <div class="ensemble-content">
                     <div className="ensemble-left">
-                        <h2>Men's Choir (MUSC 3720) is a non-auditioned, all-male ensemble.</h2>
-                        <p>Begun in 1896, Men's Choir is the oldest musical organization at Clemson University. This choir performs a wide variety of traditional choral literature representing multiple genres, style periods, and nationalities. No audition is required and students from all majors are encouraged to join. CU Men's Choir is conducted by Luke Browder.</p>
-                        <p>To participate, register for the course and attend the first rehearsal on the first Thursday of each semester at 12:30 p.m.</p>
+                        <h2>Founded in 1896, Clemson University Men’s Choir is the oldest music group on campus — and still going strong.</h2>
+                        <p>Men’s Choir sings everything from classic choral pieces to folk, spirituals, and pop hits. No audition needed, and open to all majors and levels of experience. It is a great way to meet people, make music, and be part of a proud Clemson tradition.</p>
+                        <p>Recently, the Men’s Choir had the opportunity to participate in a masterclass with the GRAMMY®-winning vocal ensemble Chanticleer, where they worked on technique and ensemble singing with some of the best in the business.</p>
+                        <p>Directed by Luke Browder.</p>
+                        <p>To join, simply register for the course (MUSC 3720) and show up to the first rehearsal on the very first Thursday of the semester at 12:30 p.m in Room 117 of the Brooks Center for the Performing Arts.</p>
                         <div className="ensemble-buttons">
                             <Link to="mailto:llbrowd@clemson.edu"><BigButton label="Email the Conductor"/></Link>
                         </div>

@@ -37,7 +37,6 @@ const Staff = () => {
                             body="Anthony Bernarducci is an Associate Professor of Music at Clemson University and serves as the Director of Music and Choral/Vocal Studies for the Department of Performing Arts. Anthony conducts the Clemson University Singers and is the founding director of Clemson’s chamber choir, Cantorei. In addition, he teaches courses and private lessons in composition. As an author, Anthony published articles on topics ranging from music education to performance practice. His book titled 'Listening Awareness: Build Independent Creative Listeners in Choir' is published with GIA publications."
                             body2="Dr. Bernarducci is an active composer and has works published with GIA Publications, Gentry Publications, Hinshaw Music, and ECS Publishing Group. He has received commissions and performances from leading ensembles and organizations such as The Westminster Williamson Voices, The St. Olaf Choir, and The United States Soldiers Chorus. His compositions have been performed around the world by choral ensembles in Korea, Slovenia, Italy, and South Africa and on such notable stages as Carnegie Hall, Severance Hall, Mechanics Hall, and Heinz Hall. He holds a PhD in music education from Florida State University, a Master of Music in conducting from the University of Arizona, and a Bachelor of music education from Westminster Choir College."
                             link="anthonybernarducci.com"
-
                         />
                         <StaffPanel
                             name="Dr. Lisa Sain Odom"
@@ -102,7 +101,7 @@ const Staff = () => {
 
 export default Staff
 
-const StaffPanel = (props) => {
+export const StaffPanel = (props) => {
     const [expand, setExpand] = useState(false);
 
     const toggleExpand = () => {

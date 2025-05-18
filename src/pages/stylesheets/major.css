@@ -63,9 +63,15 @@
     padding-right: 30px;
 }
 
+.major-stories-header {
+    padding-left: 10vw;
+}
+
 .major-stories {
     margin: 0 10px 10px 10px;
     padding: 0 15vw 20px 10vw;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .major-stories h2 {

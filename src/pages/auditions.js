@@ -19,6 +19,7 @@ import altoSheet from "../images/alto-key.pdf"
 import bassSheet from "../images/bass-key.pdf"
 
 import picLogo from '../images/background-wide.jpg'
+import BigButton from "../components/big-button"
 
 
 const Auditions = () => {
@@ -35,7 +36,10 @@ const Auditions = () => {
                 <div className="audition-left">
                     <h1 className="header">Thank you for your interest in Clemson Choirs!</h1>
                     <h2>Each of our choral ensembles are open to ALL students at Clemson University.</h2>
-                    <p>If you are interested in participating in CU Singers (MUSC 3700) or Cantorei (MUSC 3450) in the Spring 2024 semester, please contact Dr. Bernarducci (<a href="mailto:bernar5@clemson.edu">bernar5@clemson.edu</a>) to schedule an audition.</p>
+                    <p>If you would like to be a part of CU Singers (MUSC 3700) or Cantorei (MUSC 3450) auditions will be held at the beginning of the Fall and Spring Semesters in person with Dr. Bernarducci in Brooks 119B. The audition will consist of vocalizing, pitch matching, and sight reading. We recommend that you register for the class(es) that you are auditioning for in advance to avoid scheduling conflicts.</p>
+                    <p>For Fall 2025: Auditions will be August 18 - 20. Please use the following google form to select an audition time.</p>
+                    <a href="https://forms.gle/HaFC4TH66vyyUvr67" target="_blank"><BigButton label="Audition Form"/></a>
+                    <p>If you would like to be a part of the Men's Choir (MUSC 3720) or Women’s Choir (MUSC 3710), no audition is necessary. Simply register for the class on iRoar. For more information on Tigeroar and TakeNote auditions contact <a href="mailto:conley2@clemson.edu">Dr. David Conley.</a></p>
                 </div>
                 <div className="audition-right">
                     <div class="side-content">
@@ -268,7 +272,7 @@ const FullAuditions = () => {
     )
 }
 
-export default FullAuditions
+export default Auditions
 
 const AuditionPanel = (props) => {
     return (

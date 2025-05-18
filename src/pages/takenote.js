@@ -26,9 +26,9 @@ const Cantorei = () => {
             </div>
             <div class="ensemble-content">
                 <div className="ensemble-left">
-                    <h2>TakeNote is an auditioned all female a capella group consisting of up to 16 singers from any major. </h2>
-                    <p>TakeNote is comprised of 12-16 women selected from the larger Clemson choral ensembles by audition. While highlighting vocal percussion and soloists, TakeNote performs popular music ranging from the 1960s to contemporary songs.</p>
-                    <p>TakeNote rehearses on Tuesdays and Thursdays in Brooks 117, meeting from 5pm to 6:15pm during the Fall semester, and from 6:30pm to 7:45pm in the Spring. To enroll, register for MUSC 3420 (Women's Breakout Ensemble)</p>
+                    <p>TakeNote is Clemson University’s all-female a cappella group, consisting of 12–16 exceptional vocalists selected through competitive auditions from the university’s choral ensembles. Known for their standout soloists, impressive vocal percussion, and harmonious arrangements, TakeNote performs a diverse repertoire ranging from classic hits of the 1960s to contemporary chart-toppers. Through their engaging performances, the group showcases their dedication to musical excellence and their passion for a cappella artistry.</p>
+                    <p>TakeNote is offered as a one-credit hour course that meets on Tuesdays and Thursdays from 5pm to 6:15pm in the Fall and 6:30 to 7:45 p.m in the Spring. Auditions are held at the beginning of each semester. Please look to social media for more information.</p>
+                    <p>To enroll, register for MUSC 3420 (Women's Breakout Ensemble)</p>
                     <div className="ensemble-buttons">
                         <Link to="mailto:conley2@clemson.edu"><BigButton label="Email the Faculty Director"/></Link>
                         <a href="https:/instagram.com/clemsontakenote" target="_blank"><BigButton label="@ClemsonTakeNote on Instagram"/></a>
@@ -40,7 +40,6 @@ const Cantorei = () => {
             </div>
             <div className="audition-info-wrapper">
                 <h2>Audition Information</h2>
-                <p>Auditions for the Fall 2023 semester will be held at 5pm on Thursday, August 24th in the Brooks Center for the Performing Arts, Room 117.</p>
                 <p className="audition-info">Auditions will include the following:</p>
                 <ol>
                     <li>Questionnaire: Tell us about yourself!</li>

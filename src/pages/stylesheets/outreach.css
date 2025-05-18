@@ -47,6 +47,11 @@
     margin-right: 20px;
 }
 
+.outreach-media a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
 .outreach-info img {
     width: 20vw;
     height: 11.52vw;

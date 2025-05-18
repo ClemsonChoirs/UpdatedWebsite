@@ -29,9 +29,10 @@ const WomensChoir = () => {
                 </div>
                 <div class="ensemble-content">
                     <div className="ensemble-left">
-                        <h2>Women's Choir (MUSC 3710) is a non-auditioned all-female ensemble from any major.</h2>
-                        <p>The Clemson University Women's represent almost every major Clemson University offers, but are united by a passion for vocal music. Women's Choir meets twice a week, learning a multitude of pieces from varying genres of choral literature. No audition required.</p>
-                        <p>To participate, register for the course and attend the first rehearsal on the first Thursday of each semester at 2:00 p.m.</p>
+                        <p>The Clemson University Women’s Choir is a non-auditioned ensemble open to students from all majors who share a passion for singing. Rehearsing twice a week, the choir performs a wide variety of choral repertoire, showcasing diverse musical styles and traditions. The ensemble fosters community, creativity, and musical growth in an inclusive and welcoming environment.</p>
+                        <p>In Spring 2024, the Women’s Choir had the unique opportunity to work with EMMY®-winning and GRAMMY®-nominated composer and conductor Jake Runestad in a special masterclass, culminating in a performance of his piece Rise Up.</p>
+                        <p>Directed by Luke Browder</p>
+                        <p>To join, simply register for the course (MUSC 3710) and show up to the first rehearsal on the very first Thursday of the semester at 2:00 p.m in Room 117 of the Brooks Center for the Performing Arts.</p>
                         <div className="ensemble-buttons">
                             <Link to="mailto:llbrowd@clemson.edu"><BigButton label="Email the Conductor"/></Link>
                         </div>

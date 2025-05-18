@@ -9,8 +9,11 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/major.css'
 
-import caroline from '../images/caroline-ritchie-stahl.jpg'
-import kevin from '../images/kevin.png'
+import Michael from "../images/michael.jpeg"
+import Kaleigh from "../images/kaleigh.jpg"
+import AnnaGrace from "../images/annagrace.jpeg"
+import Emy from "../images/emy.jpeg"
+import Taryn from "../images/taryn.jpg"
 
 import graphic from '../images/major-graphic.jpg'
 
@@ -27,37 +30,56 @@ const Major = () => {
             <div class="major-content">
                 <div className="major-left">
                     <h2>Vocal Studies in Performing Arts</h2>
-                    <p>A music student in the Bachelor of Arts in Performing Arts is equipped with the knowledge and skills to thrive in the dynamic performing arts market. Our degree prepares students through music courses such as performance, theory, history, technology, arts administration, and entrepreneurship.</p>
-                    <p>Music students can choose from more than 20 large and small ensembles within our band, choir, and orchestra programs and get hands-on experience in our professional roadhouse, the Brooks Center for the Performing Arts, our on-site learning laboratory.  Students also participate in masterclasses, develop connections with professional artists, and work alongside dynamic faculty who are leaders in their field.</p>
+                    <p>Vocal students in Clemson’s Bachelor of Arts in Performing Arts have the opportunity to perform in more than 20 ensembles, including a variety of choirs, chamber groups, and cross-disciplinary productions. They gain valuable real-world experience through performing and working at the Brooks Center for the Performing Arts. Students engage in masterclasses with visiting artists, collaborate with expert faculty, and build professional connections that extend far beyond the classroom.</p>
+                    <p>This program provides a comprehensive and flexible education designed to prepare them for success in today’s evolving music industry. With a strong foundation in performance, music theory, history, technology, arts administration, and entrepreneurship, students can shape their coursework to match their individual interests and career goals.</p>
                     <p>More information regarding applications and auditions can be found <a href="https://www.clemson.edu/cah/academics/performing-arts/academics/music.html" target="_blank" rel="noreferrer">here</a>.</p>
                 </div>
-                <div className="major-right">
+                {/* <div className="major-right">
                     <div class="side-content">
                         <InfoPanel 
                             title="Audition Information" 
                             bodytext="Prospective voice students should prepare two vocal solos of contrasting styles. At least one of the selections MUST be a classical folk song, art song, or aria. Foreign language art songs are encouraged. The second can be from a musical. Make sure the selections adequately demonstrate musicality, tone quality, and technical abilities. Singers are encouraged to memorize their songs. For repertoire suggestions, please contact Dr. Lisa Sain Odom at "
                         />
                     </div>
-                </div>
+                </div> */}
             </div>
+            <h2 className="major-stories-header">Class of 2025</h2>
             <div class="major-stories">
-                <h2>Alumni Stories</h2>
-                <div className="story">
-                    <h3>Caroline Ritchie Stahl</h3>
-                    <hr className="solid"></hr>
-                    <div className="story-content">
-                        <img src={caroline} alt="Image of alum, Caroline Ritchie Stahl, in Carnegie Hall"/>
-                        <p>I attended Clemson from Fall 2005 to Spring 2009. My favorite part of the degree—and perhaps of my college experience in general!—was participating in Clemson Choirs. I looked forward to every rehearsal, as it was always a highlight of my day and a much-needed respite from the stress of academic life. There is nothing like singing and making music with your peers. I made some of my very best friends in Clemson Choirs, many of whom I still keep up with to this day! After college, I moved to New York City and pursued a career in Arts Administration. I spent 5 years in the Development department at Carnegie Hall, where I worked in foundation relations, corporate sponsorships, and individual giving.</p>
-                    </div>
-                </div>
-                <div className="story">
-                    <h3>Kevin Arnold</h3>
-                    <hr className="solid"></hr>
-                    <div className="story-content">
-                        <img src={kevin} alt="Image of alum, Kevin Arnold"/>
-                        <p>Being a Performing Arts major at Clemson University was instrumental in my development as not only an artist, but as a person. The truly special thing about the Department of Performing Arts is that you really get to establish a personal relationship with each of your professors, and they take a great investment in your growth. As a vocal performance major, I found that not only was the music faculty invested in my success, but the theatre and audio-tech professors were equally devoted to my maturation. Clemson has prepared me to be a successful artist at the graduate and professional level, and I feel very proud to say I went to Clemson.</p>
-                    </div>
-                </div>
+                <MajorPanel
+                    name="Michael Stebbins"
+                    title="NYU, Master of Music in Vocal Performance and Vocal Pedagogy"
+                    image={Michael}
+                    body=""
+                    link="https://youtu.be/IWTAB08-sko"
+                />
+                <MajorPanel
+                    name="Kaleigh Stagich"
+                    title="College Charleston, Master of Arts in Teaching/ Choral Music Concentration"
+                    image={Kaleigh}
+                    body=""
+                    link="https://youtu.be/onW180FrLME"
+                />
+                <MajorPanel
+                    name="Taryn Turner"
+                    title="Respiro Opera Intensive, Vienna Summer Music Festival"
+                    image={Taryn}
+                    body=""
+                    link="https://youtu.be/aih4A5csMk0"
+                />
+                <MajorPanel
+                    name="Anna Grace Stiltner"
+                    title="Queens University of Charlotte, Bachelors of Music in Music Therapy"
+                    image={AnnaGrace}
+                    body=""
+                    link="https://youtu.be/pKqDKpFbaxc"
+                />
+                <MajorPanel
+                    name="Emy Gardner"
+                    title="Vanderbilt University, Master of Marketing"
+                    image={Emy}
+                    body=""
+                    link="https://youtu.be/vBVczSYfjOI"
+                />
             </div>
             <div className="major-foot">
                 <Footer/>
@@ -72,3 +94,25 @@ const Major = () => {
 }
 
 export default Major
+
+export const MajorPanel = (props) => {
+    return (
+        <div className="staff-panel">
+            <h2>{props.name}</h2>
+            <hr className="solid"></hr>
+            <div className="panel-content">
+                <h3 className="mobile-staff-title">{props.title}</h3>
+                <img src={props.image} alt={"Image of " + props.name}/>
+                <h3 className="web-staff-title">{props.title}</h3>
+                {props.subtitle ? <h4>{props.subtitle}</h4> : ''}
+                <p>
+                    {props.body}
+                    {!!props.link &&
+                        <p>Watch their Senior Reflection <a href={props.link} target="_blank">here</a>.</p>
+                    }
+                </p>
+            </div>
+            
+        </div>
+    )
+}

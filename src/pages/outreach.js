@@ -67,7 +67,7 @@ const Outreach = () => {
                     </div>      
                     <div className="outreach-text">
                         <p>This program is open to all rising 9th- 12th grade students. At the Clemson Vocal Institute, you will grow as a singer while participating in an exciting choral experience and having the unique opportunity to study solo vocal performance in a masterclass setting. Come prepare yourself for future auditions, enjoy a college level musical experience at the Brooks Center for the Performing Arts, and meet other students with the same passions as you!</p>
-                        <p>Summer 2024 Dates: July 15 - 19</p>
+                        <p>Summer 2025 Dates: July 20 - 25</p>
                         <p>See more information on Summer Scholars and register <a href="https://www.clemson.edu/summer/summer-scholars/index.html" target="_blank" rel="noreferrer">here</a>.</p>
                     </div>
                     

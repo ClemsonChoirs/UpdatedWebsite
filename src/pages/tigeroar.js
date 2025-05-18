@@ -26,9 +26,9 @@ const Cantorei = () => {
             </div>
             <div class="ensemble-content">
                 <div className="ensemble-left">
-                    <h2>Tigeroar is an auditioned male acapella group consisting of a max of 16 members.</h2>
-                    <p>Tigeroar is comprised of 12-16 men selected from the larger Clemson choral ensembles by audition. The group aims to bring talented and passionate vocal performers together in the pursuit of musicianship and excellence in a-cappella performance, while bringing popular songs to life with new and interesting covers.</p>
-                    <p>Tigeroar rehearses on Tuesdays and Thursdays in Brooks 117, meeting from 5pm to 6:15pm during the Spring semester, and from 6:30pm to 7:45pm in the Fall. To enroll, register for MUSC 3410 (Men's Breakout Ensemble).</p>
+                    <p>Tigeroar is Clemson University’s premier all-male a cappella group, made up of 12–16 talented men selected through competitive auditions from the university’s choral ensembles. With a focus on musical excellence and dynamic performances, Tigeroar brings a fresh twist to popular songs, blending creativity with precision. Their performances showcase a wide range of musical styles, offering both classic hits and contemporary favorites reimagined through a cappella arrangements.</p>
+                    <p>Tigeroar is offered as a one-credit hour course that meets on Tuesdays and Thursdays from 5 p.m. to 6:15 p.m. during the Spring semester, and from 6:30 p.m. to 7:45 p.m. in the Fall. Auditions are held at the beginning of each semester. Please look to social media for more information.</p>
+                    <p>To enroll, register for MUSC 3410 (Men's Breakout Ensemble).</p>
                     <div className="ensemble-buttons">
                         <Link to="mailto:conley2@clemson.edu"><BigButton label="Email the Faculty Director"/></Link>
                         <a href="https:/instagram.com/tigeroarclemson" target="_blank"><BigButton label="@TigeroarClemson on Instagram"/></a>
@@ -40,7 +40,6 @@ const Cantorei = () => {
             </div>
             <div className="audition-info-wrapper">
                 <h2>Audition Information</h2>
-                <p>Auditions for the Fall 2023 semester will be held at 6:30pm on Thursday, August 24th in the Brooks Center for the Performing Arts, Room 117.</p>
                 <p className="audition-info">Auditions will include the following:</p>
                 <ol>
                     <li>Questionnaire: Tell us about yourself!</li>
