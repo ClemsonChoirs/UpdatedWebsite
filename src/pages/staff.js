@@ -7,7 +7,7 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/staff.css'
 
-import DrB from '../images/dr-b.jpg'
+import DrB from '../images/dr-b1.jpg'
 import odom from '../images/odom.jpg'
 import doyel from '../images/doyel.jpg'
 import conley from '../images/conley.jpg'

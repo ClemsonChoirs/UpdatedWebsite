@@ -83,6 +83,14 @@ h2 {
     margin-bottom: 15px;
 }
 
+.side-content p a {
+    color: var(--campus-brick);
+}
+
+.side-content img {
+    margin: 5px 10px 0;
+}
+
 .side-content #custom-button {
     align-self: center;
 }

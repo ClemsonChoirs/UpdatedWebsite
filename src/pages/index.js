@@ -17,7 +17,8 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/index.css'
 
-import picLogo from '../images/background-wide.jpg'
+import picLogo from '../images/main-banner.jpg'
+import carnegieHall from '../images/carnegie-hall.jpg'
 
 
 const IndexPage = () => {
@@ -37,6 +38,13 @@ const IndexPage = () => {
         <div className="content">
           
           <div className="left">
+            <div className='side-content'>
+              <h3>Clemson Choirs in Carnegie Hall</h3>
+              <hr className="solid"></hr>
+              <img src={carnegieHall}/>
+              <p>Check out <a href='https://news.clemson.edu/clemson-university-choirs-to-perform-at-carnegie-hall-under-the-direction-of-anthony-bernarducci/'>this article</a> about our tigers' trip to New York City in April 2025 to perform in Carnegie Hall!</p>
+              
+            </div>
             <div className="side-content">
               <h3>Mission Statement</h3>
               <hr className="solid"></hr>
