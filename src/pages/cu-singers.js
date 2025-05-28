@@ -10,7 +10,7 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/ensemble-page.css'
 
-import featuredAudio from '../audio/credo.mp3'
+import featuredAudio from '../audio/into-the-light.mp3'
 
 
 const Singers = () => {
@@ -41,8 +41,8 @@ const Singers = () => {
                         
                     </div>
                     <div className="ensemble-right">
-                        <AudioPanel title={"III. Credo"} subtitle={"Beethoven's Mass in C Major op. 86"} audio={featuredAudio} bodytext="Listen to the third movement of Beethoven's Mass in C Major op. 86, performed by CU Singers at their Spring Concert on April 27th, 2023."/>
-                        <VideoPanel title={"Proud Music of the Storm"} subtitle={""} video={"https://www.youtube.com/embed/cbzS7gR-HG4"} bodytext="CU Singers performed Jake Runestad's “Proud Music of the Storm” at their Fall Concert in October of 2021."/>
+                        <AudioPanel title={"Into The Light"} subtitle={""} audio={featuredAudio} bodytext="Listen to CU Singers perform Jake Runestad's “Into The Light”, after participating in a masterclass with the composer."/>
+                        <VideoPanel title={"Ubi Caritas"} subtitle={""} video={"https://www.youtube.com/embed/EzpmmI4Zfv0?si=E16e_uCJ8RtXO05f"} bodytext="Watch our Clemson University Singers perform “Ubi Caritas” by Ola Gjeilo"/>
                     </div>
                 </div>
             </div>

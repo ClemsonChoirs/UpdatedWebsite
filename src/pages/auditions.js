@@ -18,7 +18,7 @@ import sopranoTenorSheet from "../images/soprano-tenor-key.pdf"
 import altoSheet from "../images/alto-key.pdf"
 import bassSheet from "../images/bass-key.pdf"
 
-import picLogo from '../images/background-wide.jpg'
+import picLogo from '../images/main-banner.jpg'
 import BigButton from "../components/big-button"
 
 

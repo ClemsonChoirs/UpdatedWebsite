@@ -10,7 +10,7 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/ensemble-page.css'
 
-import featuredAudio from '../audio/my-spirit-sang.mp3'
+import featuredAudio from '../audio/blue-bird.mp3'
 
 const Cantorei = () => {
     return (
@@ -40,8 +40,8 @@ const Cantorei = () => {
                     
                 </div>
                 <div className="ensemble-right">
-                    <AudioPanel title={"My Spirit Sang All Day"} audio={featuredAudio} bodytext="Listen to “My Spirit Sang All Day” by Gerald Finzi, performed by Cantorei at their Fall Concert in 2021."/>
-                    <VideoPanel title={"Something Beautiful Remains"} subtitle={""} video={"https://www.youtube.com/embed/Gq0v2qVdJDo?si=vDILVocSFoRIuHm6"} bodytext="Cantorei performs “Something Beautiful Remains”, composed by choir director, Anthony Bernarducci."/>
+                    <AudioPanel title={"The Blue Bird"} audio={featuredAudio} bodytext="Listen to “The Blue Bird” by Charles Stanford, performed by Cantorei."/>
+                    <VideoPanel title={"Something Beautiful Remains"} subtitle={"EP Recording Video"} video={"https://www.youtube.com/embed/RYNMf6JLzc8?si=Qq1vTqNl-DONUs6w"} bodytext="Watch the making of Cantorei's EP, “Something Beautiful Remains”, composed by choir director, Anthony Bernarducci."/>
                 </div>
             </div>
 
