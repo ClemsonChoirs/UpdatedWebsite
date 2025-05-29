@@ -123,6 +123,10 @@
     padding: 5px 0;
 }
 
+.ensemble-left p a {
+    color: var(--campus-brick);
+}
+
 .audition-info-wrapper p {
     margin: 10px 0;
 }

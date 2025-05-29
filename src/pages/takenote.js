@@ -34,9 +34,7 @@ const Cantorei = () => {
                         <a href="https:/instagram.com/clemsontakenote" target="_blank"><BigButton label="@ClemsonTakeNote on Instagram"/></a>
                     </div>
                 </div>
-                <div className="ensemble-right">
-                    <VideoPanel title={"Ain't No Other Man"} subtitle={""} video={"https://www.youtube.com/embed/uZUZe9EvGgg"} bodytext="As performed by Christina Aguilera, arranged by Kyle McTavish."/>
-                </div>
+                {/* <div className="ensemble-right"></div> */}
             </div>
             <div className="audition-info-wrapper">
                 <h2>Audition Information</h2>

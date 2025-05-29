@@ -34,9 +34,7 @@ const Cantorei = () => {
                         <a href="https:/instagram.com/tigeroarclemson" target="_blank"><BigButton label="@TigeroarClemson on Instagram"/></a>
                     </div> 
                 </div>
-                <div className="ensemble-right">
-                    <VideoPanel title={"Uptown Girl"} subtitle={""} video={"https://www.youtube.com/embed/6yF4nFsg_fQ"} bodytext="As performed by Billy Joel, arranged by Jake Liguori."/>
-                </div>
+                <div className="ensemble-right"></div>
             </div>
             <div className="audition-info-wrapper">
                 <h2>Audition Information</h2>
