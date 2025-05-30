@@ -10,7 +10,7 @@ import Div100vh from 'react-div-100vh'
 
 import './stylesheets/ensemble-page.css'
 
-import featuredAudio from '../audio/blue-bird.mp3'
+import featuredAudio from '../audio/blue-bird2.mp3'
 import featuredAudio2 from '../audio/abraham-and-isaac.mp3'
 
 const Cantorei = () => {

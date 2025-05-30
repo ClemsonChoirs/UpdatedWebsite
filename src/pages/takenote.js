@@ -31,7 +31,7 @@ const Cantorei = () => {
                     <p>To enroll, register for MUSC 3420 (Women's Breakout Ensemble)</p>
                     <div className="ensemble-buttons">
                         <Link to="mailto:conley2@clemson.edu"><BigButton label="Email the Faculty Director"/></Link>
-                        <a href="https:/instagram.com/clemsontakenote" target="_blank"><BigButton label="@ClemsonTakeNote on Instagram"/></a>
+                        <a href="https://instagram.com/clemsontakenote" target="_blank"><BigButton label="@ClemsonTakeNote on Instagram"/></a>
                     </div>
                 </div>
                 {/* <div className="ensemble-right"></div> */}
