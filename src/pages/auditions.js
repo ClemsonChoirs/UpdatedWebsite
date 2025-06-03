@@ -38,7 +38,7 @@ const Auditions = () => {
                     <h2>Each of our choral ensembles are open to ALL students at Clemson University.</h2>
                     <p>If you would like to be a part of CU Singers (MUSC 3700) or Cantorei (MUSC 3450) auditions will be held at the beginning of the Fall and Spring Semesters in person with Dr. Bernarducci in Brooks 119B. The audition will consist of vocalizing, pitch matching, and sight reading. We recommend that you register for the class(es) that you are auditioning for in advance to avoid scheduling conflicts.</p>
                     <p>For Fall 2025: Auditions will be August 18 - 20. Please use the following google form to select an audition time.</p>
-                    <a href="https://forms.gle/HaFC4TH66vyyUvr67" target="_blank"><BigButton label="Audition Form"/></a>
+                    <a href="https://zcal.co/clemsonchoirs/auditions" target="_blank"><BigButton label="Audition Form"/></a>
                     <p>If you would like to be a part of the Men's Choir (MUSC 3720) or Women’s Choir (MUSC 3710), no audition is necessary. Simply register for the class on iRoar. For more information on Tigeroar and TakeNote auditions contact <a href="mailto:conley2@clemson.edu">Dr. David Conley.</a></p>
                 </div>
                 <div className="audition-right">
