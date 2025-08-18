@@ -15,6 +15,7 @@ import grace from '../images/grace.jpg'
 import alyssa from '../images/alyssa.jpg'
 import browder from '../images/browder.jpg'
 import haithcock from '../images/haithcock.jpg'
+import margaret from '../images/margaret-headshot.png'
 
 const Staff = () => {
     return (
@@ -50,7 +51,8 @@ const Staff = () => {
                             name="Grace Berardo"
                             title="Collaborative Pianist"
                             image={grace}
-                            body="Grace Berardo is a collaborative pianist, vocal coach, and organist in the Greenville, SC area. She earned her B.M. in Music Business at Berry College and her Masters of Music in Collaborative Piano from the University of Tennessee, Knoxville. While at UTK she held an accompanying assistantship where some of her duties included coaching and accompanying VolOpera (the undergraduate opera scenes program) and the University of Tennessee Opera Theatre (UTOT). She also performed as a keyboardist for the University of Tennessee Symphony and Chamber Orchestras. Grace has frequently collaborated with collegiate and community musical theater productions, high school choirs, professional choirs, voice studios, and she has been a pianist for vocalists participating in both NATS and NATSAA competitions. She was recently engaged to perform a staged version of Franz Schubert's “Winterreise” with Marble City Opera, and she has had multiple UTK performances featured on Knoxville's local classical music station, 91.9 WUOT. In addition to performing, Grace also enjoys working in arts administration. With her friend and colleague Logan Campbell, she helped found Appalachia: A Southeastern Wind Symphony, a non-profit, intercollegiate wind orchestra. She now presently serves as the Director of Marketing for the Knoxville-based ensemble. More information can be found at https://appalachiasws.squarespace.com."
+                            body="Grace Berardo is a collaborative pianist, vocal coach, and organist who strives to highlight marginalized voices in the western music canon and beyond. She has a wide range of experience playing for vocalists, operas, musical theater productions, chamber ensembles, and she has over 14 years of experience playing with choirs. Grace obtained her Bachelor of Music from Berry College and her Master of Music in collaborative piano from The University of Tennessee Knoxville.  Presently, Grace serves as the pianist for Clemson’s choral ensembles and provides coaching to voice majors. She actively collaborates with students and other Clemson faculty members on recitals, NATS and NATSAA competitions, and other concerts, and in all endeavors she strives to enhance performances through sensitive and supportive playing."
+                            body2="As an organist, Grace has also supported churches across the southeast, most recently serving as Interim Organist at John Knox Presbyterian Church in Greenville, SC. She has experience playing both traditional and contemporary church services and enjoys subbing for churches of all denominations and styles."
                         />
 
                         <StaffPanel 
@@ -58,6 +60,13 @@ const Staff = () => {
                             title="Administrative Assistant"
                             image={alyssa}
                             body="Alyssa Conner is a 2013 graduate of Southern Wesleyan University. She earned her Bachelor of Arts in music with a concentration in voice. Before becoming the Choral and Vocal Arts Administrative Assistant, Conner spent six years at Clemson University in the Records and Registration Department."
+                        />
+                        <StaffPanel
+                            name="Margaret Templeton"
+                            title="Collaborative Pianist"
+                            image={margaret}
+                            body="Margaret Templeton holds a Masters in Music Performance (MM Collaborative Piano) from The University of North Carolina at Greensboro and a BA in Church Music from North Greenville University. Margaret is excited to be joining the Greenville Chorale as the newly appointed collaborative pianist. She served as an accompanist at UNCG, Elon University, High Point University, and North Greenville University and she currently holds staff accompanist positions at both Brevard College and Clemson University. In March 2025, she had the privilege to serve as rehearsal accompanist for the MidAmerica Productions performance of Mozart’s Mass in C Major at Carnegie Hall. She has been an accompanist for multiple musical theater productions including The Addams Family (High Point University), Vanities (Brevard College), and Into the Woods (Anderson University). She accompanies middle and high school choirs and serves as a substitute church musician in Henderson (NC) county. Margaret is married to her husband Mark, and they live in Brevard, NC.
+"
                         />
                     </div>
                     <div className="staff-right">
@@ -84,7 +93,8 @@ const Staff = () => {
                             name="Heather Haithcock"
                             title="Applied Lecturer, Voice"
                             image={haithcock}
-                            body="Heather Haithcock, soprano, has been a performer, worship leader, and educator for 16 years. Her passion is developing students to grow both vocally and personally.  Heather graduated with her Bachelor of Arts in Music from Southern Wesleyan University, in 2008, and continued her education by earning a Master of Arts in Music from Radford University in 2011. Upon graduation, she was a Young Apprentice Artist with Opera Roanoke and worked as the administrative assistant to the Artistic Director. With extensive performance and college teaching experience, Heather is comfortable as a performer and educator in a multitude of musical genres including, but not limited to: Musical Theatre, Pop, Rock, Opera, Classical, Spiritual, and Jazz. In addition to teaching at her two Alma Maters, Heather is delighted to join the Clemson faculty  as a lecture in applied voice. She lives in Clemson, SC, with her husband Paul, and their two kids Jackson and Bennett."
+                            body="Heather Clifton Haithcock is a dedicated and experienced voice professor with nearly two decades of teaching experience, including over nine years at the collegiate level. She holds a Bachelor of Arts in Music from Southern Wesleyan University and a Master of Arts in Music from Radford University, where she also served as a Graduate Teaching Assistant. There, she taught applied voice and helped direct and perform in the University’s opera scenes program, gaining valuable experience in both instruction and performance. As the Graduate Teaching Assistant, she also helped plan and execute the Spring Metropolitan Opera trips to New York City for faculty, students, and community members. Her professional background includes being a Young Apprentice Artist with Opera Roanoke, where she performed in productions such as Carmen, Il Trovatore, The Pirates of Penzance, and a variety of opera scenes programs in the surrounding area. Heather also served for three years as the administrative assistant to the Artistic Director of Opera Roanoke, contributing to both the artistic and operational aspects of the company."
+                            body2="Professor Haithcock has taught Applied Voice, Diction, and Music and Art Appreciation, and is known for her student-focused approach and commitment to developing well-rounded musicians. During her time at Southern Wesleyan University, she directed three full-scale musicals: You’re a Good Man, Charlie Brown, Smokey Joe’s Café, and Disney’s Beauty and the Beast. Most recently, she performed as the soprano soloist in Southern Wesleyan University’s Spring 2025 performance of Mozart’s Coronation Mass, continuing her active engagement as a performer in the community. With a passion for vocal artistry and arts education, Heather Clifton Haithcock blends academic excellence with professional insight, nurturing the next generation of performers and educators."
                         />
                     </div>
                 </div>
