@@ -39,6 +39,13 @@ const IndexPage = () => {
           
           <div className="left">
             <div className='side-content'>
+              <h3>Something Beautiful Remains - EP</h3>
+              <hr className='solid'></hr>
+              <iframe data-testid="embed-iframe" style={{'border-radius': '12px'}} src="https://open.spotify.com/embed/album/4aNT3yxrN9gufFfwMncjU7?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+              <p>Dr. Anthony Bernarducci’s new EP Something Beautiful Remains, featuring Clemson University’s Cantorei and Clemson faculty members, is officially out on all streaming platforms and Naxos Music Library. The album was audio engineered by Clemson alumnus and staff member Joshua Rinker and produced by GIA Publications.</p>
+              <p>This collection of original chamber choral works explores the balance of grief and hope through imagery of the sea, the sky, and the beauty of the natural world.</p>
+            </div>
+            <div className='side-content'>
               <h3>Clemson Choirs in Carnegie Hall</h3>
               <hr className="solid"></hr>
               <img src={carnegieHall}/>

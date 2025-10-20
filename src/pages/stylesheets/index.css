@@ -91,6 +91,10 @@ h2 {
     margin: 5px 10px 0;
 }
 
+.side-content iframe {
+    margin-top: 5px;
+}
+
 .side-content #custom-button {
     align-self: center;
 }

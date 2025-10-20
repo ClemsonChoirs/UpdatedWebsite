@@ -34,6 +34,7 @@ const Singers = () => {
                         <p>In Spring 2023, the ensemble embarked on an international tour through Europe, including a performance in the historic Canterbury Cathedral. In Spring 2024, CU Singers participated in a masterclass with renowned composer Jake Runestad and later performed his powerful choral work Into the Light. In 2025, the ensemble traveled to New York City to perform Mozart’s Mass in C at Carnegie Hall, with Dr. Anthony Bernarducci serving as guest conductor. Most recently, CU Singers presented Cherubini’s Requiem, widely regarded as one of the greatest choral masterworks of all time.</p>
                         <p>Directed by Dr. Anthony Bernarducci</p>
                         <p>Rehearsals are MWF from 11:15 until 12:05 in Room 117 of the Brooks Center. To enroll, register for MUSIC 3700.</p>
+                        <p><a href="https://youtu.be/TSMSfltUplI?si=Qzi1NL48RLvRxiEe" target="_blank">Listen to CU Singers' performance of Luigi Cherubini’s Requiem in C minor</a></p>
                         <div className="ensemble-buttons">
                             <Link to="../auditions"><BigButton label="Audition Information"/></Link>
                             <Link to="mailto:bernar5@clemson.edu"><BigButton label="Email the Conductor"/></Link>
