@@ -1,7 +1,7 @@
-import cantorei from './images/cantorei2025.jpg'
-import singers from './images/singers2025.jpg'
-import mens from './images/mens2025.jpg'
-import womens from './images/womens2025.jpg'
+import cantorei from './images/cantorei2026.jpg'
+import singers from './images/singers2026.jpg'
+import mens from './images/mens2026.jpg'
+import womens from './images/womens2026.jpg'
 import tigeroar from './images/tigeroar2025.jpg'
 import takenote from './images/takenote2025.jpg'
 

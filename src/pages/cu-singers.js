@@ -33,8 +33,7 @@ const Singers = () => {
                         <p>Clemson University Singers is a large, auditioned mixed vocal ensemble of approximately 70 students, representing a wide range of academic disciplines across the university. The ensemble performs a diverse selection of choral repertoire each season, culminating annually in the presentation of a major choral-orchestral masterwork.</p>
                         <p>In Spring 2023, the ensemble embarked on an international tour through Europe, including a performance in the historic Canterbury Cathedral. In Spring 2024, CU Singers participated in a masterclass with renowned composer Jake Runestad and later performed his powerful choral work Into the Light. In 2025, the ensemble traveled to New York City to perform Mozart’s Mass in C at Carnegie Hall, with Dr. Anthony Bernarducci serving as guest conductor. Most recently, CU Singers presented Cherubini’s Requiem, widely regarded as one of the greatest choral masterworks of all time.</p>
                         <p>Directed by Dr. Anthony Bernarducci</p>
-                        <p>Rehearsals are MWF from 11:15 until 12:05 in Room 117 of the Brooks Center. To enroll, register for MUSIC 3700.</p>
-                        <p><a href="https://youtu.be/TSMSfltUplI?si=Qzi1NL48RLvRxiEe" target="_blank">Listen to CU Singers' performance of Luigi Cherubini’s Requiem in C minor</a></p>
+                        <p>Rehearsals are MWF from 11:15 until 12:05 in Room 117 of the Brooks Center. To enroll, register for MUSC 3700.</p>
                         <div className="ensemble-buttons">
                             <Link to="../auditions"><BigButton label="Audition Information"/></Link>
                             <Link to="mailto:bernar5@clemson.edu"><BigButton label="Email the Conductor"/></Link>
@@ -43,7 +42,7 @@ const Singers = () => {
                     </div>
                     <div className="ensemble-right">
                         <AudioPanel title={"Into The Light"} subtitle={""} audio={featuredAudio} bodytext="Listen to CU Singers perform Jake Runestad's “Into The Light”, after participating in a masterclass with the composer."/>
-                        <VideoPanel title={"Ubi Caritas"} subtitle={""} video={"https://www.youtube.com/embed/EzpmmI4Zfv0?si=E16e_uCJ8RtXO05f"} bodytext="Watch our Clemson University Singers perform “Ubi Caritas” by Ola Gjeilo"/>
+                        <VideoPanel title={"Cherubini's Requiem"} subtitle={""} video={"https://www.youtube.com/embed/TSMSfltUplI?si=ZeMCSXo38Esr7QPY"} bodytext="Watch our Clemson University Singers perform Cherubini’s Requiem, widely regarded as one of the greatest choral masterworks of all time."/>
                     </div>
                 </div>
             </div>

@@ -12,8 +12,9 @@ import './stylesheets/major.css'
 import Michael from "../images/michael.jpeg"
 import Kaleigh from "../images/kaleigh.jpg"
 import AnnaGrace from "../images/annagrace.jpeg"
-import Emy from "../images/emy.jpeg"
-import Taryn from "../images/taryn.jpg"
+import Emy from "../images/emy.jpg"
+import Alana from "../images/alana.jpg"
+import Nia from "../images/nia.jpg"
 
 import graphic from '../images/major-graphic.jpg'
 
@@ -43,14 +44,28 @@ const Major = () => {
                     </div>
                 </div> */}
             </div>
-            <h2 className="major-stories-header">Class of 2025</h2>
+            <h2 className="major-stories-header">Recent Graduates</h2>
             <div class="major-stories">
+            <MajorPanel
+                    name="Nia Evans"
+                    title="New England Conservatory, Masters of Music in Jazz Studies"
+                    image={Nia}
+                    body="Vanderbilt University, Master of Marketing '26"
+                    link="https://youtu.be/CI0kpIp-1Ek?si=OgIh0xyPHPttWmun"
+                />
                 <MajorPanel
-                    name="Michael Stebbins"
-                    title="NYU, Master of Music in Vocal Performance and Vocal Pedagogy"
-                    image={Michael}
-                    body=""
-                    link="https://youtu.be/IWTAB08-sko"
+                    name="Alana Yarborough"
+                    title="New York University, Masters in Vocal Performance and Vocal Pedagogy"
+                    image={Alana}
+                    body="Vanderbilt University, Master of Marketing '26"
+                    link="https://youtu.be/Z_h-S3Qkpj8?si=OaAoWI4G0VBlfiye"
+                />
+                <MajorPanel
+                    name="Emy Gardner"
+                    title="Belmont University, Masters of Music in Composition"
+                    image={Emy}
+                    body="Vanderbilt University, Master of Marketing '26"
+                    link="https://youtu.be/vBVczSYfjOI"
                 />
                 <MajorPanel
                     name="Kaleigh Stagich"
@@ -60,13 +75,6 @@ const Major = () => {
                     link="https://youtu.be/onW180FrLME"
                 />
                 <MajorPanel
-                    name="Taryn Turner"
-                    title="Respiro Opera Intensive, Vienna Summer Music Festival"
-                    image={Taryn}
-                    body=""
-                    link="https://youtu.be/aih4A5csMk0"
-                />
-                <MajorPanel
                     name="Anna Grace Stiltner"
                     title="Queens University of Charlotte, Bachelors of Music in Music Therapy"
                     image={AnnaGrace}
@@ -74,12 +82,13 @@ const Major = () => {
                     link="https://youtu.be/pKqDKpFbaxc"
                 />
                 <MajorPanel
-                    name="Emy Gardner"
-                    title="Vanderbilt University, Master of Marketing"
-                    image={Emy}
+                    name="Michael Stebbins"
+                    title="NYU, Master of Music in Vocal Performance and Vocal Pedagogy"
+                    image={Michael}
                     body=""
-                    link="https://youtu.be/vBVczSYfjOI"
+                    link="https://youtu.be/IWTAB08-sko"
                 />
+                
             </div>
             <div className="major-foot">
                 <Footer/>
