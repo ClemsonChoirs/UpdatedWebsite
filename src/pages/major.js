@@ -50,14 +50,14 @@ const Major = () => {
                     name="Nia Evans"
                     title="New England Conservatory, Masters of Music in Jazz Studies"
                     image={Nia}
-                    body="Vanderbilt University, Master of Marketing '26"
+                    body=""
                     link="https://youtu.be/CI0kpIp-1Ek?si=OgIh0xyPHPttWmun"
                 />
                 <MajorPanel
                     name="Alana Yarborough"
                     title="New York University, Masters in Vocal Performance and Vocal Pedagogy"
                     image={Alana}
-                    body="Vanderbilt University, Master of Marketing '26"
+                    body=""
                     link="https://youtu.be/Z_h-S3Qkpj8?si=OaAoWI4G0VBlfiye"
                 />
                 <MajorPanel
