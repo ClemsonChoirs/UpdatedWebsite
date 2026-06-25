@@ -43,7 +43,7 @@ const Outreach = () => {
                         <p>Each year the Clemson Choral Department in partnership with the Brooks Center for the Performing Arts selects a high school choral program for a year long artistic collaboration. This program has three goals: to build relationships with performing arts programs in the upstate area, offer instruction and performance opportunities, and provide various ways for students to engage in the rich concert season presented at the Brooks Center each year.</p>
                         <p>Selected schools will benefit from the following:</p>
                         <ul>
-                            <li>Choral workshops with Dr. Bernarducci and Dr. Browder</li>
+                            <li>Choral workshops with Dr. Bernarducci</li>
                             <li>One voice masterclass with Dr. Odom</li>
                             <li>Group tickets for two Brooks Center Shows</li>
                             <li>A joint concert experience with a Clemson Choir</li>
