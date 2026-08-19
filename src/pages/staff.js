@@ -12,10 +12,12 @@ import odom from '../images/odom.jpg'
 import doyel from '../images/doyel.jpg'
 import conley from '../images/conley.jpg'
 import grace from '../images/grace.jpg'
-import alyssa from '../images/alyssa.jpg'
+import alyssa from '../images/alyssa.png'
 import browder from '../images/browder.jpg'
 import haithcock from '../images/haithcock.jpg'
 import margaret from '../images/margaret-headshot.png'
+import eisenbrey from '../images/eisenbrey.png'
+import camacho from '../images/camacho.png'
 
 const Staff = () => {
     return (
@@ -46,6 +48,13 @@ const Staff = () => {
                             body="Jonathan Doyel, tenor, has been a performer and educator for two decades with a passion for helping musicians discover their true voices. As an adjunct professor, singer, entrepreneur, photographer, and writer, Jonathan has found the exploration and development of the creative mind an endless fascination. He has taught a number of successful voice students, including Laura Paruzinski, the winner of the 2016 NATS National Student Auditions Female Lower Collegiate Music Theater category. Jonathan has performed the tenor roles in Handel's Messiah, Mendelssohn's Elijah, and Haydn's Creation; Basilio in Mozart's Don Giovanni; Gastone in Verdi's La Traviata; and several other operatic roles. He resides in Greenville, South Carolina with his three children."
                         />
                         <StaffPanel
+                            name="Mark Eisenbrey"
+                            title="Lecturer, Director of Tigeroar and TakeNote"
+                            image={eisenbrey}
+                            body="Mark Eisenbrey is the director of Clemson University's contemporary a cappella groups, TakeNote and Tigeroar. Mr. Eisenbrey holds a Bachelor of Music in Vocal Performance from East Tennessee State University and a Master of Music in Vocal Performance from Converse University. An active performer throughout the Southeast, Mr. Eisenbrey has appeared in a wide variety of opera and musical theatre productions. Some of his favorite roles include Don Ottavio in Don Giovanni, Karl van Lysseweghe in The Girl in the Train, Tenor Soloist in Carmina Burana, and Elder Shumway in The Book of Merman. He also serves as Tenor Soloist and Section Leader at Central United Methodist Church in Spartanburg, South Carolina. In addition to his work at Clemson, Mr. Eisenbrey teaches applied voice at Wingate University and maintains a private voice studio serving students in Spartanburg and Greenville. He teaches classical, contemporary, and musical theatre voice."
+                           
+                        />
+                        <StaffPanel
                             name="Margaret Templeton"
                             title="Collaborative Pianist"
                             image={margaret}
@@ -73,6 +82,12 @@ const Staff = () => {
                             image={alyssa}
                             body="Alyssa Conner is a 2013 graduate of Southern Wesleyan University. She earned her Bachelor of Arts in music with a concentration in voice. Before becoming the Choral and Vocal Arts Administrative Assistant, Conner spent six years at Clemson University in the Records and Registration Department."
                         />
+                        <StaffPanel 
+                            name="Kristin Camacho"
+                            title="Collaborative Pianist"
+                            image={camacho}
+                            body="Kristin Camacho is a musician and educator from Flagstaff, Arizona. She earned a bachelor’s degree in piano performance from The Cleveland Institute of Music under the instruction of Daniel Shapiro and Vivian Weilerstein. At Arizona State University, she studied under Caio Pagano and was awarded a master’s degree in piano performance in 2005. Kristin has concertized extensively as a soloist and chamber musician throughout the United States. She currently resides in Greenville, South Carolina."
+                        />     
                     </div>
                 </div>
                 </div>
