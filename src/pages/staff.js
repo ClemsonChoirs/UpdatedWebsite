@@ -10,14 +10,12 @@ import './stylesheets/staff.css'
 import DrB from '../images/dr-b1.jpg'
 import odom from '../images/odom.jpg'
 import doyel from '../images/doyel.jpg'
-import conley from '../images/conley.jpg'
-import grace from '../images/grace.jpg'
 import alyssa from '../images/alyssa.png'
-import browder from '../images/browder.jpg'
 import haithcock from '../images/haithcock.jpg'
 import margaret from '../images/margaret-headshot.png'
 import eisenbrey from '../images/eisenbrey.png'
 import camacho from '../images/camacho.png'
+import meincke from '../images/meincke.png'
 
 const Staff = () => {
     return (
@@ -55,6 +53,12 @@ const Staff = () => {
                            
                         />
                         <StaffPanel
+                            name="Eric Meincke"
+                            title="Interim Director of Women's Choir"
+                            image={meincke}
+                            body="Eric Douglas Meincke currently serves as the Director of Music and Worship Arts at Fort Hill Presbyterian Church in Clemson, South Carolina and Adjunct Professor of Music at Tri-County Technical College in Pendleton, South Carolina. Meincke is also pursuing a Doctor of Music in Conducting at the Indiana University Jacobs School of Music. During his musical career, Meincke has studied with renowned musicians such as Christoph Eschenbach, James Ross, Bevan Keating, Betsy Burleigh, Dominick DiOrio, Walter Huff, and William Weinert. Meincke has years of experience conducting various ensembles around the world, including as Assistant Conductor of the Second Presbyterian Church Adult Choir, with guest conducting appearances in London, Montreal, and Barcelona. Meincke also has numerous immersive experiences, conducting ensembles like the Arkansas Symphony Orchestra, the National Youth Orchestra of the United States of America, and Cantores Musicae Antiquae at Florida State University. Meincke graduated with a Master of Music in Conducting from the Eastman School of Music and a Bachelor of Music Education from Florida State University (summa cum laude). Meincke is also the recipient of multiple awards like the Career Encouragement Certificate from the American Prize in Conducting, the Arkansas Governor’s Award for Musical Excellence, and the John Phillip Sousa Award. In his spare time, Eric enjoys serving his community by officiating football and baseball at the college, high school, and youth levels."
+                        />
+                        <StaffPanel
                             name="Margaret Templeton"
                             title="Collaborative Pianist"
                             image={margaret}
@@ -78,7 +82,7 @@ const Staff = () => {
                         />
                         <StaffPanel 
                             name="Alyssa Conner"
-                            title="Administrative Assistant"
+                            title="Administrative Coordinator"
                             image={alyssa}
                             body="Alyssa Conner is a 2013 graduate of Southern Wesleyan University. She earned her Bachelor of Arts in music with a concentration in voice. Before becoming the Choral and Vocal Arts Administrative Assistant, Conner spent six years at Clemson University in the Records and Registration Department."
                         />
